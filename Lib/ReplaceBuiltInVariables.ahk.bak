@@ -1,0 +1,7 @@
+﻿ReplaceBuiltInVariables(byref V_ToBeReplaced)		;进行变量替换
+{
+	stringreplace, V_ToBeReplaced, V_ToBeReplaced, `%A_WorkingDir`%, %A_WorkingDir%
+	stringreplace, V_ToBeReplaced, V_ToBeReplaced, `%A_ScriptDir`%, %A_ScriptDir%
+	stringreplace, V_ToBeReplaced, V_ToBeReplaced, `%A_AhkPath`%, %A_AhkPath%
+	stringreplace, V_ToBeReplaced, V_ToBeReplaced, `%A_desktop`%, %A_desktop%
+}
