@@ -1,0 +1,15 @@
+text editor文本编辑器scite的配置文件类型
+text editor文本编辑器scite主要有以下几个配置文件:
+
+SciTEGlobal.properties 全局配置文件,一般不去改动
+SciTEUser.properties 用户配置文件,对全局配置要改动的地方,都写在这个文件里
+SciTE.properties 本地配置文件,也就是针对当前目录的配置文件, 会覆盖全局和用户配置文件. 
+html.properties 特定文件类型的配置文件,比如 html.properties就是专门针对网页文件的配置文件，au3.properties是AutoItscrīpt的配置文件
+
+yidabu.com作过试验,重装SciTE时,全局配置文件SciTEGlobal.properties会被覆盖. 而用户配置文件sciteuser.properties 不会.
+你可以对照scite文本编辑器的帮助手册,逐条查看对照SciTEGlobal.properties,把要修改的属性记下来,写到sciteuser.properties中.
+当用户配置和全局配置存在相同属性时,scite多数情况下会优先采用用户配置中的属性值.
+
+特定文件类型的配置文件可以从scite文本编辑器作者的网页下载:
+http://www.scintilla.org/SciTE.html
+如果你用scite来写autoit脚本,那么, 已经有人配置了一个scite for autoit的专用版, 非常强大而实用. 事实上, yidabu.com 用的就是这个专用版本.

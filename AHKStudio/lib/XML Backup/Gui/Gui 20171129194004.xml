@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<gui>
+	<win win="1" pos="x-39 y363 w1246 h839">
+		<control h="689" w="934" x="0" y="0" type="Scintilla" file="D:\ahk code\Appended Files\FatZen.ahk" hwnd="854160" ra="723628" ba="985268" last="1"></control>
+		<control h="488" w="312" x="934" y="0" lp="0.74947917" type="Project Explorer" hwnd="723628" ba="852846"></control>
+		<control h="302" w="312" x="934" y="488" lp="0.74947917" tp="0.61796537" type="Code Explorer" hwnd="852846"></control>
+		<control hwnd="985268" type="Debug" h="101" w="934" x="0" y="689" tp="0.87229437" ra="852846"></control></win>
+</gui>

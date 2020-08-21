@@ -115,7 +115,7 @@ try {  ; Hide window title.
         , "int", 1, "int64*", (3<<32)|3, "int", 8)
 }
 OnMessage(0x100, "gui_KeyDown", 2)
-try Gui Add, ActiveX, vwb w600 h400 hwndhwb, Shell.Explorer
+try Gui Add, ActiveX, vwb w600 h420 hwndhwb, Shell.Explorer
 try {
     if !wb
         throw Exception("Failed to create IE control")
@@ -266,17 +266,14 @@ InitUI() {
     w.enabledragdrop.checked := DefaultDragDrop
     w.separatebuttons.checked := DefaultIsHostApp
     w.enableuiaccess.checked := DefaultUIAccess && IsTrustedLocation(DefaultPath)
-    ; w.defaulttoutf8.checked := DefaultToUTF8
+    w.defaulttoutf8.checked := DefaultToUTF8
     if !A_Is64bitOS
         w.it_x64.style.display := "None"
     if A_OSVersion in WIN_2000,WIN_2003,WIN_XP,WIN_VISTA ; i.e. not WIN_7, WIN_8 or a future OS.
         w.separatebuttons.parentNode.style.display := "none"
-    if !UACIsEnabled
-        w.enableuiaccess.parentNode.style.display := "none"
-    else {
+    ; Check UIAccess and install dir do not conflict:
         w.enableuiaccess.onchange := Func("enableuiaccess_onchange")
         w.installdir.onchange := Func("installdir_onchange")
-    }
     w.switchPage("start")
     w.document.body.focus()
     ; Scale UI by screen DPI.  My testing showed that Vista with IE7 or IE9
@@ -908,7 +905,7 @@ CustomInstall() {
         ahk2exe: w.installcompiler.checked,
         dragdrop: w.enabledragdrop.checked,
         uiAccess: w.enableuiaccess.checked,
-        utf8: DefaultToUTF8, ;w.defaulttoutf8.checked
+        utf8: w.defaulttoutf8.checked,
         isHostApp: w.separatebuttons.checked
     )})
 }
@@ -1166,7 +1163,7 @@ _Install(opt) {
         RegWrite REG_SZ, HKCR, %FileTypeKey%\Shell\Edit\Command,, notepad.exe `%1
     
     if opt.ahk2exe
-        RegWrite REG_SZ, HKCR, %FileTypeKey%\Shell\Compile\Command,, "%A_WorkingDir%\Compiler\Ahk2Exe.exe" /in "`%l"
+        RegWrite REG_SZ, HKCR, %FileTypeKey%\Shell\Compile\Command,, "%A_WorkingDir%\Compiler\Ahk2Exe.exe" /in "`%l" `%*
     
     local cmd
     cmd = "%A_WorkingDir%\AutoHotkey.exe"
@@ -1179,13 +1176,13 @@ _Install(opt) {
         ; Run as administrator
         RegWrite REG_SZ, HKCR, %FileTypeKey%\Shell\RunAs\Command,, "%A_WorkingDir%\AutoHotkey.exe" "`%1" `%*
         RegWrite REG_SZ, HKCR, %FileTypeKey%\Shell\RunAs, HasLUAShield
-        ; Run with UI Access
-        if opt.uiAccess && FileExist(uiafile := StrReplace(exefile, ".exe", "_UIA.exe")) {
-            RegWrite REG_SZ, HKCR, %FileTypeKey%\Shell\uiAccess,, Run with UI Access
-            RegWrite REG_SZ, HKCR, %FileTypeKey%\Shell\uiAccess\Command,, "%A_WorkingDir%\%uiafile%" "`%1" `%*
-        } else
-            RegDelete HKCR, %FileTypeKey%\Shell\uiAccess
     }
+    ; Run with UI Access
+    if opt.uiAccess && FileExist(uiafile := StrReplace(exefile, ".exe", "_UIA.exe")) {
+        RegWrite REG_SZ, HKCR, %FileTypeKey%\Shell\uiAccess,, Run with UI Access
+        RegWrite REG_SZ, HKCR, %FileTypeKey%\Shell\uiAccess\Command,, "%A_WorkingDir%\%uiafile%" "`%1" `%*
+    } else
+        RegDelete HKCR, %FileTypeKey%\Shell\uiAccess
     
     if opt.dragdrop
         RegWrite REG_SZ, HKCR, %FileTypeKey%\ShellEx\DropHandler,, {86C86720-42A0-1069-A2E8-08002B30309D}
@@ -1566,7 +1563,7 @@ body {
 	top: 0;
 	left: 0;
 	width: 600px;
-	height: 400px;
+	height: 420px;
 }
 h1 {
 	font-size: 37px;
@@ -1934,6 +1931,8 @@ function customInstall() {
 	<label for="installcompiler" class="install-only"><input type="checkbox" id="installcompiler" checked="checked"> Install script compiler
 		<p>Installs Ahk2Exe, a tool to convert any .ahk script into a stand-alone EXE.<br>
 		Also adds a "Compile" option to .ahk context menus.</p></label>
+	<label for="defaulttoutf8"><input type="checkbox" id="defaulttoutf8"> Default to UTF-8
+		<p>Adds <a href="#" onclick="AHK('ViewHelp', '/docs/Scripts.htm#CPn')">/CP65001</a> to the command line used when scripts are launched by Explorer.</p></label>
 	<label for="enabledragdrop"><input type="checkbox" id="enabledragdrop"> Enable drag &amp; drop
 		<p>Files dropped onto a .ahk script will launch that script (the files will be passed as parameters).  This can lead to accidental launching so you may wish to disable it.</p></label>
 	<label for="separatebuttons"><input type="checkbox" id="separatebuttons"> Separate taskbar buttons

@@ -1,0 +1,27 @@
+# SciTE session file
+
+position.left=2161
+position.top=113
+position.width=1105
+position.height=639
+position.maximize=1
+
+mru.1.path=E:\ahk code\Appended Files\ToolScripts\Try\Try.ahk
+mru.2.path=D:\AHK code\Appended files\ToolScripts\MinimizeToTrayMenu.ahk
+mru.3.path=D:\AHK code\Appended files\Includes\ProgramStudy\ProgramStudy.ahk
+mru.4.path=D:\AHK code\AHK Program\Lib\SettingsGUI.ahk
+mru.5.path=D:\AHK code\Appended files\Includes\QuickLaunch\QuickLaunch.ahk
+mru.6.path=D:\AHK code\AHK Program\Lib\Settingsdim.ahk
+mru.7.path=C:\Users\linmingsen\Desktop\Dim2Monitor.ahk
+mru.8.path=C:\Users\linmingsen\Desktop\DimMonitor.ahk
+mru.9.path=H:\AhkCode\PortableSoftware\antrenamer2\AntRenamer批量处理\batch.arb
+mru.10.path=H:\AhkCode\PortableSoftware\antrenamer2\AntRenamer批量处理\AntRenamer批量处理.ahk
+
+buffer.1.path=H:\AhkCode\PortableSoftware\antrenamer2\AntRenamer批量处理\batch.arb
+buffer.1.position=218
+buffer.1.scroll=0
+
+buffer.2.path=H:\AhkCode\PortableSoftware\antrenamer2\AntRenamer批量处理\AntRenamer批量处理.ahk
+buffer.2.position=296
+buffer.2.scroll=0
+buffer.2.current=1

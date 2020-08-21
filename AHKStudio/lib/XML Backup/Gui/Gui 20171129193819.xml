@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<gui>
+	<win win="1" pos="x578 y116 w1246 h839" max="1">
+		<control h="809" w="1439" x="0" y="0" type="Scintilla" file="D:\ahk code\Appended Files\Includes\Operations.ahk" hwnd="787310" ra="656250" ba="722844" last="1"></control>
+		<control h="573" w="481" x="1439" y="0" lp="0.74947917" type="Project Explorer" hwnd="656250" ba="919278"></control>
+		<control h="354" w="481" x="1439" y="573" lp="0.74947917" tp="0.61796537" type="Code Explorer" hwnd="919278"></control>
+		<control hwnd="722844" type="Debug" h="118" w="1439" x="0" y="809" tp="0.87229437" ra="919278"></control></win>
+</gui>

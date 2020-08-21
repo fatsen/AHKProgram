@@ -1,0 +1,371 @@
+# text editor文本编辑器scite配置详细说明
+
+# 多数情况,值设成1表示启用某个功能,设成0表示不启用某个功能.
+# "#"开头的行是注释,scite在解析时会忽略.我们看SciTEGlobal.properties中不少配置属性都用#注释掉了，你只要删除行首的#就可以启用了。
+
+# 设置启动时左边距,上边距,宽,高. 宽高设成-1时表示最大化
+position.left=0
+position.top=0
+position.width=-1
+position.height=-1 
+
+# 当打开两个scite时,设成1,并position.left=0,position.width=屏幕宽度一半, 这时两个scite实例就可以并列显示了.这在特殊情况下可能有用
+position.tile=0 
+
+## 设置可以同时打开文件的数目，就象使用多页面浏览器一样。只能设置在全局配置中，并且在启动scite前修改才能生效。如果用的是autoit专用版，这个值已经设成20，不用改。
+buffers=20
+
+# 当打开多个页面时,设成1,按Ctrl+tab 切换到先前打开页面; 设0时则按排列顺序切换. 
+buffers.zorder.switching=1
+
+## 1为关闭未保存文件时提示,如果设成0则自动保存,不提示
+are.you.sure=1
+## 0为编译时自动保存文件,不提示. 设成1则提示保存
+are.you.sure.for.build=0
+# 1为编译时自动保存所有文件
+#save.all.for.build=1 
+
+# 启动时空白不可见
+view.whitespace=0
+# 缩进空白可见
+view.indentation.whitespace=1
+
+# 设置空白符的前景色和背景色
+whitespace.fore
+whitespace.back 
+
+# 每个空白缩进单元显示一条垂直线，修改后重启Scite文本编辑器生效。
+view.indentation.guides=1
+highlight.indentation.guides=1
+
+# 初始化时不显示行结束符。所谓行结束符就是回车CR,换行LF,或回车换行CRLF。打开不同平台下创建的文件时可能有用. windows,mac,unix就是三个不同的平台.
+view.eol=0
+# 行结束符的模式,UNIX使用LF, Macintosh使用CR, Dos/Windows使用CRLF
+#eol.mode
+# 启用这项设置会覆盖eol.mode的设置。设成1表示根据文档内容选择行结束符模式. 
+#eol.auto=1
+
+##代码编辑区两边的留空.由此可见,SciTE的设置真是非常细致, 在定制性上很少有text editor文本编辑器能比得上,当你熟悉以后你就会越来越喜欢上她的.
+blank.margin.left=4
+#blank.margin.right=4
+## 初始化是编辑区左边,显示行号列右侧的边距。书签标志就在这里
+margin.width=16
+
+# 代码编辑区左侧，显示折叠符号列的颜色和高亮颜色。
+#fold.margin.colour=#FF0000
+#fold.margin.highlight.colour=#0000FF
+
+## 全屏时隐藏菜单栏,经yidabu.com测试，只有在全局配置里更改才有效。
+# full.screen.hides.menu =1
+# 最小化到屏幕下方的任务栏。如果改成1，就是最小到屏幕最右下角的托盘区域。
+minimize.to.tray=0
+
+## 初始化时编辑区左边显示行号列可见。如果你不写代码，只是用来写文章，那么这里可设成0，也就是不显示行号，编辑区会更大些。
+line.margin.visible=1
+## 行号列的宽度，也就是预留几位数的行号，如果你希望位数不足时能自动扩展，可以在数字后跟个+号，比如line.margin.width=3+
+line.margin.width=6
+
+# scite启动时tab栏可见。
+tabbar.visible=1
+## 当只打开一篇文档时隐藏tab栏。（yidabu.com注：这样编辑区就更大了，写文档时就更方便，可见scite作者想得非常周到）
+tabbar.hide.one=1
+# tab栏启用多行模式。同时打开较多文件时，多行模式比较方便。
+tabbar.multiline=1
+
+## 启动scite时工具栏可见. yidabu.com这里改成0，因为很少用到工具栏。当然，这个随各人的喜好而定。
+toolbar.visible=1
+# 工具栏可分离
+#toolbar.detachable=1
+## 启动scite时状态栏可见
+statusbar.visible=1
+# 菜单栏可分离
+#menubar.detachable=1
+
+# 状态栏循环周期及具体显示哪些信息。可以暂不去管它，以后熟悉以后，有空时可以参照scite全局配置里的设置自己修改试试。
+statusbar.number
+statusbar.text.number
+
+## 直接绘制输出到屏幕。启用后较少闪烁，但速度会有略慢。不过经yidabu.com测试，肉眼感觉不到差异。
+buffered.draw=1
+## 不启用两阶段绘制文字，速度更快. yidabu.com改成1，显示效果更好，但会略慢一些。
+#two.phase.draw=0
+
+## 当前文件被外部修改时自动重新载入
+load.on.activate=1
+# scite失去焦点时自动保存文档。在某些时候这个选项很有用，比如切换到另外的程序去查看文档编辑效果。
+#save.on.deactivate=1
+# 当load.on.activate=1时，启用这个选项，重新载入时会先询问你
+#are.you.sure.on.reload=1
+# 重新载入文档时保留还原信息
+reload.preserves.undo=1
+
+# 在已运行的Scite中打开新文件
+check.if.already.open=1
+# 0为取消“打开的文档只读”。如果设成1，打开文档只读，但新建文档不受影响。
+read.only=0
+# 1表示关闭最后文档时，自动退出scite文本编辑器. 如果不启用或设成0，scite文本编辑器不退出并保留一个空白文档
+#quit.on.close.last=1
+
+# 设置选中文本的前景色，背景色和透明度
+election.fore=#006000
+selection.back=#E0E0E8
+#selection.alpha=30
+
+# 设置光标的颜色，宽度，及光标所在行的背景色，透明度。透明度0为完全透明，255为不透明。光标宽度可选1，2或3
+#caret.fore=#FF0000
+#caret.width=2
+caret.line.back=#FFFED8
+#caret.line.back.alpha=63
+# 设置光标的闪动周期，以毫秒为单位，0为不闪，500为一秒闪一次。
+caret.period=500
+
+# 长行指示
+edge.column=200
+edge.mode=0
+edge.colour=#F9F9F9
+
+# 指定控制字符显示
+#control.char.symbol=.
+
+# 设置错误行的前景色和背景色
+#error.marker.fore=#0000A0
+#error.marker.back=#DADAFF
+
+# 设置书签列的前景色，背景色和透明度。如果书签列被关闭，书签所在行将以指定透明度显示
+#bookmark.fore=#808000
+#bookmark.back=#FFFFA0
+bookmark.alpha 
+
+# 通过搜索找到字符串显示的颜色(用半透明显示)
+#find.mark=#0000FF
+
+# 按F4查找下一条信息时自动选择错误所在行。目前只支持Html Tidy
+#error.select.line=1
+
+## 定义一个路径，指定执行菜单FIle,Open Selected Filename时的搜索路径。
+openpath.*.au3=D:/AutoIt/code;D:/AutoIt/web
+# 语法举例 openpath.$(file.patterns.cpp)=$(cpp_includes)
+# 这个功能很有意思，比如我要打开 myfile.au3 这个文件，该文件位于上面指定的搜索路径，这时只要把光标移动到myfile.au3,再按快捷键Ctrl+Shift+O就自动打开这个文档了
+
+## 指定执行File菜单Open Selected Filename命令时打开文件的默认后缀，例如o 我们把光标放到字符myfile再按快捷键Ctrl+Shift+O就自动打开这个文档了
+pen.suffix.*.au3=.au3
+
+# 保存文件时去除尾随空格
+#strip.trailing.spaces=1
+# 保存时确保文件以行结束,这在处理文档时有时要用到
+#ensure.final.line.end=1
+# 保存文件时确保所有行结束符一致
+ensure.consistent.line.ends=1
+
+# 载入特定语言的缩写文档, 并覆盖默认缩写文件，如：abbreviations.*.au3=$(SciteUserHome)/au3abbrev.properties 
+# 运用缩写文件，我们只要输入几个字母，然后按快捷键，就可以自动填写很复杂的句子
+# abbreviations文件的格式，我们只要打开别的语言的文档看看就知道了，如果你和yidabu.com一样，安装的是Scite4AutoIt的版本，那么，执行菜单Optionss, Open Abbreviations File,就会打开AutoIt所用的缩写文件，看一下就知道了
+abbreviations.filepattern 
+
+# 载入特定语言的api文档，多个文档用;分隔。api中包含标识符，函数参数等。api文档用来自动提示和自动完成
+# 举例如：au3.properties中是这样引用api文档的：api.$(file.patterns.au3)=$(SciteDefaultHome)/api/au3.api;$(SciteDefaultHome)/api/au3.user.calltips.api
+# api文件的格式，如果你安装的是Scite4AutoIt的版本，那么你只要打开SciTE目录下的api目录，就能看到AutoIt所用的api文档，看看就知道了
+# Scite4Autoit的下载和安装，见yidabu.com的另一篇文章。
+api.filepattern 
+
+# 设成1，自动完成只有一个匹配项时，就自动插入而不显示候选框。许多时候，自动插入不是我们所需要的，所以这个选项通常设0。当然，所有自动完成词条前面部分的拼写都没有重复时，启用这项将很方便。
+autocomplete.choose.single=0
+
+# 自动完成匹配时不区分大小写, 举例au3.properties中:autocomplete.au3.ignorecase=1
+autocomplete.lexer.ignorecase
+autocomplete.*.ignorecase
+
+# 如果设置非空，输入任何字指定范围内字符都会引发自动完成. *表示不指定语言类型,下面不再说明.
+# 举例au3.properties文件中：autocomplete.au3.start.characters=$(chars.alpha)$(chars.numeric)$_@#
+autocomplete.lexer.start.characters
+autocomplete.*.start.characters 
+
+# 如果设置非空，输入指定字符就会触发自动完成,比如设置autocomplete.python.fillups=( ，api文件中包含string.replace,当输入"string.r(" 时就会触发自动完成，自动插入"string.replace(" 。 *表示不指定语言类型
+autocomplete.lexer.fillups
+autocomplete.*.fillups 
+
+## 如果设置成1，当输入一个词，如果文档只有这个词以该字符开始，就会显示一个自动完成选择框，按Tab键就能完成自动输入。
+autocompleteword.automatic=0
+
+# 匹配calltip时是否忽略大小写,au3.properties中的例子：calltip.au3.ignorecase=1 
+# 所谓calltip就是函数的自动提示，包括函数名，参数和函数说明
+calltip.lexer.ignorecase
+calltip.*.ignorecase 
+
+# 设定calltip的标识符范围，比如AutoIt脚本语言中，calltip.au3.word.characters=$(chars.alpha)$(chars.numeric)_ 也就是所有字母，数字，_都是函数开始的标识符. 如果是Python还要加上.
+calltip.lexer.word.characters
+calltip.*.word.characters 
+
+# 指定calltip的参数开始，结束，分隔标志.多数编程语言以左括号开始，逗号或分号分隔，右括号表示结束。
+calltip.lexer.parameters.start
+calltip.lexer.parameters.end
+calltip.lexer.parameters.separators
+calltip.*.parameters.start
+calltip.*.parameters.end
+calltip.*.parameters.separators 
+
+# 可能每个函数定义后面包含函数的说明，要在自动提示的第二行显示函数说明，请指定函数定义的结束符，多数语言用的是“)”，在AutoIt脚本语言中是calltip.au3.end.definition=)
+calltip.lexer.end.definition
+calltip.*.end.definition 
+
+## xml和html文档标签自动关闭
+xml.auto.close.tags=1 
+# xml和html文档标签大小写不敏感
+html.tags.case.sensitive=0
+
+# asp的默认脚本语言，设成1时是Javascrīpt, 2是VBscrīpt, 3是Python
+asp.default.language
+
+# cpp文档标识符是否允许$,如果不知道cpp的这条请略过
+lexer.cpp.allow.dollars
+# sql中,/是否作转义符
+sql.backslash.escapes
+# c++用的
+styling.within.preprocessor
+# Python用的，你不用Python编程语言的话，这条不用管
+tab.timmy.whinge.level
+
+# 用户自定义命令
+user.shortcuts
+# 用户自定义右键菜单，如:user.context.menu=||Add as Snippet|1116|
+user.context.menu 
+
+## 编辑区和输出区的初始化缩放比例。0是默认值，正值放大，负值缩小。
+## 这是一个比较实用的配置,你不用修改任何样式就可以改变屏幕表现,yidabu.com把值改成了1
+magnification=-1
+output.magnification=-1
+
+# 输出区的位置，大小，及启动scite文本编辑器时输出区是否隐藏
+# 输出区在下方
+split.vertical=0
+#output.horizontal.size=200
+#output.vertical.size=60
+#output.initial.hide=1
+# 执行命令前清空输出区的内容
+clear.before.execute=1
+
+# 编辑区和输出区滚动条的设置
+horizontal.scrollbar
+horizontal.scroll.width
+output.horizontal.scrollbar
+output.horizontal.scroll.width
+output.scroll
+end.at.last.line
+
+# 行太长时自动换行
+wrap=1
+
+# 指定Open File对话框中文件类型，详见全局配置文件
+open.filter 
+
+# 用Scite文本编辑器打开最大不超过多少byte的文件。0表示不限制。如果设置一个值，打开文件进超过限制，就会先提示你，接受就打开，不接受相当于什么也没有发生
+#max.file.size=1
+
+# 保存文件前先删除原文件
+#save.deletes.first=1
+
+# 保存最近打开文件，下次启动SciTE时会自动重新载入。
+save.recent=1
+save.session=1
+
+# 设置“打开文件”命令的初始目录为当前文件目录。这个功能非常实用，否则有时文件目录很深，要打开一个文件，一级级点击进去真是麻烦。
+# SciTE作者真是细心，我们想到的他想到了，我们没有想到的他也想到了。 
+open.dialog.in.file.directory=1
+
+
+## 字符集，简体中文GBK要改成936 
+#code.page=932
+#output.code.page=65001
+
+## 字体,GB2312=134 or BIG5=136, 我们用简体中文，也就是GB2312,值要改成134,如果是繁体就是136
+#character.set=128
+
+# 特定语言的注释设置, 如果你想偷懒，你可以使用已经配置好的Scite4AutoIt的版本,事实上，yidabu.com用的就是这个版本，这篇文章就是用这个版本写的。
+# 怎么用Scite4AutoIt来写文章或日记，请关注yidabu.com的系列教程
+comment.block.lexer
+comment.block.at.line.start.lexer
+comment.stream.start.lexer
+comment.stream.end.lexer
+comment.box.start.lexer
+comment.box.middle.lexer
+comment.box.end.lexer 
+
+## 新建文件时的默认语言模块,比如yidabu.com用的是Scite4AutoIt的版本,所以在全局配置中有这句：default.file.ext=.au3 要根据你实际所用的语言修改
+default.file.ext=.au3
+
+# 每个词由哪些字符组成，一般是字母，数字和下划线。在AutoIt的语言文件au3.properties中是：word.characters.$(file.patterns.au3)=$(chars.alpha)$(chars.numeric).$_@#
+# 我们可以把常用中文字加到字符范围，实际上yidabu.com就是这么做的
+word.characters.filepattern
+# 指定空白符由哪些字符组成,默认值为空白和0x20以下值
+whitespace.characters
+
+# 样式设置.使用*设置的全局样式能被所有语言继续(除非被特定语言的样式设置覆盖)，请参看全局配置中的示例
+style.*.stylenumber
+style.lexer.stylenumber 
+# 全局默认样式
+# 默认
+style.*.32=$(font.base)
+# 行号背景，前景，字体,你可以在用户配置文件里改动一下试试，立即能看到效果
+style.*.33=fore:#000000,back:#CCCCCC,$(font.base)
+# 括号(', ')', '[', ']', '{', 和 '}高亮颜色
+style.*.34=fore:#0000FF,bold
+# 不匹配括号高亮颜色.这在写代码多层括号嵌套时很有用。
+style.*.35=fore::#009933,bold 
+# 控制字符
+style.*.36=
+# 缩进线
+style.*.37=fore:#C0C0C0,back:#FFFFFF
+# 启用括号匹配检查
+braces.check=1
+braces.sloppy=1
+
+# 等宽字体monospace设置,全局配置中是font.monospace=font:Courier New,size:10 你可以在用户配置文件里改成其他字体试试，可以立即看到效果
+font.monospace
+
+## 设置F1执行的命令。这是一个非常有用的功能，因为它可以把当前光标所在的词传过去，从而打开特定主题的帮助。就这个功能，就把大多数文本编辑器比下去了
+# exe格式帮助文件，subsystem值2；chm帮助文件，subsystem取4; hlp文件subsystem取5
+# 下面是例子，可以根据你的需要进行修改
+#~ command.help.$(file.patterns.au3)=$(CurrentWord)!$(autoit3dir)/autoit.chm
+#~ command.help.subsystem.$(file.patterns.au3)=4
+command.help.$(file.patterns.au3)=$(autoit3dir)/Autoit3Help.exe $(CurrentWord)
+command.help.subsystem.$(file.patterns.au3)=2
+
+## 在输出区显示执行命令所用时间。yidabu.com设成0关闭。
+time.commands=1
+
+## 折叠设置
+# 启用折叠
+fold=1
+# 编辑区折叠列初始化宽度.
+fold.margin.width=16
+# 折叠符号,0为三角形，1为展开-收缩+, 2为圆形，3方形。一般选2
+fold.symbols=3
+# 初始化是否折叠。yidabu.com一般改成1,这样再长的文章，因为只显示结构，看上去了一目了然。
+fold.on.open=0
+# 设成1，伸展时折叠符号区有一条短线指示折叠位置。收缩时显示一条长线。
+fold.compact=1
+# xml和html文件启用折叠
+fold.html=1 
+
+# 标题栏显示信息，0为文件名，1为全路径，2为显示文件名和目录名。
+title.full.path=1
+# 显示当前buffer序号
+title.show.buffers=1
+
+## 一个tab占几个空格，一般设成4。
+tabsize=4
+tab.size.filepattern
+# 一个自动缩进占几个空格，一般为4
+indent.size=4
+indent.size.filepattern
+
+## 当使用汉化版时，当没有找到对应的翻译，用***来代替。这个功能对汉化版的作者非常有用。(yidabu.com按：真是服了)
+#translation.missing=***
+
+# Language菜单上显示的语言。比如yidabu.com写这篇文章时用的是au3格式，我想用Lua格式，就依次点击菜单Language, Lua就行了。不过我是用au3的格式来实现折叠的，一切换到Lua,所有折叠符号就都消失了。
+menu.language
+
+# scite使用lua来作脚本扩展，从而可以自己写脚本扩展scite的功能。例子如au3.properties中：extension.$(file.patterns.au3)=$(SciteDefaultHome)/AutoIt3.lua
+extension.filepattern 
+# 指定scite启动时载入的全局lua脚本。
+ext.lua.startup.scrīpt

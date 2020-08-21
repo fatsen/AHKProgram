@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://autohotkey.com/boards/viewtopic.php?f=6&t=300 -->
+<html dir="ltr" lang="en-gb"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AHK Studio - AutoHotkey Community</title>
+<link rel="alternate" type="application/atom+xml" title="Feed - AutoHotkey Community" href="https://autohotkey.com/boards/feed.php"> <link rel="alternate" type="application/atom+xml" title="Feed - News" href="https://autohotkey.com/boards/feed.php?mode=news"> <link rel="alternate" type="application/atom+xml" title="Feed - All forums" href="https://autohotkey.com/boards/feed.php?mode=forums"> <link rel="alternate" type="application/atom+xml" title="Feed - New Topics" href="https://autohotkey.com/boards/feed.php?mode=topics"> <link rel="alternate" type="application/atom+xml" title="Feed - Active Topics" href="https://autohotkey.com/boards/feed.php?mode=topics_active"> <link rel="alternate" type="application/atom+xml" title="Feed - Forum - AHK Studio" href="https://autohotkey.com/boards/feed.php?f=6"> <link rel="alternate" type="application/atom+xml" title="Feed - Topic - AHK Studio" href="https://autohotkey.com/boards/feed.php?f=6&amp;t=300">
+<link rel="canonical" href="https://autohotkey.com/boards/viewtopic.php?t=300">
+<link href="./AHK Studio - AutoHotkey Community_files/print.css" rel="stylesheet" type="text/css" media="print" title="printonly">
+<link href="./AHK Studio - AutoHotkey Community_files/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="./AHK Studio - AutoHotkey Community_files/glyphicons.css" rel="stylesheet" type="text/css">
+<link href="./AHK Studio - AutoHotkey Community_files/stylesheet.css" rel="stylesheet" type="text/css" media="screen, projection">
+<!--[if lte IE 9]>
+	<link href="./styles/simplicity/theme/tweaks.css?assets_version=95" rel="stylesheet" type="text/css" media="screen, projection" />
+<![endif]-->
+<style type="text/css">.codebox_plus code{color:black;max-height:none;-moz-tab-size:4;-o-tab-size:4;tab-size:4;}.codebox_plus .collapsed{max-height:187px;}.codebox_plus_about{float:right;font-weight:normal;text-transform:none;}.kw1{color:#480048;}.kw2{color:#CF00CF;}.kw3{color:#00509F;}.kw4{color:#0F707F;}.kw5{color:#F04020;}.kw6{color:#A92014;}.kw7{color:#004080;}.kw8{color:#004080;}.coMULTI,.co1{color:#808080;}.es0{color:#FF8000;}.br0{color:brown;}.st0,.st_h{color:#008000;}.nu0{color:#2F4F7F;}.sy0{color:#7F200F;}.re0{color:#821747;}.re1{color:#D56000;}.re2{color:#DD0000;}</style>
+<script type="text/javascript">
+
+/* <![CDATA[ */
+
+	function codebox_plus_toggle(a, expand, collapse)
+
+	{
+
+		var e = a.parentNode.parentNode.getElementsByTagName('code')[0];
+
+		var text = e.textContent ? 'textContent' : 'innerText';
+
+		
+
+		if (e.className == 'collapsed')
+
+		{
+
+			e.className = '';
+
+			a[text] = collapse;
+
+		}
+
+		else
+
+		{
+
+			e.className = 'collapsed';
+
+			a[text] = expand;
+
+		}
+
+	}
+
+
+
+	function codebox_plus_select(a)
+
+	{
+
+		var e = a.parentNode.parentNode.getElementsByTagName('code')[0];
+
+
+
+		// Not IE and IE9+
+
+		if (window.getSelection)
+
+		{
+
+			var s = window.getSelection();
+
+			// Safari
+
+			if (s.setBaseAndExtent && false)
+
+			{
+
+				s.setBaseAndExtent(e, 0, e, e.innerText.length - 1);
+
+			}
+
+			// Firefox and Opera
+
+			else
+
+			{
+
+				// workaround for bug # 42885
+
+				if (window.opera && e.innerHTML.substring(e.innerHTML.length - 4) == '<BR>')
+
+				{
+
+					e.innerHTML = e.innerHTML + '&nbsp;';
+
+				}
+
+
+
+				var r = document.createRange();
+
+				r.selectNodeContents(e);
+
+				s.removeAllRanges();
+
+				s.addRange(r);
+
+			}
+
+		}
+
+		// Some older browsers
+
+		else if (document.getSelection)
+
+		{
+
+			var s = document.getSelection();
+
+			var r = document.createRange();
+
+			r.selectNodeContents(e);
+
+			s.removeAllRanges();
+
+			s.addRange(r);
+
+		}
+
+		// IE
+
+		else if (document.selection)
+
+		{
+
+			var r = document.body.createTextRange();
+
+			r.moveToElementText(e);
+
+			r.select();
+
+		}
+
+	}
+
+/* ]]> */
+
+</script>
+<link href="./AHK Studio - AutoHotkey Community_files/buttons.css" rel="stylesheet" type="text/css" media="screen">
+<link href="./AHK Studio - AutoHotkey Community_files/lightbox.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body id="phpbb" class="notouch section-viewtopic ltr hasjs can-transform" data-online-text="Online">
+<a id="top" class="anchor" accesskey="t"></a>
+<div id="page-header" class="page-width">
+<div class="headerbar" role="banner">
+<div class="inner">
+<div id="site-description">
+<a id="logo" class="logo" href="https://autohotkey.com/" title="Home"><img src="./AHK Studio - AutoHotkey Community_files/logo_hd.png" data-src-hd="./styles/simplicity/theme/images/logo_hd.png" style="width: 517px;"></a>
+<p class="sitename">AutoHotkey Community</p>
+<p>Let's help each other out</p>
+<p class="skiplink"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#start_here">Skip to content</a></p>
+</div>
+</div>
+</div>
+<div class="navbar tabbed not-static" role="navigation">
+<div class="static-nav-dummy inner" style="display:none;"></div><div class="inner page-width"><div class="static-inner">
+<div class="nav-tabs" data-current-page="viewtopic">
+<ul class="leftside">
+<li class="tab home responsive-cloned-item" data-responsive-class="small-icon icon-home" title="Home" data-clone-index="0">
+<a class="nav-link" href="https://autohotkey.com/" data-navbar-reference="home">Home</a>
+</li>
+<li id="quick-links" class="tab responsive-menu dropdown-container" title="Quick links">
+<a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#" class="nav-link dropdown-trigger dropdown-toggle">Quick links</a>
+<div class="dropdown hidden">
+<div class="pointer"><div class="pointer-inner"></div></div>
+<ul class="dropdown-contents" role="menu">
+<li class="separator"></li>
+<li class="small-icon icon-search-unanswered"><a href="https://autohotkey.com/boards/search.php?search_id=unanswered" role="menuitem">Unanswered topics</a></li>
+<li class="small-icon icon-search-active"><a href="https://autohotkey.com/boards/search.php?search_id=active_topics" role="menuitem">Active topics</a></li>
+<li class="separator"></li>
+<li class="small-icon icon-search"><a href="https://autohotkey.com/boards/search.php" role="menuitem">Search</a></li>
+<li class="separator" style="display: none;"></li>
+<li class="small-icon icon-home responsive-index-0 responsive-clone" data-responsive-class="small-icon icon-home" title="Home" style="display: none;">
+<a class="" href="https://autohotkey.com/" data-navbar-reference="home">Home</a>
+</li><li class="small-icon icon-chat responsive-index-3 responsive-clone" data-responsive-class="small-icon icon-chat" title="IRC Channel" style="display: none;">
+<a class="" target="_self" href="https://autohotkey.com/boards/viewtopic.php?f=5&amp;t=59"><b>IRC Channel</b></a>
+</li><li class="small-icon icon-book-open responsive-index-4 responsive-clone" data-responsive-class="small-icon icon-book-open" title="Commands" style="display: none;">
+<a class="" target="_blank" href="https://autohotkey.com/docs/commands/index.htm"><b>Commands</b></a>
+</li><li class="small-icon icon-circle-info responsive-index-5 responsive-clone" data-responsive-class="small-icon icon-circle-info" title="Tutorial" style="display: none;">
+<a class="" target="_blank" href="https://autohotkey.com/docs/Tutorial.htm"><b>Tutorial</b></a>
+</li><li class="small-icon icon-download responsive-index-6 responsive-clone" data-responsive-class="small-icon icon-download" title="Download - 1.1.25.02" style="display: list-item;">
+<a class="" target="_blank" href="https://autohotkey.com/download"><b>Download</b>&nbsp;-&nbsp;1.1.25.02</a>
+</li><li class="small-icon icon-faq responsive-index-7 responsive-clone" data-select-match="faq" data-responsive-class="small-icon icon-faq" title="FAQ" style="display: list-item;">
+<a class="" href="https://autohotkey.com/boards/faq.php" rel="help" title="Frequently Asked Questions" role="menuitem">FAQ</a>
+</li></ul>
+</div>
+</li>
+<li class="tab forums selected" data-responsive-class="small-icon icon-forums" title="Forums" data-responsive-index="-1">
+<a class="nav-link" href="https://autohotkey.com/boards/index.php">Forums</a>
+</li>
+<li class="tab members dropdown-container" data-select-match="member" data-responsive-class="small-icon icon-members" title="Members" data-responsive-index="-1">
+<a class="nav-link dropdown-trigger dropdown-toggle" href="https://autohotkey.com/boards/memberlist.php">Members</a>
+<div class="dropdown hidden">
+<div class="pointer"><div class="pointer-inner"></div></div>
+<ul class="dropdown-contents" role="menu">
+<li class="small-icon icon-team"><a href="https://autohotkey.com/boards/memberlist.php?mode=team" role="menuitem">The team</a></li> </ul>
+</div>
+</li>
+</ul>
+<ul class="rightside">
+<li class="tab responsive-cloned-item" data-responsive-class="small-icon icon-chat" title="IRC Channel" data-clone-index="3">
+<a class="nav-link" target="_self" href="https://autohotkey.com/boards/viewtopic.php?f=5&amp;t=59"><b>IRC Channel</b></a>
+</li>
+<li class="tab responsive-cloned-item" data-responsive-class="small-icon icon-book-open" title="Commands" data-clone-index="4" style="display: list-item;">
+<a class="nav-link" target="_blank" href="https://autohotkey.com/docs/commands/index.htm"><b>Commands</b></a>
+</li>
+<li class="tab responsive-cloned-item" data-responsive-class="small-icon icon-circle-info" title="Tutorial" data-clone-index="5" style="display: list-item;">
+<a class="nav-link" target="_blank" href="https://autohotkey.com/docs/Tutorial.htm"><b>Tutorial</b></a>
+</li>
+<li class="tab responsive-cloned-item" data-responsive-class="small-icon icon-download" title="Download - 1.1.25.02" data-clone-index="6" style="display: none;">
+<a class="nav-link" target="_blank" href="https://autohotkey.com/download"><b>Download</b>&nbsp;-&nbsp;1.1.25.02</a>
+</li>
+<li class="tab faq responsive-cloned-item" data-select-match="faq" data-responsive-class="small-icon icon-faq" title="FAQ" data-clone-index="7" style="display: none;">
+<a class="nav-link" href="https://autohotkey.com/boards/faq.php" rel="help" title="Frequently Asked Questions" role="menuitem">FAQ</a>
+</li>
+<li class="tab login" data-skip-responsive="true" data-select-match="login" title="Login" data-responsive-index="-1"><a class="nav-link" href="https://autohotkey.com/boards/ucp.php?mode=login" title="Login" accesskey="x" role="menuitem">Login</a></li>
+<li class="tab register" data-skip-responsive="true" data-select-match="register" title="Register" data-responsive-index="-1"><a class="nav-link" href="https://autohotkey.com/boards/ucp.php?mode=register" role="menuitem">Register</a></li>
+</ul>
+</div>
+</div></div>
+</div>
+<div class="navbar secondary with-search">
+<ul role="menubar"><li class="responsive-menu dropdown-container" style="display: none;"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#" class="dropdown-trigger dropdown-toggle">...</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"><li class="small-icon icon-search responsive-hide responsive-index-0 responsive-clone" style="display: none;"><a href="https://autohotkey.com/boards/search.php">Search</a></li><li class="small-icon icon-login responsive-index-1 responsive-clone" style="display: none;"><a href="https://autohotkey.com/boards/ucp.php?mode=login" title="Login">Login</a></li><li class="small-icon icon-register responsive-index-2 responsive-clone" style="display: none;"><a href="https://autohotkey.com/boards/ucp.php?mode=register">Register</a></li></ul></div></li>
+<li class="small-icon icon-search responsive-hide responsive-cloned-item" data-clone-index="0"><a href="https://autohotkey.com/boards/search.php">Search</a></li>
+<li class="small-icon icon-login responsive-cloned-item" data-clone-index="1"><a href="https://autohotkey.com/boards/ucp.php?mode=login" title="Login">Login</a></li>
+<li class="small-icon icon-register responsive-cloned-item" data-clone-index="2"><a href="https://autohotkey.com/boards/ucp.php?mode=register">Register</a></li>
+<li class="search-box not-responsive" data-responsive-index="-1"> <div id="search-box" class="search-box search-header" role="search">
+<form action="https://autohotkey.com/boards/search.php" method="get" id="search">
+<fieldset>
+<input name="keywords" id="keywords" type="search" maxlength="128" title="Search for keywords" class="inputbox search tiny" size="20" value="" placeholder="Search…">
+<button class="button icon-button search-icon" type="submit" title="Search">Search</button>
+<a href="https://autohotkey.com/boards/search.php" class="button icon-button search-adv-icon" title="Advanced search">Advanced search</a>
+</fieldset>
+</form>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div id="wrap" class="page-width">
+<a id="start_here" class="anchor"></a>
+<div id="page-body" role="main">
+<div class="navbar nav-breadcrumbs">
+<ul id="nav-breadcrumbs" class="linklist navlinks" role="menubar">
+<li class="small-icon icon-home breadcrumbs" style="max-width: 684px;">
+<span class="crumb" style="display: none;"><a href="https://autohotkey.com/" itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="" data-navbar-reference="home" title="Home">Home</a></span> <span class="crumb"><a href="https://autohotkey.com/boards/index.php" accesskey="h" itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="" data-navbar-reference="index" title="Board index">Board index</a></span>
+<span class="crumb"><a href="https://autohotkey.com/boards/viewforum.php?f=4" itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="" data-forum-id="4" title="AutoHotkey">AutoHotkey</a></span>
+<span class="crumb"><a href="https://autohotkey.com/boards/viewforum.php?f=60" itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="" data-forum-id="60" title="Editors">Editors</a></span>
+<span class="crumb"><a href="https://autohotkey.com/boards/viewforum.php?f=62" itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="" data-forum-id="62" title="AHK Studio">AHK Studio</a></span>
+</li>
+<li class="rightside responsive-search" style="display: none;"><a href="https://autohotkey.com/boards/search.php" title="View the advanced search options" role="menuitem">Search</a></li>
+<li class="rightside dropdown-container icon-only">
+<a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#" class="dropdown-trigger time dropdown-toggle" title="It is currently 02 Jun 2017, 18:56"><i class="fa fa-clock-o"></i></a>
+<div class="dropdown hidden">
+<div class="pointer"><div class="pointer-inner"></div></div>
+<ul class="dropdown-contents">
+<li>It is currently 02 Jun 2017, 18:56</li>
+<li>All times are <abbr title="UTC-5">UTC-05:00</abbr></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<h2 class="topic-title"><a href="https://autohotkey.com/boards/viewtopic.php?f=62&amp;t=300">AHK Studio</a></h2>
+ 
+<div style="display: none !important;">Editor for AutoHotkey written completely in AutoHotkey.<br></div>
+<p>
+<strong>Moderator:</strong> <a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=320" class="username">maestrith</a>
+</p>
+<div class="action-bar top">
+<div class="buttons">
+<a href="https://autohotkey.com/boards/posting.php?mode=reply&amp;f=62&amp;t=300" class="button icon-button reply-icon" title="Post a reply">Post <strong>Reply</strong></a>
+</div>
+<div class="dropdown-container dropdown-button-control topic-tools">
+<span title="Topic tools" class="button icon-button tools-icon dropdown-trigger dropdown-select dropdown-toggle"></span>
+<div class="dropdown hidden">
+<div class="pointer"><div class="pointer-inner"></div></div>
+<ul class="dropdown-contents">
+<li class="small-icon icon-sendemail"><a href="https://autohotkey.com/boards/memberlist.php?mode=email&amp;t=300" title="Email topic">Email topic</a></li> <li class="small-icon icon-print"><a href="https://autohotkey.com/boards/viewtopic.php?f=62&amp;t=300&amp;view=print" title="Print view" accesskey="p">Print view</a></li> </ul>
+</div>
+</div>
+<div class="search-box" role="search">
+<form method="get" id="topic-search" action="https://autohotkey.com/boards/search.php">
+<fieldset>
+<input class="inputbox search tiny" type="search" name="keywords" id="search_keywords" size="20" placeholder="Search this topic…">
+<button class="button icon-button search-icon" type="submit" title="Search">Search</button>
+<a href="https://autohotkey.com/boards/search.php" class="button icon-button search-adv-icon" title="Advanced search">Advanced search</a>
+<input type="hidden" name="t" value="300">
+<input type="hidden" name="sf" value="msgonly">
+</fieldset>
+</form>
+</div>
+<div class="pagination">
+820 posts
+<ul>
+<li class="dropdown-container dropdown-button-control dropdown-page-jump page-jump">
+<a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#" class="dropdown-trigger dropdown-toggle" title="Click to jump to page…" role="button">Page <strong>1</strong> of <strong>41</strong></a>
+<div class="dropdown hidden">
+<div class="pointer"><div class="pointer-inner"></div></div>
+<ul class="dropdown-contents">
+<li>Jump to page:</li>
+<li class="page-jump-form">
+<input type="number" name="page-number" min="1" max="999999" title="Enter the page number you wish to go to" class="inputbox tiny" data-per-page="20" data-base-url="./viewtopic.php?f=62&amp;amp;t=300" data-start-name="start">
+<input class="button2" value="Go" type="button">
+</li>
+</ul>
+</div>
+</li>
+<li class="active"><span>1</span></li>
+<li><a href="https://autohotkey.com/boards/viewtopic.php?f=62&amp;t=300&amp;start=20" role="button">2</a></li>
+<li><a href="https://autohotkey.com/boards/viewtopic.php?f=62&amp;t=300&amp;start=40" role="button">3</a></li>
+<li><a href="https://autohotkey.com/boards/viewtopic.php?f=62&amp;t=300&amp;start=60" role="button">4</a></li>
+<li><a href="https://autohotkey.com/boards/viewtopic.php?f=62&amp;t=300&amp;start=80" role="button">5</a></li>
+<li class="ellipsis" role="separator"><span>…</span></li>
+<li><a href="https://autohotkey.com/boards/viewtopic.php?f=62&amp;t=300&amp;start=800" role="button">41</a></li>
+<li class="next"><a href="https://autohotkey.com/boards/viewtopic.php?f=62&amp;t=300&amp;start=20" rel="next" role="button">Next</a></li>
+</ul>
+</div>
+</div>
+<div id="p2550" class="post has-profile bg2">
+<div class="inner">
+<dl class="postprofile resized" id="profile2550" style="z-index: 28; min-height: 1883px;">
+<dt class="no-profile-rank no-avatar">
+<div class="avatar-container">
+</div>
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=320" class="username">maestrith</a>
+</dt>
+<dd class="profile-posts"><strong>Posts:</strong> <a href="https://autohotkey.com/boards/search.php?author_id=320&amp;sr=posts">617</a></dd>
+<dd class="profile-joined"><strong>Joined:</strong> 16 Oct 2013</dd>
+</dl>
+<div class="postbody">
+<div id="post_content2550">
+<h3 class="first" style="display: none;"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#p2550">AHK Studio</a></h3>
+<ul class="post-buttons">
+<li>
+<a href="https://autohotkey.com/boards/posting.php?mode=quote&amp;f=62&amp;p=2550" title="Reply with quote" class="button icon-button quote-icon"><span>Quote</span></a>
+</li>
+<li class="responsive-menu hidden dropdown-container"><a href="javascript:void(0);" class="responsive-menu-link dropdown-toggle">&nbsp;</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"></ul></div></li></ul>
+<p class="author"><a href="https://autohotkey.com/boards/viewtopic.php?p=2550#p2550">16 Oct 2013, 14:14</a></p>
+<div class="content"><img src="./AHK Studio - AutoHotkey Community_files/UgfaSyj.png" class="postimage" alt="Image"><br>Special thanks to tidbit for the logo<br><br>New GUI design and updated indent system.<br><span style="color: #FF0000"><span style="font-size: 150%; line-height: normal">NOTICE!</span></span><br>Requires <a href="http://ahkscript.org/download/ahk-install.exe" class="postlink">AHK v1.1.23.03</a> or any version of 1.x greater than 23.03<br>I am still working on getting all of the functionality back into it from the previous version but it is stable enough to use.<br><span style="font-size: 150%; line-height: normal">Download:</span><br><a href="https://raw.githubusercontent.com/maestrith/AHK-Studio/master/AHK-Studio.ahk" class="postlink">Currently it is only in AHK 1.1 un-compiled</a>.<br>also a <a href="https://github.com/maestrith/AHK-Studio/archive/master.zip" class="postlink">Zip</a> can be downloaded here.<br><br>Videos:<br><a href="https://www.youtube.com/watch?v=KKvHVR7gLUY&amp;list=PL4-3WUfg7gqEETyWrZGieQ-2j6X9t2nrD" class="postlink">A Short Demo</a><br><a href="https://youtu.be/aRrPZ73ZEYA" class="postlink">Video tutorial on how to use the Personal Variable List</a><br><a href="https://www.youtube.com/watch?v=NlD2L-AUQ_Q" class="postlink">Using Replacements</a><br><br>The second two videos require plugins that can be downloaded from the Tools/Download Plugins menu<br><br><img src="./AHK Studio - AutoHotkey Community_files/kbvcazq.png" class="postimage" alt="Image"><br><br>If you are having trouble getting Studio to download I have a mirror on Github. <a href="https://github.com/maestrith/AHK-Studio/archive/master.zip" class="postlink">Github</a><br><br><span style="font-size: 150%; line-height: normal">Usage:</span><br>If you wish to use this software, great.<br><br>If you wish to use this as a part of your project I require payment.<br><br>If you wish to donate to help me with my living expenses <a href="http://maestrith.com/donations/" class="postlink">donations are always welcome</a><br><br>PLEASE let me know if there is anything I should work on getting back in.<br><br><br>Sorry I have been away and I will do what I can to update/add some screenshots.<br><br>AHK Studio uses SciLexer.dll to provide a quick and easy way to program AutoHotkey scripts.<br><br><strong>Features:</strong><br><ol style="list-style-type: decimal"><li>Run scripts from the File/Run or File/Run x64 (for those who use the 32 bit install).</li><li>Easy customization of themes Edit/Theme with a few that have been created by users. I will gladly add any themes that are submitted to me.</li><li>Automatic help text for most commands (eg MsgBox, Control, SplashText...etc).</li><li>Code Vault for adding code snippets to the program.</li><li>Version Tracker with Github upload.</li><li>Gist post your scripts.</li><li>Split up projects into Segments to keep things neat under File/New Segment. (makes an include file)</li><li>Special functions (Move Selected Lines Down, Create Comment Block, Character Count...etc)</li><li>Msgbox Creator for easily creating more complex msgboxs.</li><li>Personal Variable List: You can add anything to this list and it will come up with the list of other commands as you type them.</li><li>Custom Highlight List: You can add anything to this list as well and it will change the color that it appears in the program.</li><li>Customize every action with a hotkey, many of them are already assigned but they can be changed under Edit/Settings.</li><li>FTP integration.</li><li>Auto Insert: by default it will add, &lt;&gt; for &lt;, [] for [, {} for {, () for (, and '' for '</li><li>Quite a few more.</li></ol>Let me know what you think. I am always interested in hearing ideas to add to the script or any bugs. Thank you.<br><a href="https://github.com/maestrith/AHK-Studio/wiki" class="postlink">Online Documentation</a></div>
+<div class="notice">
+Last edited by <a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=320" class="username">maestrith</a> on 21 Apr 2016, 02:20, edited 33 times in total.
+</div>
+<div id="sig2550" class="signature"><a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=300" class="postlink">AHK Studio</a> <a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=3966" class="postlink">OSD</a> <a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=303" class="postlink">GUI Creator</a><br><a href="http://www.maestrith.com/donations/" class="postlink">Donations (A bit slow currently)</a><br>All code is done on a Windows 10 PC Running x64 and AutoHotkey x32</div>
+</div>
+</div>
+</div>
+<div class="back2top"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#top" class="top" title="Top">Top</a></div>
+</div>
+<div id="p2586" class="post has-profile bg1">
+<div class="inner">
+<dl class="postprofile resized" id="profile2586" style="z-index: 27; min-height: 161px;">
+<dt class="no-profile-rank has-avatar">
+<div class="avatar-container">
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=55" class="avatar"><img class="avatar" src="./AHK Studio - AutoHotkey Community_files/file.php" width="80" height="80" alt="User avatar"></a>
+</div>
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=55" style="color: #FF0000;" class="username-coloured">joedf</a>
+</dt>
+<dd class="profile-posts"><strong>Posts:</strong> <a href="https://autohotkey.com/boards/search.php?author_id=55&amp;sr=posts">5397</a></dd>
+<dd class="profile-joined"><strong>Joined:</strong> 29 Sep 2013</dd>
+<dd class="profile-custom-field profile-facebook"><strong>Facebook:</strong> J0EDF</dd>
+<dd class="profile-custom-field profile-google_plus"><strong>Google:</strong> +joedf</dd>
+<dd class="profile-custom-field profile-github"><strong>GitHub:</strong> joedf</dd>
+<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Canada, Quebec</dd>
+<dd class="profile-contact">
+<strong>Contact:</strong>
+<div class="dropdown-container dropdown-right dropdown-down">
+<a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#" class="dropdown-trigger dropdown-toggle"><span class="imageset icon_contact" title="Contact joedf">Contact joedf</span></a>
+<div class="dropdown hidden">
+<div class="pointer"><div class="pointer-inner"></div></div>
+<div class="dropdown-contents contact-icons">
+<div>
+<a href="http://joedf.ahkscript.org/" title="Website">
+<span class="contact-icon phpbb_website-icon">Website</span>
+</a>
+<a href="skype:joe-df?userinfo" title="Skype">
+<span class="contact-icon phpbb_skype-icon">Skype</span>
+</a>
+<a href="https://twitter.com/joedf64" title="Twitter" class="last-cell">
+<span class="contact-icon phpbb_twitter-icon">Twitter</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</dd>
+</dl>
+<div class="postbody">
+<div id="post_content2586">
+<h3 style="display: none;"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#p2586">Re: AHK Studio</a></h3>
+<ul class="post-buttons">
+<li>
+<a href="https://autohotkey.com/boards/posting.php?mode=quote&amp;f=62&amp;p=2586" title="Reply with quote" class="button icon-button quote-icon"><span>Quote</span></a>
+</li>
+<li class="responsive-menu hidden dropdown-container"><a href="javascript:void(0);" class="responsive-menu-link dropdown-toggle">&nbsp;</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"></ul></div></li></ul>
+<p class="author"><a href="https://autohotkey.com/boards/viewtopic.php?p=2586#p2586">16 Oct 2013, 19:03</a></p>
+<div class="content">welcome maestrith! <img class="smilies" src="./AHK Studio - AutoHotkey Community_files/icon_e_wink.gif" alt=";)" title="Wink"></div>
+<div id="sig2586" class="signature"><a href="mailto://joedf@ahkscript.org" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/ahkneedhelp.gif" class="postimage" alt="Image"></a> <a href="http://ahkscript.org/foundation" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/ahkfoundation.gif" class="postimage" alt="Image"></a> <a href="https://opensource.org/licenses/MIT" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/mitlicense.gif" class="postimage" alt="Image"></a> <a href="http://greenpeace.org/" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/+greenpeace.gif" class="postimage" alt="Image"></a> <a href="https://ahkscript.github.io/" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/githubahkscript.gif" class="postimage" alt="Image"></a><br><span style="font-size: 68%; line-height: normal"><strong>Windows 10 x64 Home Premium, Intel i5 Gen 1 @ 2.40 GHz, 8GB DDR3 RAM | <a href="http://joedf.ahkscript.org/about" class="postlink">[About Me]</a> | <a href="https://github.com/ahkscript/ASPDM" class="postlink">[ASPDM - StdLib Distribution]</a><br><a href="http://autohotkey.myminicity.com/com" class="postlink">[Populate the AHK MiniCity!]</a>&nbsp;| <a href="http://qonsole-ahk.sourceforge.net/" class="postlink">[Qonsole - Quake-like console emulator]</a>&nbsp;| <a href="https://joedf.github.io/libcon" class="postlink">[LibCon - Autohotkey Console Library]</a> | <a href="http://ahkscript.org/foundation" class="postlink">[About the AHK Foundation]</a></strong></span></div>
+</div>
+</div>
+</div>
+<div class="back2top"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#top" class="top" title="Top">Top</a></div>
+</div>
+<div id="p2592" class="post has-profile bg2">
+<div class="inner">
+<dl class="postprofile resized" id="profile2592" style="z-index: 26; min-height: 220px;">
+<dt class="no-profile-rank no-avatar">
+<div class="avatar-container">
+</div>
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=320" class="username">maestrith</a>
+</dt>
+<dd class="profile-posts"><strong>Posts:</strong> <a href="https://autohotkey.com/boards/search.php?author_id=320&amp;sr=posts">617</a></dd>
+<dd class="profile-joined"><strong>Joined:</strong> 16 Oct 2013</dd>
+</dl>
+<div class="postbody">
+<div id="post_content2592">
+<h3 style="display: none;"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#p2592">Re: AHK Studio</a></h3>
+<ul class="post-buttons">
+<li>
+<a href="https://autohotkey.com/boards/posting.php?mode=quote&amp;f=62&amp;p=2592" title="Reply with quote" class="button icon-button quote-icon"><span>Quote</span></a>
+</li>
+<li class="responsive-menu hidden dropdown-container"><a href="javascript:void(0);" class="responsive-menu-link dropdown-toggle">&nbsp;</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"></ul></div></li></ul>
+<p class="author"><a href="https://autohotkey.com/boards/viewtopic.php?p=2592#p2592">16 Oct 2013, 19:34</a></p>
+<div class="content"><blockquote><div><cite>joedf wrote:</cite>welcome maestrith! <img class="smilies" src="./AHK Studio - AutoHotkey Community_files/icon_e_wink.gif" alt=";)" title="Wink"></div></blockquote><br>Thanks joedf. I have forgotten how to use the default forum <img class="smilies" src="./AHK Studio - AutoHotkey Community_files/icon_e_smile.gif" alt=":)" title="Smile"></div>
+<div id="sig2592" class="signature"><a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=300" class="postlink">AHK Studio</a> <a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=3966" class="postlink">OSD</a> <a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=303" class="postlink">GUI Creator</a><br><a href="http://www.maestrith.com/donations/" class="postlink">Donations (A bit slow currently)</a><br>All code is done on a Windows 10 PC Running x64 and AutoHotkey x32</div>
+</div>
+</div>
+</div>
+<div class="back2top"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#top" class="top" title="Top">Top</a></div>
+</div>
+<div id="p3413" class="post has-profile bg1">
+<div class="inner">
+<dl class="postprofile resized" id="profile3413" style="z-index: 25; min-height: 947px;">
+<dt class="no-profile-rank has-avatar">
+<div class="avatar-container">
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=197" class="avatar"><img class="avatar" src="./AHK Studio - AutoHotkey Community_files/file(1).php" width="74" height="99" alt="User avatar"></a>
+</div>
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=197" class="username">empardopo</a>
+</dt>
+<dd class="profile-posts"><strong>Posts:</strong> <a href="https://autohotkey.com/boards/search.php?author_id=197&amp;sr=posts">335</a></dd>
+<dd class="profile-joined"><strong>Joined:</strong> 06 Oct 2013</dd>
+<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Spain</dd>
+<dd class="profile-contact">
+<strong>Contact:</strong>
+<div class="dropdown-container dropdown-right dropdown-down">
+<a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#" class="dropdown-trigger dropdown-toggle"><span class="imageset icon_contact" title="Contact empardopo">Contact empardopo</span></a>
+<div class="dropdown hidden">
+<div class="pointer"><div class="pointer-inner"></div></div>
+<div class="dropdown-contents contact-icons">
+<div>
+<a href="http://empardopo.dyndns.info/web" title="Website" class="last-cell">
+<span class="contact-icon phpbb_website-icon">Website</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</dd>
+</dl>
+<div class="postbody">
+<div id="post_content3413">
+<h3 style="display: none;"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#p3413">Re: AHK Studio</a></h3>
+<ul class="post-buttons">
+<li>
+<a href="https://autohotkey.com/boards/posting.php?mode=quote&amp;f=62&amp;p=3413" title="Reply with quote" class="button icon-button quote-icon"><span>Quote</span></a>
+</li>
+<li class="responsive-menu hidden dropdown-container"><a href="javascript:void(0);" class="responsive-menu-link dropdown-toggle">&nbsp;</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"></ul></div></li></ul>
+<p class="author"><a href="https://autohotkey.com/boards/viewtopic.php?p=3413#p3413">25 Oct 2013, 07:45</a></p>
+<div class="content">Very nice.<br>I am going to take a look. <img class="smilies" src="./AHK Studio - AutoHotkey Community_files/icon_e_smile.gif" alt=":)" title="Smile"> <br><br>Are working fine the themes? When I try download one I get this message<br><br><img src="./AHK Studio - AutoHotkey Community_files/ErrorAHKStudioDownloadTheme.png" class="postimage" alt="Image"><br><br>Then, I get this when I select the downloaded theme<br><br><img src="./AHK Studio - AutoHotkey Community_files/AHKStudio-HatOfGod.png" class="postimage" alt="Image"><br><br>For example, in what colour has the command msgbox appear?<br><br>Thanks!</div>
+<div id="sig3413" class="signature"><strong>Everything is possible!</strong></div>
+</div>
+</div>
+</div>
+<div class="back2top"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#top" class="top" title="Top">Top</a></div>
+</div>
+<div id="p4237" class="post has-profile bg2">
+<div class="inner">
+<dl class="postprofile resized" id="profile4237" style="z-index: 24; min-height: 246px;">
+<dt class="no-profile-rank no-avatar">
+<div class="avatar-container">
+</div>
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=320" class="username">maestrith</a>
+</dt>
+<dd class="profile-posts"><strong>Posts:</strong> <a href="https://autohotkey.com/boards/search.php?author_id=320&amp;sr=posts">617</a></dd>
+<dd class="profile-joined"><strong>Joined:</strong> 16 Oct 2013</dd>
+</dl>
+<div class="postbody">
+<div id="post_content4237">
+<h3 style="display: none;"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#p4237">Re: AHK Studio</a></h3>
+<ul class="post-buttons">
+<li>
+<a href="https://autohotkey.com/boards/posting.php?mode=quote&amp;f=62&amp;p=4237" title="Reply with quote" class="button icon-button quote-icon"><span>Quote</span></a>
+</li>
+<li class="responsive-menu hidden dropdown-container"><a href="javascript:void(0);" class="responsive-menu-link dropdown-toggle">&nbsp;</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"></ul></div></li></ul>
+<p class="author"><a href="https://autohotkey.com/boards/viewtopic.php?p=4237#p4237">03 Nov 2013, 09:14</a></p>
+<div class="content">In the theme Hat Of God I believe that all of the colors are the same. you can change them by clicking on any word in line 12 after Commands = and it will allow you to change the colors. Just be sure to use Save As and create a new theme or it will forget if you happen to click on the Hat Of God theme again. Thank you for trying out the program <img class="smilies" src="./AHK Studio - AutoHotkey Community_files/icon_e_smile.gif" alt=":)" title="Smile"> I hope that it is helpful.<br><br>As far as the error, I will try to write the program not using the class. Thank you for pointing this out.</div>
+<div id="sig4237" class="signature"><a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=300" class="postlink">AHK Studio</a> <a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=3966" class="postlink">OSD</a> <a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=303" class="postlink">GUI Creator</a><br><a href="http://www.maestrith.com/donations/" class="postlink">Donations (A bit slow currently)</a><br>All code is done on a Windows 10 PC Running x64 and AutoHotkey x32</div>
+</div>
+</div>
+</div>
+<div class="back2top"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#top" class="top" title="Top">Top</a></div>
+</div>
+<div id="p4255" class="post has-profile bg1">
+<div class="inner">
+<dl class="postprofile resized" id="profile4255" style="z-index: 23; min-height: 178px;">
+<dt class="no-profile-rank has-avatar">
+<div class="avatar-container">
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=55" class="avatar"><img class="avatar" src="./AHK Studio - AutoHotkey Community_files/file.php" width="80" height="80" alt="User avatar"></a>
+</div>
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=55" style="color: #FF0000;" class="username-coloured">joedf</a>
+</dt>
+<dd class="profile-posts"><strong>Posts:</strong> <a href="https://autohotkey.com/boards/search.php?author_id=55&amp;sr=posts">5397</a></dd>
+<dd class="profile-joined"><strong>Joined:</strong> 29 Sep 2013</dd>
+<dd class="profile-custom-field profile-facebook"><strong>Facebook:</strong> J0EDF</dd>
+<dd class="profile-custom-field profile-google_plus"><strong>Google:</strong> +joedf</dd>
+<dd class="profile-custom-field profile-github"><strong>GitHub:</strong> joedf</dd>
+<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Canada, Quebec</dd>
+<dd class="profile-contact">
+<strong>Contact:</strong>
+<div class="dropdown-container dropdown-right dropdown-down">
+<a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#" class="dropdown-trigger dropdown-toggle"><span class="imageset icon_contact" title="Contact joedf">Contact joedf</span></a>
+<div class="dropdown hidden">
+<div class="pointer"><div class="pointer-inner"></div></div>
+<div class="dropdown-contents contact-icons">
+<div>
+<a href="http://joedf.ahkscript.org/" title="Website">
+<span class="contact-icon phpbb_website-icon">Website</span>
+</a>
+<a href="skype:joe-df?userinfo" title="Skype">
+<span class="contact-icon phpbb_skype-icon">Skype</span>
+</a>
+<a href="https://twitter.com/joedf64" title="Twitter" class="last-cell">
+<span class="contact-icon phpbb_twitter-icon">Twitter</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</dd>
+</dl>
+<div class="postbody">
+<div id="post_content4255">
+<h3 style="display: none;"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#p4255">Re: AHK Studio</a></h3>
+<ul class="post-buttons">
+<li>
+<a href="https://autohotkey.com/boards/posting.php?mode=quote&amp;f=62&amp;p=4255" title="Reply with quote" class="button icon-button quote-icon"><span>Quote</span></a>
+</li>
+<li class="responsive-menu hidden dropdown-container"><a href="javascript:void(0);" class="responsive-menu-link dropdown-toggle">&nbsp;</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"></ul></div></li></ul>
+<p class="author"><a href="https://autohotkey.com/boards/viewtopic.php?p=4255#p4255">03 Nov 2013, 09:50</a></p>
+<div class="content">Yeah, i think i have to update my themes for ahk studio also,<br>They are a bit out of date <img class="smilies" src="./AHK Studio - AutoHotkey Community_files/icon_razz.gif" alt=":P" title="Razz"> i will make Monokai &amp; PlasticCodeWrap available<br>And functioning properly for the current version of AHK Studio. <img class="smilies" src="./AHK Studio - AutoHotkey Community_files/icon_e_wink.gif" alt=";)" title="Wink"></div>
+<div id="sig4255" class="signature"><a href="mailto://joedf@ahkscript.org" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/ahkneedhelp.gif" class="postimage" alt="Image"></a> <a href="http://ahkscript.org/foundation" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/ahkfoundation.gif" class="postimage" alt="Image"></a> <a href="https://opensource.org/licenses/MIT" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/mitlicense.gif" class="postimage" alt="Image"></a> <a href="http://greenpeace.org/" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/+greenpeace.gif" class="postimage" alt="Image"></a> <a href="https://ahkscript.github.io/" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/githubahkscript.gif" class="postimage" alt="Image"></a><br><span style="font-size: 68%; line-height: normal"><strong>Windows 10 x64 Home Premium, Intel i5 Gen 1 @ 2.40 GHz, 8GB DDR3 RAM | <a href="http://joedf.ahkscript.org/about" class="postlink">[About Me]</a> | <a href="https://github.com/ahkscript/ASPDM" class="postlink">[ASPDM - StdLib Distribution]</a><br><a href="http://autohotkey.myminicity.com/com" class="postlink">[Populate the AHK MiniCity!]</a>&nbsp;| <a href="http://qonsole-ahk.sourceforge.net/" class="postlink">[Qonsole - Quake-like console emulator]</a>&nbsp;| <a href="https://joedf.github.io/libcon" class="postlink">[LibCon - Autohotkey Console Library]</a> | <a href="http://ahkscript.org/foundation" class="postlink">[About the AHK Foundation]</a></strong></span></div>
+</div>
+</div>
+</div>
+<div class="back2top"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#top" class="top" title="Top">Top</a></div>
+</div>
+<div id="p4256" class="post has-profile bg2">
+<div class="inner">
+<dl class="postprofile resized" id="profile4256" style="z-index: 22; min-height: 309px;">
+<dt class="no-profile-rank no-avatar">
+<div class="avatar-container">
+</div>
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=320" class="username">maestrith</a>
+</dt>
+<dd class="profile-posts"><strong>Posts:</strong> <a href="https://autohotkey.com/boards/search.php?author_id=320&amp;sr=posts">617</a></dd>
+<dd class="profile-joined"><strong>Joined:</strong> 16 Oct 2013</dd>
+</dl>
+<div class="postbody">
+<div id="post_content4256">
+<h3 style="display: none;"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#p4256">Re: AHK Studio</a></h3>
+<ul class="post-buttons">
+<li>
+<a href="https://autohotkey.com/boards/posting.php?mode=quote&amp;f=62&amp;p=4256" title="Reply with quote" class="button icon-button quote-icon"><span>Quote</span></a>
+</li>
+<li class="responsive-menu hidden dropdown-container"><a href="javascript:void(0);" class="responsive-menu-link dropdown-toggle">&nbsp;</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"></ul></div></li></ul>
+<p class="author"><a href="https://autohotkey.com/boards/viewtopic.php?p=4256#p4256">03 Nov 2013, 09:54</a></p>
+<div class="content"><blockquote><div><cite>joedf wrote:</cite>Yeah, i think i have to update my themes for ahk studio also,<br>They are a bit out of date <img class="smilies" src="./AHK Studio - AutoHotkey Community_files/icon_razz.gif" alt=":P" title="Razz"> i will make Monokai &amp; PlasticCodeWrap available<br>And functioning properly for the current version of AHK Studio. <img class="smilies" src="./AHK Studio - AutoHotkey Community_files/icon_e_wink.gif" alt=";)" title="Wink"></div></blockquote><br>Thank you for the help! I am always looking for new themes to use and also to add them to the list available to everyone to use. I think that I am going to re-write a bit of the download code so that it does not need to have an image preview, rather it will just change the currently used theme to the one on the server.</div>
+<div id="sig4256" class="signature"><a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=300" class="postlink">AHK Studio</a> <a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=3966" class="postlink">OSD</a> <a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=303" class="postlink">GUI Creator</a><br><a href="http://www.maestrith.com/donations/" class="postlink">Donations (A bit slow currently)</a><br>All code is done on a Windows 10 PC Running x64 and AutoHotkey x32</div>
+</div>
+</div>
+</div>
+<div class="back2top"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#top" class="top" title="Top">Top</a></div>
+</div>
+<div id="p4257" class="post has-profile bg1">
+<div class="inner">
+<dl class="postprofile resized" id="profile4257" style="z-index: 21; min-height: 161px;">
+<dt class="no-profile-rank has-avatar">
+<div class="avatar-container">
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=55" class="avatar"><img class="avatar" src="./AHK Studio - AutoHotkey Community_files/file.php" width="80" height="80" alt="User avatar"></a>
+</div>
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=55" style="color: #FF0000;" class="username-coloured">joedf</a>
+</dt>
+<dd class="profile-posts"><strong>Posts:</strong> <a href="https://autohotkey.com/boards/search.php?author_id=55&amp;sr=posts">5397</a></dd>
+<dd class="profile-joined"><strong>Joined:</strong> 29 Sep 2013</dd>
+<dd class="profile-custom-field profile-facebook"><strong>Facebook:</strong> J0EDF</dd>
+<dd class="profile-custom-field profile-google_plus"><strong>Google:</strong> +joedf</dd>
+<dd class="profile-custom-field profile-github"><strong>GitHub:</strong> joedf</dd>
+<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Canada, Quebec</dd>
+<dd class="profile-contact">
+<strong>Contact:</strong>
+<div class="dropdown-container dropdown-right dropdown-down">
+<a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#" class="dropdown-trigger dropdown-toggle"><span class="imageset icon_contact" title="Contact joedf">Contact joedf</span></a>
+<div class="dropdown hidden">
+<div class="pointer"><div class="pointer-inner"></div></div>
+<div class="dropdown-contents contact-icons">
+<div>
+<a href="http://joedf.ahkscript.org/" title="Website">
+<span class="contact-icon phpbb_website-icon">Website</span>
+</a>
+<a href="skype:joe-df?userinfo" title="Skype">
+<span class="contact-icon phpbb_skype-icon">Skype</span>
+</a>
+<a href="https://twitter.com/joedf64" title="Twitter" class="last-cell">
+<span class="contact-icon phpbb_twitter-icon">Twitter</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</dd>
+</dl>
+<div class="postbody">
+<div id="post_content4257">
+<h3 style="display: none;"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#p4257">Re: AHK Studio</a></h3>
+<ul class="post-buttons">
+<li>
+<a href="https://autohotkey.com/boards/posting.php?mode=quote&amp;f=62&amp;p=4257" title="Reply with quote" class="button icon-button quote-icon"><span>Quote</span></a>
+</li>
+<li class="responsive-menu hidden dropdown-container"><a href="javascript:void(0);" class="responsive-menu-link dropdown-toggle">&nbsp;</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"></ul></div></li></ul>
+<p class="author"><a href="https://autohotkey.com/boards/viewtopic.php?p=4257#p4257">03 Nov 2013, 09:55</a></p>
+<div class="content">Cool! <img class="smilies" src="./AHK Studio - AutoHotkey Community_files/icon_e_biggrin.gif" alt=":D" title="Very Happy"></div>
+<div id="sig4257" class="signature"><a href="mailto://joedf@ahkscript.org" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/ahkneedhelp.gif" class="postimage" alt="Image"></a> <a href="http://ahkscript.org/foundation" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/ahkfoundation.gif" class="postimage" alt="Image"></a> <a href="https://opensource.org/licenses/MIT" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/mitlicense.gif" class="postimage" alt="Image"></a> <a href="http://greenpeace.org/" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/+greenpeace.gif" class="postimage" alt="Image"></a> <a href="https://ahkscript.github.io/" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/githubahkscript.gif" class="postimage" alt="Image"></a><br><span style="font-size: 68%; line-height: normal"><strong>Windows 10 x64 Home Premium, Intel i5 Gen 1 @ 2.40 GHz, 8GB DDR3 RAM | <a href="http://joedf.ahkscript.org/about" class="postlink">[About Me]</a> | <a href="https://github.com/ahkscript/ASPDM" class="postlink">[ASPDM - StdLib Distribution]</a><br><a href="http://autohotkey.myminicity.com/com" class="postlink">[Populate the AHK MiniCity!]</a>&nbsp;| <a href="http://qonsole-ahk.sourceforge.net/" class="postlink">[Qonsole - Quake-like console emulator]</a>&nbsp;| <a href="https://joedf.github.io/libcon" class="postlink">[LibCon - Autohotkey Console Library]</a> | <a href="http://ahkscript.org/foundation" class="postlink">[About the AHK Foundation]</a></strong></span></div>
+</div>
+</div>
+</div>
+<div class="back2top"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#top" class="top" title="Top">Top</a></div>
+</div>
+<div id="p4273" class="post has-profile bg2">
+<div class="inner">
+<dl class="postprofile resized" id="profile4273" style="z-index: 20; min-height: 191px;">
+<dt class="no-profile-rank no-avatar">
+<div class="avatar-container">
+</div>
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=320" class="username">maestrith</a>
+</dt>
+<dd class="profile-posts"><strong>Posts:</strong> <a href="https://autohotkey.com/boards/search.php?author_id=320&amp;sr=posts">617</a></dd>
+<dd class="profile-joined"><strong>Joined:</strong> 16 Oct 2013</dd>
+</dl>
+<div class="postbody">
+<div id="post_content4273">
+<h3 style="display: none;"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#p4273">Re: AHK Studio</a></h3>
+<ul class="post-buttons">
+<li>
+<a href="https://autohotkey.com/boards/posting.php?mode=quote&amp;f=62&amp;p=4273" title="Reply with quote" class="button icon-button quote-icon"><span>Quote</span></a>
+</li>
+<li class="responsive-menu hidden dropdown-container"><a href="javascript:void(0);" class="responsive-menu-link dropdown-toggle">&nbsp;</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"></ul></div></li></ul>
+<p class="author"><a href="https://autohotkey.com/boards/viewtopic.php?p=4273#p4273">03 Nov 2013, 11:06</a></p>
+<div class="content">0.001.52<br>Changed: Thanks to the bug reported by empardopo<br>-Removed the preview for downloading themes and just made them automatically add when you click on them.</div>
+<div id="sig4273" class="signature"><a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=300" class="postlink">AHK Studio</a> <a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=3966" class="postlink">OSD</a> <a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=303" class="postlink">GUI Creator</a><br><a href="http://www.maestrith.com/donations/" class="postlink">Donations (A bit slow currently)</a><br>All code is done on a Windows 10 PC Running x64 and AutoHotkey x32</div>
+</div>
+</div>
+</div>
+<div class="back2top"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#top" class="top" title="Top">Top</a></div>
+</div>
+<div id="p4299" class="post has-profile bg1">
+<div class="inner">
+<dl class="postprofile resized" id="profile4299" style="z-index: 19; min-height: 322px;">
+<dt class="no-profile-rank has-avatar">
+<div class="avatar-container">
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=55" class="avatar"><img class="avatar" src="./AHK Studio - AutoHotkey Community_files/file.php" width="80" height="80" alt="User avatar"></a>
+</div>
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=55" style="color: #FF0000;" class="username-coloured">joedf</a>
+</dt>
+<dd class="profile-posts"><strong>Posts:</strong> <a href="https://autohotkey.com/boards/search.php?author_id=55&amp;sr=posts">5397</a></dd>
+<dd class="profile-joined"><strong>Joined:</strong> 29 Sep 2013</dd>
+<dd class="profile-custom-field profile-facebook"><strong>Facebook:</strong> J0EDF</dd>
+<dd class="profile-custom-field profile-google_plus"><strong>Google:</strong> +joedf</dd>
+<dd class="profile-custom-field profile-github"><strong>GitHub:</strong> joedf</dd>
+<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Canada, Quebec</dd>
+<dd class="profile-contact">
+<strong>Contact:</strong>
+<div class="dropdown-container dropdown-right dropdown-down">
+<a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#" class="dropdown-trigger dropdown-toggle"><span class="imageset icon_contact" title="Contact joedf">Contact joedf</span></a>
+<div class="dropdown hidden">
+<div class="pointer"><div class="pointer-inner"></div></div>
+<div class="dropdown-contents contact-icons">
+<div>
+<a href="http://joedf.ahkscript.org/" title="Website">
+<span class="contact-icon phpbb_website-icon">Website</span>
+</a>
+<a href="skype:joe-df?userinfo" title="Skype">
+<span class="contact-icon phpbb_skype-icon">Skype</span>
+</a>
+<a href="https://twitter.com/joedf64" title="Twitter" class="last-cell">
+<span class="contact-icon phpbb_twitter-icon">Twitter</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</dd>
+</dl>
+<div class="postbody">
+<div id="post_content4299">
+<h3 style="display: none;"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#p4299">Re: AHK Studio</a></h3>
+<ul class="post-buttons">
+<li>
+<a href="https://autohotkey.com/boards/posting.php?mode=quote&amp;f=62&amp;p=4299" title="Reply with quote" class="button icon-button quote-icon"><span>Quote</span></a>
+</li>
+<li class="responsive-menu hidden dropdown-container"><a href="javascript:void(0);" class="responsive-menu-link dropdown-toggle">&nbsp;</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"></ul></div></li></ul>
+<p class="author"><a href="https://autohotkey.com/boards/viewtopic.php?p=4299#p4299">03 Nov 2013, 13:58</a></p>
+<div class="content">The theme xml settings are so confusing <img class="smilies" src="./AHK Studio - AutoHotkey Community_files/icon_e_sad.gif" alt=":(" title="Sad"><br>Could i have a list of all the style numbers?<br>eg. 33 is LineNumbers, etc. ?<br>also i prefer saving the colors only as Hexadecimal , not Decimal...<br>Thanks, also, why store the colors as BGR and not RGB that is also very confusing...<br><br>Anyways, i did get it to sorta work, the closest possible that i could get ..<br>Monokai:  <a class="postlink" href="https://github.com/joedf/PlasticCodeWrap/raw/master/AHK_Studio/Monokai.xml">https://github.com/joedf/PlasticCodeWra ... onokai.xml</a> <br>PlasticCodeWrap:  <a class="postlink" href="https://github.com/joedf/PlasticCodeWrap/raw/master/AHK_Studio/PlasticCodeWrap.xml">https://github.com/joedf/PlasticCodeWra ... deWrap.xml</a> <br><br>cheers <img class="smilies" src="./AHK Studio - AutoHotkey Community_files/icon_e_wink.gif" alt=";)" title="Wink"></div>
+<div id="sig4299" class="signature"><a href="mailto://joedf@ahkscript.org" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/ahkneedhelp.gif" class="postimage" alt="Image"></a> <a href="http://ahkscript.org/foundation" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/ahkfoundation.gif" class="postimage" alt="Image"></a> <a href="https://opensource.org/licenses/MIT" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/mitlicense.gif" class="postimage" alt="Image"></a> <a href="http://greenpeace.org/" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/+greenpeace.gif" class="postimage" alt="Image"></a> <a href="https://ahkscript.github.io/" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/githubahkscript.gif" class="postimage" alt="Image"></a><br><span style="font-size: 68%; line-height: normal"><strong>Windows 10 x64 Home Premium, Intel i5 Gen 1 @ 2.40 GHz, 8GB DDR3 RAM | <a href="http://joedf.ahkscript.org/about" class="postlink">[About Me]</a> | <a href="https://github.com/ahkscript/ASPDM" class="postlink">[ASPDM - StdLib Distribution]</a><br><a href="http://autohotkey.myminicity.com/com" class="postlink">[Populate the AHK MiniCity!]</a>&nbsp;| <a href="http://qonsole-ahk.sourceforge.net/" class="postlink">[Qonsole - Quake-like console emulator]</a>&nbsp;| <a href="https://joedf.github.io/libcon" class="postlink">[LibCon - Autohotkey Console Library]</a> | <a href="http://ahkscript.org/foundation" class="postlink">[About the AHK Foundation]</a></strong></span></div>
+</div>
+</div>
+</div>
+<div class="back2top"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#top" class="top" title="Top">Top</a></div>
+</div>
+<div id="p4303" class="post has-profile bg2">
+<div class="inner">
+<dl class="postprofile resized" id="profile4303" style="z-index: 18; min-height: 271px;">
+<dt class="no-profile-rank has-avatar">
+<div class="avatar-container">
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=197" class="avatar"><img class="avatar" src="./AHK Studio - AutoHotkey Community_files/file(1).php" width="74" height="99" alt="User avatar"></a>
+</div>
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=197" class="username">empardopo</a>
+</dt>
+<dd class="profile-posts"><strong>Posts:</strong> <a href="https://autohotkey.com/boards/search.php?author_id=197&amp;sr=posts">335</a></dd>
+<dd class="profile-joined"><strong>Joined:</strong> 06 Oct 2013</dd>
+<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Spain</dd>
+<dd class="profile-contact">
+<strong>Contact:</strong>
+<div class="dropdown-container dropdown-right dropdown-down">
+<a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#" class="dropdown-trigger dropdown-toggle"><span class="imageset icon_contact" title="Contact empardopo">Contact empardopo</span></a>
+<div class="dropdown hidden">
+<div class="pointer"><div class="pointer-inner"></div></div>
+<div class="dropdown-contents contact-icons">
+<div>
+<a href="http://empardopo.dyndns.info/web" title="Website" class="last-cell">
+<span class="contact-icon phpbb_website-icon">Website</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</dd>
+</dl>
+<div class="postbody">
+<div id="post_content4303">
+<h3 style="display: none;"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#p4303">Re: AHK Studio</a></h3>
+<ul class="post-buttons">
+<li>
+<a href="https://autohotkey.com/boards/posting.php?mode=quote&amp;f=62&amp;p=4303" title="Reply with quote" class="button icon-button quote-icon"><span>Quote</span></a>
+</li>
+<li class="responsive-menu hidden dropdown-container"><a href="javascript:void(0);" class="responsive-menu-link dropdown-toggle">&nbsp;</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"></ul></div></li></ul>
+<p class="author"><a href="https://autohotkey.com/boards/viewtopic.php?p=4303#p4303">03 Nov 2013, 14:13</a></p>
+<div class="content"><blockquote><div><cite>maestrith wrote:</cite>0.001.52<br>Changed: Thanks to the bug reported by empardopo<br>-Removed the preview for downloading themes and just made them automatically add when you click on them.</div></blockquote><br><br>Oh Perfect! <br>Congratulations! Very good job! <img class="smilies" src="./AHK Studio - AutoHotkey Community_files/icon_e_smile.gif" alt=":)" title="Smile"></div>
+<div id="sig4303" class="signature"><strong>Everything is possible!</strong></div>
+</div>
+</div>
+</div>
+<div class="back2top"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#top" class="top" title="Top">Top</a></div>
+</div>
+<div id="p4318" class="post has-profile bg1">
+<div class="inner">
+<dl class="postprofile resized" id="profile4318" style="z-index: 17; min-height: 534px;">
+<dt class="no-profile-rank no-avatar">
+<div class="avatar-container">
+</div>
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=320" class="username">maestrith</a>
+</dt>
+<dd class="profile-posts"><strong>Posts:</strong> <a href="https://autohotkey.com/boards/search.php?author_id=320&amp;sr=posts">617</a></dd>
+<dd class="profile-joined"><strong>Joined:</strong> 16 Oct 2013</dd>
+</dl>
+<div class="postbody">
+<div id="post_content4318">
+<h3 style="display: none;"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#p4318">Re: AHK Studio</a></h3>
+<ul class="post-buttons">
+<li>
+<a href="https://autohotkey.com/boards/posting.php?mode=quote&amp;f=62&amp;p=4318" title="Reply with quote" class="button icon-button quote-icon"><span>Quote</span></a>
+</li>
+<li class="responsive-menu hidden dropdown-container"><a href="javascript:void(0);" class="responsive-menu-link dropdown-toggle">&nbsp;</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"></ul></div></li></ul>
+<p class="author"><a href="https://autohotkey.com/boards/viewtopic.php?p=4318#p4318">03 Nov 2013, 15:27</a></p>
+<div class="content"><blockquote><div><cite>joedf wrote:</cite>The theme xml settings are so confusing <img class="smilies" src="./AHK Studio - AutoHotkey Community_files/icon_e_sad.gif" alt=":(" title="Sad"><br>Could i have a list of all the style numbers?<br>eg. 33 is LineNumbers, etc. ?<br>also i prefer saving the colors only as Hexadecimal , not Decimal...<br>Thanks, also, why store the colors as BGR and not RGB that is also very confusing...<br><br>Anyways, i did get it to sorta work, the closest possible that i could get ..<br>Monokai:  <a class="postlink" href="https://github.com/joedf/PlasticCodeWrap/raw/master/AHK_Studio/Monokai.xml">https://github.com/joedf/PlasticCodeWra ... onokai.xml</a> <br>PlasticCodeWrap:  <a class="postlink" href="https://github.com/joedf/PlasticCodeWrap/raw/master/AHK_Studio/PlasticCodeWrap.xml">https://github.com/joedf/PlasticCodeWra ... deWrap.xml</a> <br><br>cheers <img class="smilies" src="./AHK Studio - AutoHotkey Community_files/icon_e_wink.gif" alt=";)" title="Wink"></div></blockquote><br><br>As far as the BGR rather than RGB storage goes SciLexer.dll uses the codes in BGR format and I guess I am lazy <img class="smilies" src="./AHK Studio - AutoHotkey Community_files/icon_e_wink.gif" alt=";)" title="Wink"> I love the new themes! They are now online to be downloaded through the program. I will see if I can make an easy way to add RGB colors with Hex codes. If it requires a total re-write to do so I do not know if I will be able to change it though.<br><br>As far as the color codes I will have to compile a list because honestly I forget what they all are. I have been moving and under a lot of stress and that has pretty much triggered a reset in my brain so I will have to figure out what all of the codes are.</div>
+<div id="sig4318" class="signature"><a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=300" class="postlink">AHK Studio</a> <a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=3966" class="postlink">OSD</a> <a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=303" class="postlink">GUI Creator</a><br><a href="http://www.maestrith.com/donations/" class="postlink">Donations (A bit slow currently)</a><br>All code is done on a Windows 10 PC Running x64 and AutoHotkey x32</div>
+</div>
+</div>
+</div>
+<div class="back2top"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#top" class="top" title="Top">Top</a></div>
+</div>
+<div id="p4324" class="post has-profile bg2">
+<div class="inner">
+<dl class="postprofile resized" id="profile4324" style="z-index: 16; min-height: 439px;">
+<dt class="no-profile-rank has-avatar">
+<div class="avatar-container">
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=55" class="avatar"><img class="avatar" src="./AHK Studio - AutoHotkey Community_files/file.php" width="80" height="80" alt="User avatar"></a>
+</div>
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=55" style="color: #FF0000;" class="username-coloured">joedf</a>
+</dt>
+<dd class="profile-posts"><strong>Posts:</strong> <a href="https://autohotkey.com/boards/search.php?author_id=55&amp;sr=posts">5397</a></dd>
+<dd class="profile-joined"><strong>Joined:</strong> 29 Sep 2013</dd>
+<dd class="profile-custom-field profile-facebook"><strong>Facebook:</strong> J0EDF</dd>
+<dd class="profile-custom-field profile-google_plus"><strong>Google:</strong> +joedf</dd>
+<dd class="profile-custom-field profile-github"><strong>GitHub:</strong> joedf</dd>
+<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Canada, Quebec</dd>
+<dd class="profile-contact">
+<strong>Contact:</strong>
+<div class="dropdown-container dropdown-right dropdown-down">
+<a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#" class="dropdown-trigger dropdown-toggle"><span class="imageset icon_contact" title="Contact joedf">Contact joedf</span></a>
+<div class="dropdown hidden">
+<div class="pointer"><div class="pointer-inner"></div></div>
+<div class="dropdown-contents contact-icons">
+<div>
+<a href="http://joedf.ahkscript.org/" title="Website">
+<span class="contact-icon phpbb_website-icon">Website</span>
+</a>
+<a href="skype:joe-df?userinfo" title="Skype">
+<span class="contact-icon phpbb_skype-icon">Skype</span>
+</a>
+<a href="https://twitter.com/joedf64" title="Twitter" class="last-cell">
+<span class="contact-icon phpbb_twitter-icon">Twitter</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</dd>
+</dl>
+<div class="postbody">
+<div id="post_content4324">
+<h3 style="display: none;"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#p4324">Re: AHK Studio</a></h3>
+<ul class="post-buttons">
+<li>
+<a href="https://autohotkey.com/boards/posting.php?mode=quote&amp;f=62&amp;p=4324" title="Reply with quote" class="button icon-button quote-icon"><span>Quote</span></a>
+</li>
+<li class="responsive-menu hidden dropdown-container"><a href="javascript:void(0);" class="responsive-menu-link dropdown-toggle">&nbsp;</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"></ul></div></li></ul>
+<p class="author"><a href="https://autohotkey.com/boards/viewtopic.php?p=4324#p4324">03 Nov 2013, 17:16</a></p>
+<div class="content"><strong>rgb2bgr :</strong> vice versa (an old post by you:  <a class="postlink" href="http://www.autohotkey.com/board/topic/69509-bgr-to-rgb-issue/">http://www.autohotkey.com/board/topic/6 ... rgb-issue/</a> )<br><ul>here's a fork:<br><div class="codebox codebox_plus"><p>Code: <a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#" onclick="codebox_plus_select(this); return false;">[Select all]</a>&nbsp;<a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#" onclick="codebox_plus_toggle(this, &#39;[Expand]&#39;, &#39;[Collapse]&#39;); return false;">[Expand]</a>&nbsp;<a href="https://autohotkey.com/boards/codeboxplus/download/4324-1" onclick="window.open(this.href); return false;">[Download]</a> <span class="codebox_plus_about"><a href="http://qbnz.com/highlighter/" target="_blank">GeSHi</a> © <a href="https://github.com/ahkscript/phpBB-Extension-Codebox-Plus" target="_blank">Codebox Plus</a></span></p><code class="collapsed"><pre class="autohotkey">color<span class="sy0">:=</span>0xAABBCC<br><a target="_blank" href="https://autohotkey.com/docs/MsgBox"><span class="kw3">msgbox</span></a> % color<span class="sy0">:=</span>FlipBlueAndRed<span class="br0">(</span>color<span class="br0">)</span> <span class="co1">;should print 0xCCBBAA</span><br><a target="_blank" href="https://autohotkey.com/docs/MsgBox"><span class="kw3">msgbox</span></a> % color<span class="sy0">:=</span>FlipBlueAndRed<span class="br0">(</span>color<span class="br0">)</span> <span class="co1">;should print 0xAABBCC</span><br><br>FlipBlueAndRed<span class="br0">(</span>c<span class="br0">)</span><br><span class="br0">{</span><br>   oldfrmt <span class="sy0">:=</span> <a target="_blank" href="https://autohotkey.com/docs/A_FormatInteger"><span class="kw2">A_FormatInteger</span></a><br>   <a target="_blank" href="https://autohotkey.com/docs/SetFormat"><span class="kw3">SetFormat</span></a> integer <span class="sy0">,</span> Hex<br>   x<span class="sy0">:=</span><span class="br0">(</span>c<span class="sy0">&amp;</span><span class="nu0">255</span><span class="br0">)</span><span class="sy0">&lt;&lt;</span><span class="nu0">16</span> | <span class="br0">(</span>c<span class="sy0">&amp;</span><span class="nu0">65280</span><span class="br0">)</span> | <span class="br0">(</span>c<span class="sy0">&gt;&gt;</span><span class="nu0">16</span><span class="br0">)</span><br>   <a target="_blank" href="https://autohotkey.com/docs/SetFormat"><span class="kw3">SetFormat</span></a><span class="sy0">,</span> Integer<span class="sy0">,</span> <span class="re0">%oldfrmt%</span><br>   <a target="_blank" href="https://autohotkey.com/docs/Return"><span class="kw3">return</span></a> x<br><span class="br0">}</span></pre></code></div></ul><strong>Color codes :</strong> ill figure them out... one by one... if there's ever an issue <img class="smilies" src="./AHK Studio - AutoHotkey Community_files/icon_e_wink.gif" alt=";)" title="Wink"></div>
+<div id="sig4324" class="signature"><a href="mailto://joedf@ahkscript.org" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/ahkneedhelp.gif" class="postimage" alt="Image"></a> <a href="http://ahkscript.org/foundation" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/ahkfoundation.gif" class="postimage" alt="Image"></a> <a href="https://opensource.org/licenses/MIT" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/mitlicense.gif" class="postimage" alt="Image"></a> <a href="http://greenpeace.org/" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/+greenpeace.gif" class="postimage" alt="Image"></a> <a href="https://ahkscript.github.io/" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/githubahkscript.gif" class="postimage" alt="Image"></a><br><span style="font-size: 68%; line-height: normal"><strong>Windows 10 x64 Home Premium, Intel i5 Gen 1 @ 2.40 GHz, 8GB DDR3 RAM | <a href="http://joedf.ahkscript.org/about" class="postlink">[About Me]</a> | <a href="https://github.com/ahkscript/ASPDM" class="postlink">[ASPDM - StdLib Distribution]</a><br><a href="http://autohotkey.myminicity.com/com" class="postlink">[Populate the AHK MiniCity!]</a>&nbsp;| <a href="http://qonsole-ahk.sourceforge.net/" class="postlink">[Qonsole - Quake-like console emulator]</a>&nbsp;| <a href="https://joedf.github.io/libcon" class="postlink">[LibCon - Autohotkey Console Library]</a> | <a href="http://ahkscript.org/foundation" class="postlink">[About the AHK Foundation]</a></strong></span></div>
+</div>
+</div>
+</div>
+<div class="back2top"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#top" class="top" title="Top">Top</a></div>
+</div>
+<div id="p9812" class="post has-profile bg1">
+<div class="inner">
+<dl class="postprofile resized" id="profile9812" style="z-index: 15; min-height: 396px;">
+<dt class="no-profile-rank no-avatar">
+<div class="avatar-container">
+</div>
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=320" class="username">maestrith</a>
+</dt>
+<dd class="profile-posts"><strong>Posts:</strong> <a href="https://autohotkey.com/boards/search.php?author_id=320&amp;sr=posts">617</a></dd>
+<dd class="profile-joined"><strong>Joined:</strong> 16 Oct 2013</dd>
+</dl>
+<div class="postbody">
+<div id="post_content9812">
+<h3 style="display: none;"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#p9812">Re: AHK Studio</a></h3>
+<ul class="post-buttons">
+<li>
+<a href="https://autohotkey.com/boards/posting.php?mode=quote&amp;f=62&amp;p=9812" title="Reply with quote" class="button icon-button quote-icon"><span>Quote</span></a>
+</li>
+<li class="responsive-menu hidden dropdown-container"><a href="javascript:void(0);" class="responsive-menu-link dropdown-toggle">&nbsp;</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"></ul></div></li></ul>
+<p class="author"><a href="https://autohotkey.com/boards/viewtopic.php?p=9812#p9812">23 Jan 2014, 08:35</a></p>
+<div class="content">Sorry this took so long joedf.<br><div class="codebox codebox_plus"><p>Code: <a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#" onclick="codebox_plus_select(this); return false;">[Select all]</a>&nbsp;<a href="https://autohotkey.com/boards/codeboxplus/download/9812-1" onclick="window.open(this.href); return false;">[Download]</a> (rgb.ahk)<span class="codebox_plus_about"><a href="http://qbnz.com/highlighter/" target="_blank">GeSHi</a> © <a href="https://github.com/ahkscript/phpBB-Extension-Codebox-Plus" target="_blank">Codebox Plus</a></span></p><code><pre class="autohotkey"><a target="_blank" href="https://autohotkey.com/docs/MsgBox"><span class="kw3">msgbox</span></a> % rgb<span class="br0">(</span>0xff00cc<span class="br0">)</span> <span class="co1">;Displays 0xCC00FF</span><br><a target="_blank" href="https://autohotkey.com/docs/MsgBox"><span class="kw3">msgbox</span></a> % rgb<span class="br0">(</span><span class="nu0">16711935</span><span class="br0">)</span> <span class="co1">;Displays 0xFF00FF</span><br>rgb<span class="br0">(</span>c<span class="br0">)</span><span class="br0">{</span><br>	<a target="_blank" href="https://autohotkey.com/docs/SetFormat"><span class="kw3">setformat</span></a><span class="sy0">,</span>IntegerFast<span class="sy0">,</span>H<br>	c<span class="sy0">:=</span><span class="br0">(</span>c<span class="sy0">&amp;</span><span class="nu0">255</span><span class="br0">)</span><span class="sy0">&lt;&lt;</span><span class="nu0">16</span>|<span class="br0">(</span>c<span class="sy0">&amp;</span><span class="nu0">65280</span><span class="br0">)</span>|<span class="br0">(</span>c<span class="sy0">&gt;&gt;</span><span class="nu0">16</span><span class="br0">)</span><span class="sy0">,</span>c<span class="sy0">:=</span><a target="_blank" href="https://autohotkey.com/docs/SubStr"><span class="kw4">SubStr</span></a><span class="br0">(</span>c<span class="sy0">,</span><span class="nu0">1</span><span class="br0">)</span><br>	<a target="_blank" href="https://autohotkey.com/docs/SetFormat"><span class="kw3">SetFormat</span></a><span class="sy0">,</span> integerfast<span class="sy0">,</span>D<br>	<a target="_blank" href="https://autohotkey.com/docs/Return"><span class="kw3">return</span></a> c<br><span class="br0">}</span></pre></code></div><br>That was some old code that I had. Works the same as the one above just a bit smaller. Anyway I hope that it helps. I had my hard drive crash and I lost all of my scripts. I have spent the last few weeks re-writing a lot of what I had from scratch. :/</div>
+<div id="sig9812" class="signature"><a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=300" class="postlink">AHK Studio</a> <a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=3966" class="postlink">OSD</a> <a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=303" class="postlink">GUI Creator</a><br><a href="http://www.maestrith.com/donations/" class="postlink">Donations (A bit slow currently)</a><br>All code is done on a Windows 10 PC Running x64 and AutoHotkey x32</div>
+</div>
+</div>
+</div>
+<div class="back2top"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#top" class="top" title="Top">Top</a></div>
+</div>
+<div id="p9826" class="post has-profile bg2">
+<div class="inner">
+<dl class="postprofile resized" id="profile9826" style="z-index: 14; min-height: 394px;">
+<dt class="no-profile-rank no-avatar">
+<div class="avatar-container">
+</div>
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=122" class="username">Guest10</a>
+</dt>
+<dd class="profile-posts"><strong>Posts:</strong> <a href="https://autohotkey.com/boards/search.php?author_id=122&amp;sr=posts">578</a></dd>
+<dd class="profile-joined"><strong>Joined:</strong> 01 Oct 2013</dd>
+</dl>
+<div class="postbody">
+<div id="post_content9826">
+<h3 style="display: none;"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#p9826">Re: AHK Studio</a></h3>
+<ul class="post-buttons">
+<li>
+<a href="https://autohotkey.com/boards/posting.php?mode=quote&amp;f=62&amp;p=9826" title="Reply with quote" class="button icon-button quote-icon"><span>Quote</span></a>
+</li>
+<li class="responsive-menu hidden dropdown-container"><a href="javascript:void(0);" class="responsive-menu-link dropdown-toggle">&nbsp;</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"></ul></div></li></ul>
+<p class="author"><a href="https://autohotkey.com/boards/viewtopic.php?p=9826#p9826">23 Jan 2014, 11:34</a></p>
+<div class="content">I suggest backing up continuously to a flash drive using the script below:<br><br><blockquote class="uncited"><div>I had my hard drive crash and I lost all of my scripts. I have spent the last few weeks re-writing a lot of what I had from scratch. :/ </div></blockquote><div class="codebox codebox_plus"><p>Code: <a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#" onclick="codebox_plus_select(this); return false;">[Select all]</a>&nbsp;<a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#" onclick="codebox_plus_toggle(this, &#39;[Expand]&#39;, &#39;[Collapse]&#39;); return false;">[Expand]</a>&nbsp;<a href="https://autohotkey.com/boards/codeboxplus/download/9826-1" onclick="window.open(this.href); return false;">[Download]</a> (Script.ahk)<span class="codebox_plus_about"><a href="http://qbnz.com/highlighter/" target="_blank">GeSHi</a> © <a href="https://github.com/ahkscript/phpBB-Extension-Codebox-Plus" target="_blank">Codebox Plus</a></span></p><code class="collapsed"><pre class="autohotkey"><span class="co1">; http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=1288</span><br><br><span class="coMULTI">/*<br>this is an old script, from the old forum, that allows to synchronize (mirroring or not) two directories. I ported it to Unicode adding support for long paths. It's FAST and has a lot of features:<br><br>    Normal synchronization<br>    Mirror synchronization (deleted source files are deleted on destination)<br>    Gracefully stoppable synchronization<br>    Exclusions of absolute paths and file/directory names for both the sync operations<br>    Logging<br>    Simulation<br>    Stacking GUI for multiple scripts running<br>    Low priority mode<br>    Quiet mode<br><br>The ANSI CopyFileEx has a limit of MAX_PATH = 260 chars. With the Unicode version the limit is 32,767 chars.<br><br>This is the code, give it a couple of test run before using it for important stuff.<br><br>The copy should work correctly, but I don't know if commands like FileDelete, FileRemoveDir, etc. support it. I will do some tests...<br>*/</span><br><br><span class="co1">; ----------------------------------------------------------------------------------------------------------------------</span><br><span class="co1">; Name .........: SuperSynchronizer</span><br><span class="co1">; Description ..: A little script for incremental/mirror directory backup.</span><br><span class="co1">; AHK Version ..: AHK_L 1.1.13.01 x32 Unicode</span><br><span class="co1">; Author .......: Cyruz - http://ciroprincipe.info</span><br><span class="co1">; License ......: WTFPL - http://www.wtfpl.net/txt/copying/</span><br><span class="co1">; Changelog ....: Oct. 20, 2011 - v0.1 - Fixed some inconsistences with reverse check exclusions.</span><br><span class="co1">; ..............: Oct. 26, 2011 - v0.2 - Fixed a parenthesis glitch and a problem with the reverse check routine where a</span><br><span class="co1">; ..............:                        file in destination side doesn't get updated if it's newer than the source side</span><br><span class="co1">; ..............:                        causing an incorrect mirroring. Adjusted some comments.</span><br><span class="co1">; ..............: May  25, 2013 - v1.0 - Code refactoring, improved logging, stacking gui, multiscript capabilities,</span><br><span class="co1">; ..............:                        large files handling.</span><br><span class="co1">; ..............: Jan. 06, 2014 - v1.1 - Code refactoring, Unicode and long path support, added simulation feature.</span><br><span class="co1">; ..............: Jan. 07, 2014 - v1.1 - Added exclusions by file extension.</span><br><span class="co1">; Functioning ..: The script is structured in two phases:</span><br><span class="co1">; ..............: 1. REPLICATION CHECK</span><br><span class="co1">; ..............:    The files on the DESTINATION SIDE are synchronized with the files on the SOURCE SIDE.</span><br><span class="co1">; ..............: 2. REVERSE CHECK</span><br><span class="co1">; ..............:    The files on the DESTINATION SIDE that don't exist on SOURCE SIDE are deleted.</span><br><span class="co1">; ..............:    The script can be instantiated multiple times, and the GUI will stack automatically starting from</span><br><span class="co1">; ..............:    the TOP-RIGHT corner. A detailed log file is createad by default in A_ScriptDir.</span><br><span class="co1">; How to use ...: [] Set the source and destination directory, set copy mode (enable/disable mirroring) and logging.</span><br><span class="co1">; ..............: [] To exclude files from the replication or reverse check, add them to the exclusion lists.</span><br><span class="co1">; ..............: [] Run the script. If you need to stop the script, flag "Sure?" checkbox and click "Stop" button.</span><br><span class="co1">; ..............: [] [] If you stop the script, the the actual processed file is deleted to allow a clean restart.</span><br><span class="co1">; ..............: [] The script can be run avoiding any user interaction passing the "-quiet" parameter on command line.</span><br><span class="co1">; ..............: [] [] If you close/exit/kill the script it will behave like if the script is stopped.</span><br><span class="co1">; ----------------------------------------------------------------------------------------------------------------------</span><br><br><span class="co1">;#NoTrayIcon</span><br><a target="_blank" href="https://autohotkey.com/docs/%23Persistent"><span class="kw5">#Persistent</span></a><br><a target="_blank" href="https://autohotkey.com/docs/%23SingleInstance"><span class="kw5">#SingleInstance</span></a> Off<br><a target="_blank" href="https://autohotkey.com/docs/DetectHiddenWindows"><span class="kw3">DetectHiddenWindows</span></a><span class="sy0">,</span> On<br><a target="_blank" href="https://autohotkey.com/docs/SetTitleMatchMode"><span class="kw3">SetTitleMatchMode</span></a><span class="sy0">,</span> <span class="nu0">2</span><br><br><span class="co1">; ======================================================================================================================</span><br><span class="co1">; ===[ VARIABLES SECTION ]==============================================================================================</span><br><span class="co1">; ======================================================================================================================</span><br><br><span class="co1">; SOURCE DIRECTORY</span><br><span class="co1">; [ STRING, ABSOLUTE PATH, NO QUOTES ]</span><br>SOURCE_DIR <span class="sy0">=</span><span class="st0"> D:\Test</span><br><br><span class="co1">; DESTINATION DIRECTORIES</span><br><span class="co1">; [ STRING, ABSOLUTE PATH, NO QUOTES ]</span><br>DESTIN_DIR <span class="sy0">=</span><span class="st0"> D:\TestDest</span><br><br><span class="co1">; MIRRORING - DELETE DESTINATION FILE NOT PRESENT ON SOURCE</span><br><span class="co1">; [ 1: ENABLED, 0: DISABLED ]</span><br>MIRRORING <span class="sy0">:=</span> <span class="nu0">1</span><br><br><span class="co1">; SIMULATION - JUST SIMULATE THE SYNC AND UPDATE THE LOG FILE</span><br><span class="co1">; [ 1: ENABLED, 0: DISABLED ]</span><br>SIMULATION <span class="sy0">:=</span> <span class="nu0">1</span><br><br><span class="co1">; LOGGING</span><br><span class="co1">; [ 1: ENABLED, 0: DISABLED ]</span><br>LOG_ENABLED <span class="sy0">:=</span> <span class="nu0">1</span><br><br><span class="co1">; LOG FILE - ONLY IF LOG_ENABLED == 1, DEFAULT TO %A_ScriptDir%\%A_ScriptName%.log</span><br><span class="co1">; [ STRING, ABSOLUTE PATH, NO QUOTES ]</span><br>LOG_FILE <span class="sy0">=</span><br><br><span class="co1">; INTERACTIVE FLAG - USER INTERACTIVE GUI, OVERRIDE WITH "-quiet" PARAMETER</span><br><span class="co1">; [ 1: ENABLED, 0: DISABLED ]</span><br>INTERACTIVE <span class="sy0">:=</span> <span class="nu0">1</span><br><br><span class="co1">; LOW PRIORITY</span><br><span class="co1">; [ 1: ENABLED, 0: DISABLED ]</span><br>LOW_PRIORITY <span class="sy0">:=</span> <span class="nu0">0</span><br><br><span class="co1">; REPLICATION CHECK GLOBAL EXCLUSIONS - ITEMS NOT TO BE COPIED ON DESTINATION SIDE</span><br><span class="co1">; [ CONTINUATION SECTION, NEWLINE SEPARATED, NO QUOTES, SURROUNDED BY &lt;&gt;, FULL PATH OR NAME ]</span><br><span class="co1">; Excluded directories.</span><br>EX_REPLICATION_DIRS <span class="sy0">=</span><br><span class="br0">(</span> LTrim<br><span class="br0">)</span><br><span class="co1">; Excluded files.</span><br>EX_REPLICATION_FILES <span class="sy0">=</span><br><span class="br0">(</span> LTrim<br><span class="br0">)</span><br><span class="co1">; Excluded extensions.</span><br>EX_REPLICATION_EXT <span class="sy0">=</span><br><span class="br0">(</span> LTrim<br><span class="br0">)</span><br><br><span class="co1">; REVERSE CHECK GLOBAL EXCLUSIONS - ITEMS NOT TO BE DELETED ON DESTINATION SIDE</span><br><span class="co1">; [ CONTINUATION SECTION, NEWLINE SEPARATED, NO QUOTES, SURROUNDED BY &lt;&gt;, FULL PATH OR NAME ]</span><br><span class="co1">; Excluded directories.</span><br>EX_REVERSE_DIRS <span class="sy0">=</span><br><span class="br0">(</span> LTrim<br><span class="br0">)</span><br><span class="co1">; Excluded files.</span><br>EX_REVERSE_FILES <span class="sy0">=</span><br><span class="br0">(</span> LTrim<br><span class="br0">)</span><br><span class="co1">; Excluded extensions.</span><br>EX_REVERSE_EXT <span class="sy0">=</span><br><span class="br0">(</span> LTrim<br><span class="br0">)</span><br><br><span class="co1">; ======================================================================================================================</span><br><span class="co1">; ===[ MAIN SECTION ]===================================================================================================</span><br><span class="co1">; ======================================================================================================================</span><br><br><span class="co1">; Parameters check.</span><br>param0 <span class="sy0">=</span><span class="st0"> <span class="re0">%0%</span></span><br>param1 <span class="sy0">=</span><span class="st0"> <span class="re0">%1%</span></span><br><a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> param0 <span class="sy0">==</span> <span class="nu0">0</span> <span class="br0">)</span><br>    INTERACTIVE <span class="sy0">:=</span> <span class="nu0">1</span><br><a target="_blank" href="https://autohotkey.com/docs/Else"><span class="kw3">Else</span></a> <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> param0 <span class="sy0">==</span> <span class="nu0">1</span> <span class="sy0">&amp;&amp;</span> param1 <span class="sy0">==</span> <span class="st0">"-quiet"</span> <span class="br0">)</span><br>    INTERACTIVE <span class="sy0">:=</span> <span class="nu0">0</span><br><a target="_blank" href="https://autohotkey.com/docs/Else"><span class="kw3">Else</span></a><br><span class="br0">{</span><br>    <a target="_blank" href="https://autohotkey.com/docs/MsgBox"><span class="kw3">MsgBox</span></a><span class="sy0">,,</span> SuperSynchronizer<span class="sy0">,</span> Usage<span class="sy0">:</span>`t<span class="sy0">&lt;</span>AutoHotkey<span class="sy0">.</span>exe SuperSynchronizer<span class="sy0">.</span>ahk<span class="sy0">&gt;</span>`n`t<span class="sy0">-</span>quiet <span class="sy0">::</span> Suppress any message<br>    <a target="_blank" href="https://autohotkey.com/docs/ExitApp"><span class="kw3">ExitApp</span></a><br><span class="br0">}</span><br><br><span class="co1">; Script start check.</span><br><a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> INTERACTIVE <span class="br0">)</span><br><span class="br0">{</span><br>    <a target="_blank" href="https://autohotkey.com/docs/MsgBox"><span class="kw3">Msgbox</span></a><span class="sy0">,</span> 0x4<span class="sy0">,</span> SuperSynchronizer<span class="sy0">,</span> FROM<span class="sy0">:</span>`t<span class="re0">%SOURCE_DIR%</span>`nTO<span class="sy0">:</span>`t<span class="re0">%DESTIN_DIR%</span>`n`nStart Synchronizing<span class="sy0">?</span><br>    <a target="_blank" href="https://autohotkey.com/docs/IfMsgBox"><span class="kw3">IfMsgBox</span></a><span class="sy0">,</span> No<br>        <a target="_blank" href="https://autohotkey.com/docs/ExitApp"><span class="kw3">ExitApp</span></a><br><span class="br0">}</span><br><br><span class="co1">; Source folder check.</span><br><a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !<a target="_blank" href="https://autohotkey.com/docs/InStr"><span class="kw4">InStr</span></a><span class="br0">(</span><a target="_blank" href="https://autohotkey.com/docs/FileExist"><span class="kw4">FileExist</span></a><span class="br0">(</span>SOURCE_DIR<span class="br0">)</span><span class="sy0">,</span> <span class="st0">"D"</span><span class="br0">)</span> <span class="br0">)</span><br><span class="br0">{</span><br>    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> INTERACTIVE <span class="br0">)</span><br>        <a target="_blank" href="https://autohotkey.com/docs/MsgBox"><span class="kw3">MsgBox</span></a><span class="sy0">,,</span> SuperSynchronizer<span class="sy0">,</span> Source folder doesn't exists!<br>    <a target="_blank" href="https://autohotkey.com/docs/ExitApp"><span class="kw3">ExitApp</span></a> <span class="co1">; Fail if source folder doesn't exists.</span><br><span class="br0">}</span><br><br><span class="co1">; Destination folder check.</span><br><a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !<a target="_blank" href="https://autohotkey.com/docs/InStr"><span class="kw4">InStr</span></a><span class="br0">(</span><a target="_blank" href="https://autohotkey.com/docs/FileExist"><span class="kw4">FileExist</span></a><span class="br0">(</span>DESTIN_DIR<span class="br0">)</span><span class="sy0">,</span> <span class="st0">"D"</span><span class="br0">)</span> <span class="br0">)</span><br><span class="br0">{</span><br>    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> SIMULATION <span class="br0">)</span><br>    <span class="br0">{</span><br>            <a target="_blank" href="https://autohotkey.com/docs/MsgBox"><span class="kw3">MsgBox</span></a><span class="sy0">,,</span> SuperSynchronizer<span class="sy0">,</span> Cannot simulate if destination directory <span class="kw1">is</span> <span class="kw1">not</span> existing<span class="sy0">.</span><br>            <a target="_blank" href="https://autohotkey.com/docs/ExitApp"><span class="kw3">ExitApp</span></a><br>    <span class="br0">}</span><br>    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span>INTERACTIVE<span class="br0">)</span><br>    <span class="br0">{</span><br>        <a target="_blank" href="https://autohotkey.com/docs/MsgBox"><span class="kw3">Msgbox</span></a><span class="sy0">,</span> 0x4<span class="sy0">,</span> SuperSynchronizer<span class="sy0">,</span> Destination folder doesn't exists<span class="sy0">,</span> create it<span class="sy0">?</span><br>        <a target="_blank" href="https://autohotkey.com/docs/IfMsgBox"><span class="kw3">IfMsgBox</span></a><span class="sy0">,</span> No<br>            <a target="_blank" href="https://autohotkey.com/docs/ExitApp"><span class="kw3">ExitApp</span></a><br>        <a target="_blank" href="https://autohotkey.com/docs/FileCreateDir"><span class="kw3">FileCreateDir</span></a><span class="sy0">,</span> <span class="re0">%DESTIN_DIR%</span><br>    <span class="br0">}</span><br>    <a target="_blank" href="https://autohotkey.com/docs/Else"><span class="kw3">Else</span></a> <a target="_blank" href="https://autohotkey.com/docs/ExitApp"><span class="kw3">ExitApp</span></a> <span class="co1">; Fail silently if destination folder doesn't exists and !INTERACTIVE.</span><br><span class="br0">}</span><br><br><span class="co1">; If SIMULATION == 1, force the LOGGING to 1.</span><br><span class="br0">(</span>SIMULATION<span class="br0">)</span> <span class="sy0">?</span> LOG_ENABLED <span class="sy0">:=</span> <span class="nu0">1</span><br><br><span class="co1">; Modify the OnExit so that the "Stop" feature is correctly handled.</span><br><a target="_blank" href="https://autohotkey.com/docs/OnExit"><span class="kw3">OnExit</span></a><span class="sy0">,</span> STOPSYNC<br><br><span class="co1">; Adjust the priority of the current process.</span><br>nPid <span class="sy0">:=</span> <a target="_blank" href="https://autohotkey.com/docs/DllCall"><span class="kw4">DllCall</span></a><span class="br0">(</span><span class="st0">"GetCurrentProcessId"</span><span class="br0">)</span><br><a target="_blank" href="https://autohotkey.com/docs/Process"><span class="kw3">Process</span></a><span class="sy0">,</span> Priority<span class="sy0">,</span> <span class="re0">%nPid%</span><span class="sy0">,</span> % <span class="br0">(</span>LOW_PRIORITY<span class="br0">)</span> <span class="sy0">?</span> <span class="st0">"L"</span> <span class="sy0">:</span> <span class="st0">"N"</span><br><br><span class="co1">; Create the callback for the stop feature.</span><br>COPY_CALLBACK <span class="sy0">:=</span> <a target="_blank" href="https://autohotkey.com/docs/RegisterCallback"><span class="kw4">RegisterCallback</span></a><span class="br0">(</span><span class="st0">"CopyCallback"</span><span class="sy0">,</span> <span class="st0">"Fast"</span><span class="br0">)</span><br><br><span class="co1">; Set STOP_SYNC = 0 to start the copy operation (flag "Sure?" and press "Stop" to turn STOP_SYNC = 1).</span><br>STOP_SYNC <span class="sy0">:=</span> <span class="nu0">0</span><br><br><a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> INTERACTIVE <span class="br0">)</span><br><span class="br0">{</span>   <span class="co1">; Get monitor resolution and previous windows to calculate the coordinates.</span><br>    <a target="_blank" href="https://autohotkey.com/docs/SysGet"><span class="kw3">SysGet</span></a><span class="sy0">,</span> Mon<span class="sy0">,</span> Monitor<br>    _X <span class="sy0">:=</span> MonRight <span class="sy0">-</span> <span class="nu0">388</span><br>    <a target="_blank" href="https://autohotkey.com/docs/WinGet"><span class="kw3">WinGet</span></a><span class="sy0">,</span> hWndList<span class="sy0">,</span> LIST<span class="sy0">,</span> SuperSynchronizer ahk_class AutoHotkeyGUI<br>    _Y <span class="sy0">:=</span> <span class="br0">(</span><span class="nu0">75</span> <span class="sy0">*</span> hWndList<span class="br0">)</span> <span class="sy0">+</span> <span class="nu0">1</span><br><br>    <span class="co1">; Gui management.</span><br>    <a target="_blank" href="https://autohotkey.com/docs/Gui"><span class="kw3">Gui</span></a><span class="sy0">,</span> <span class="sy0">+</span>LastFound <span class="sy0">+</span>Hwndh_GUI<br>    <a target="_blank" href="https://autohotkey.com/docs/WinSet"><span class="kw3">WinSet</span></a><span class="sy0">,</span> Transparent<span class="sy0">,</span> <span class="nu0">240</span><span class="sy0">,</span> ahk_id <span class="re0">%h_GUI%</span><br>    <a target="_blank" href="https://autohotkey.com/docs/Gui"><span class="kw3">Gui</span></a><span class="sy0">,</span> Margin<span class="sy0">,</span> <span class="nu0">10</span><span class="sy0">,</span> <span class="nu0">10</span><br>    <a target="_blank" href="https://autohotkey.com/docs/Gui"><span class="kw3">Gui</span></a><span class="sy0">,</span> Add<span class="sy0">,</span> Text<span class="sy0">,</span> vSyncText <span class="kw6">Left</span> w300 h55<span class="sy0">,</span> Replicating<span class="sy0">...</span>`n`nFROM<span class="sy0">:</span>`t<span class="re0">%SOURCE_DIR%</span>`nTO<span class="sy0">:</span>`t<span class="re0">%DESTIN_DIR%</span><br>    <a target="_blank" href="https://autohotkey.com/docs/GuiControl"><span class="kw3">GuiControl</span></a><span class="sy0">,</span> <span class="sy0">-</span>Wrap<span class="sy0">,</span> SyncText<br>    <a target="_blank" href="https://autohotkey.com/docs/Gui"><span class="kw3">Gui</span></a><span class="sy0">,</span> Add<span class="sy0">,</span> Checkbox<span class="sy0">,</span> vAreYouSure x<span class="sy0">+</span><span class="nu0">15</span> y22<span class="sy0">,</span> Sure<span class="sy0">?</span><br>    <a target="_blank" href="https://autohotkey.com/docs/Gui"><span class="kw3">Gui</span></a><span class="sy0">,</span> Add<span class="sy0">,</span> Button<span class="sy0">,</span> gSTOPSYNC vSyncButton w50 h20 y<span class="sy0">+</span><span class="nu0">10</span><span class="sy0">,</span> <span class="sy0">&amp;</span>Stop<br>    <a target="_blank" href="https://autohotkey.com/docs/Gui"><span class="kw3">Gui</span></a><span class="sy0">,</span> <span class="sy0">-</span>Caption <span class="sy0">+</span>Border<br>    <a target="_blank" href="https://autohotkey.com/docs/Gui"><span class="kw3">Gui</span></a><span class="sy0">,</span> Show<span class="sy0">,</span> X<span class="re0">%_X%</span> Y<span class="re0">%_Y%</span> Autosize<span class="sy0">,</span> SuperSynchronizer<br><span class="br0">}</span><br><br><span class="co1">; Get start timestamp.</span><br>START_TIMESTAMP <span class="sy0">=</span><span class="st0"> %<a target="_blank" href="https://autohotkey.com/docs/A_Now"><span class="kw2">A_Now</span></a>%</span><br><br><span class="co1">; !!! REPLICATION CHECK START !!!</span><br><span class="co1">; ----------------------------------------------------------------------------------------------------------------------</span><br><a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> LOG_ENABLED <span class="br0">)</span> <span class="co1">; Log management.</span><br>    WriteLog<span class="br0">(</span><span class="nu0">1</span><span class="sy0">,</span> <span class="st0">"REPLICATION CHECK STARTED<span class="es0">`n</span>****************************************************************<span class="es0">`n</span>"</span><span class="br0">)</span><br><br><a target="_blank" href="https://autohotkey.com/docs/SetWorkingDir"><span class="kw3">SetWorkingDir</span></a><span class="sy0">,</span> <span class="re0">%SOURCE_DIR%</span><br>bSyncStopped <span class="sy0">:=</span> ReplicationCheck<span class="br0">(</span><span class="st0">"*.*"</span><span class="br0">)</span><br><span class="co1">; ----------------------------------------------------------------------------------------------------------------------</span><br><br><span class="co1">; !!! REVERSE CHECK START !!!</span><br><span class="co1">; ----------------------------------------------------------------------------------------------------------------------</span><br><a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> MIRRORING <span class="sy0">&amp;&amp;</span> !bSyncStopped <span class="br0">)</span><br><span class="br0">{</span><br>    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> INTERACTIVE <span class="br0">)</span><br>        <a target="_blank" href="https://autohotkey.com/docs/GuiControl"><span class="kw3">GuiControl</span></a><span class="sy0">,,</span> SyncText<span class="sy0">,</span> Mirroring<span class="sy0">...</span>`n`nFROM<span class="sy0">:</span>`t<span class="re0">%SOURCE_DIR%</span>`nTO<span class="sy0">:</span>`t<span class="re0">%DESTIN_DIR%</span><br><br>    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> LOG_ENABLED <span class="br0">)</span> <span class="co1">; Log management.</span><br>        WriteLog<span class="br0">(</span><span class="nu0">0</span><span class="sy0">,</span> <span class="st0">"<span class="es0">`n</span>"</span><span class="br0">)</span><br>      <span class="sy0">,</span> WriteLog<span class="br0">(</span><span class="nu0">1</span><span class="sy0">,</span> <span class="st0">"REVERSE CHECK STARTED<span class="es0">`n</span>****************************************************************<span class="es0">`n</span>"</span><span class="br0">)</span><br>   <br>    <a target="_blank" href="https://autohotkey.com/docs/SetWorkingDir"><span class="kw3">SetWorkingDir</span></a><span class="sy0">,</span> <span class="re0">%DESTIN_DIR%</span><br>    bSyncStopped <span class="sy0">:=</span> ReverseCheck<span class="br0">(</span><span class="st0">"*.*"</span><span class="br0">)</span><br><span class="br0">}</span><br><span class="co1">; ----------------------------------------------------------------------------------------------------------------------</span><br><br><span class="co1">; Get end timestamp and calculate elapsed time.</span><br>END_TIMESTAMP <span class="sy0">=</span><span class="st0"> %<a target="_blank" href="https://autohotkey.com/docs/A_Now"><span class="kw2">A_Now</span></a>%</span><br><a target="_blank" href="https://autohotkey.com/docs/EnvSub"><span class="kw3">EnvSub</span></a><span class="sy0">,</span> END_TIMESTAMP<span class="sy0">,</span> START_TIMESTAMP<span class="sy0">,</span> Seconds<br><a target="_blank" href="https://autohotkey.com/docs/VarSetCapacity"><span class="kw4">VarSetCapacity</span></a><span class="br0">(</span>TIME_ELAPSED<span class="sy0">,</span> <span class="nu0">18</span><span class="br0">)</span> <span class="co1">; XX:XX:XX + string terminator = 9 chars (UNICODE: 9*2 bytes).</span><br><a target="_blank" href="https://autohotkey.com/docs/DllCall"><span class="kw4">DllCall</span></a><span class="br0">(</span> <span class="st0">"msvcrt\swprintf"</span><span class="sy0">,</span> Str<span class="sy0">,</span>TIME_ELAPSED<span class="sy0">,</span> Str<span class="sy0">,</span><span class="st0">"%02d:%02d:%02d"</span><span class="sy0">,</span> Int<span class="sy0">,</span><a target="_blank" href="https://autohotkey.com/docs/Floor"><span class="kw4">Floor</span></a><span class="br0">(</span>END_TIMESTAMP<span class="sy0">/</span><span class="nu0">3600</span><span class="br0">)</span><br>                         <span class="sy0">,</span> Int<span class="sy0">,</span><a target="_blank" href="https://autohotkey.com/docs/Mod"><span class="kw4">Mod</span></a><span class="br0">(</span>END_TIMESTAMP<span class="sy0">/</span><span class="nu0">60</span><span class="sy0">,</span><span class="nu0">60</span><span class="br0">)</span><span class="sy0">,</span> Int<span class="sy0">,</span><a target="_blank" href="https://autohotkey.com/docs/Mod"><span class="kw4">Mod</span></a><span class="br0">(</span>END_TIMESTAMP<span class="sy0">,</span><span class="nu0">60</span><span class="br0">)</span> <span class="br0">)</span><br><br><a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> INTERACTIVE <span class="br0">)</span><br><span class="br0">{</span>   <span class="co1">; Gui management.</span><br>    <a target="_blank" href="https://autohotkey.com/docs/Gui"><span class="kw3">Gui</span></a><span class="sy0">,</span> Cancel<br>    <a target="_blank" href="https://autohotkey.com/docs/GuiControl"><span class="kw3">GuiControl</span></a><span class="sy0">,,</span> SyncText<span class="sy0">,</span> % <span class="br0">(</span><span class="br0">(</span>bSyncStopped<span class="br0">)</span> <span class="sy0">?</span> <span class="st0">"Synchronization Stopped!"</span><br>                                             <span class="sy0">:</span> <span class="st0">"Done!"</span><span class="br0">)</span> <span class="st0">"<span class="es0">`n</span><span class="es0">`n</span>Time Elapsed: "</span> TIME_ELAPSED<br>    <a target="_blank" href="https://autohotkey.com/docs/GuiControl"><span class="kw3">GuiControl</span></a><span class="sy0">,</span> Hide<span class="sy0">,</span> AreYouSure<br>    <a target="_blank" href="https://autohotkey.com/docs/GuiControl"><span class="kw3">GuiControl</span></a><span class="sy0">,,</span> SyncButton<span class="sy0">,</span> <span class="sy0">&amp;</span>Ok<br>    <a target="_blank" href="https://autohotkey.com/docs/GuiControl"><span class="kw3">GuiControl</span></a><span class="sy0">,</span> <span class="sy0">+</span>Default <span class="sy0">-</span>g gGUIDESTROY<span class="sy0">,</span> SyncButton<br>    <a target="_blank" href="https://autohotkey.com/docs/Gui"><span class="kw3">Gui</span></a><span class="sy0">,</span> Show<span class="sy0">,</span> X<span class="re0">%_X%</span> Y<span class="re0">%_Y%</span> Autosize<span class="sy0">,</span> SuperSynchronizer<br>    <a target="_blank" href="https://autohotkey.com/docs/WinWaitClose"><span class="kw3">WinWaitClose</span></a><span class="sy0">,</span> ahk_id <span class="re0">%h_GUI%</span><br><span class="br0">}</span><br><br><a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> LOG_ENABLED <span class="br0">)</span><br><span class="br0">{</span>   <span class="co1">; Log management - append log to the file.</span><br>    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !LOG_FILE <span class="br0">)</span><br>        LOG_FILE <span class="sy0">:=</span> <a target="_blank" href="https://autohotkey.com/docs/A_ScriptDir"><span class="kw2">A_ScriptDir</span></a> <span class="st0">"\"</span> <a target="_blank" href="https://autohotkey.com/docs/SubStr"><span class="kw4">SubStr</span></a><span class="br0">(</span><a target="_blank" href="https://autohotkey.com/docs/A_ScriptName"><span class="kw2">A_ScriptName</span></a><span class="sy0">,</span> <span class="nu0">1</span><span class="sy0">,</span> <span class="sy0">-</span><span class="nu0">3</span><span class="br0">)</span> <span class="st0">"log"</span><br>    <a target="_blank" href="https://autohotkey.com/docs/SplitPath"><span class="kw3">SplitPath</span></a><span class="sy0">,</span> LOG_FILE<span class="sy0">,,</span> sFilePath<span class="sy0">,</span> sFileExt<span class="sy0">,</span> sFileName<br>    <a target="_blank" href="https://autohotkey.com/docs/Loop"><span class="kw3">Loop</span></a><br>    <span class="br0">{</span>   <span class="co1">; If file exists loop until it finds a not existing filename.</span><br>        <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> <a target="_blank" href="https://autohotkey.com/docs/FileExist"><span class="kw4">FileExist</span></a><span class="br0">(</span>LOG_FILE<span class="br0">)</span> <span class="br0">)</span><br>            LOG_FILE <span class="sy0">=</span><span class="st0"> <span class="re0">%sFilePath%</span>\<span class="re0">%sFileName%</span>_%<a target="_blank" href="https://autohotkey.com/docs/A_Index"><span class="kw2">A_Index</span></a>%<span class="sy0">.</span><span class="re0">%sFileExt%</span></span><br>        <a target="_blank" href="https://autohotkey.com/docs/Else"><span class="kw3">Else</span></a> <a target="_blank" href="https://autohotkey.com/docs/Break"><span class="kw3">Break</span></a><br>    <span class="br0">}</span><br>    WriteLog<span class="br0">(</span><span class="nu0">0</span><span class="sy0">,</span> <span class="st0">"<span class="es0">`n</span>****************************************************************<span class="es0">`n</span>"</span><span class="br0">)</span><br>    WriteLog<span class="br0">(</span><span class="nu0">1</span><span class="sy0">,</span> <span class="st0">"SINCHRONIZATION FINISHED IN "</span> TIME_ELAPSED<span class="sy0">,</span> LOG_FILE<span class="br0">)</span><br><span class="br0">}</span><br><br><span class="co1">; Restore correct OnExit behaviour and exit from the script.</span><br><a target="_blank" href="https://autohotkey.com/docs/OnExit"><span class="kw3">OnExit</span></a><span class="sy0">,</span> REALQUIT<br><a target="_blank" href="https://autohotkey.com/docs/ExitApp"><span class="kw3">ExitApp</span></a><br><br><span class="co1">; ======================================================================================================================</span><br><span class="co1">; ===[ LABELS SECTION ]=================================================================================================</span><br><span class="co1">; ======================================================================================================================</span><br><br> <span class="re2">STOPSYNC:</span><br><span class="re2">GUICLOSE:</span><br>    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !INTERACTIVE <span class="br0">)</span><br>    <span class="br0">{</span>   <span class="co1">; Stop synchronization if the script is not interactive.</span><br>        STOP_SYNC <span class="sy0">:=</span> <span class="nu0">1</span><br>        <a target="_blank" href="https://autohotkey.com/docs/Return"><span class="kw3">Return</span></a><br>    <span class="br0">}</span><br>    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> <a target="_blank" href="https://autohotkey.com/docs/A_GuiControl"><span class="kw2">A_GuiControl</span></a> <span class="sy0">==</span> <span class="st0">"SyncButton"</span> <span class="br0">)</span><br>    <span class="br0">{</span>   <span class="co1">; "Stop" button pressed, check the "AreYouSure" flag before stopping sync.</span><br>        <a target="_blank" href="https://autohotkey.com/docs/GuiControlGet"><span class="kw3">GuiControlGet</span></a><span class="sy0">,</span> AreYouSure<span class="sy0">,,</span> AreYouSure<br>        STOP_SYNC <span class="sy0">:=</span> <span class="br0">(</span>AreYouSure<span class="br0">)</span> <span class="sy0">?</span> <span class="nu0">1</span> <span class="sy0">:</span> <span class="nu0">0</span><br>    <span class="br0">}</span><br>    <a target="_blank" href="https://autohotkey.com/docs/Else"><span class="kw3">Else</span></a><br>    <span class="br0">{</span>   <span class="co1">; Script or GUI closed, stop synchronization.</span><br>        STOP_SYNC <span class="sy0">:=</span> <span class="nu0">1</span><br>    <span class="br0">}</span><br>    <a target="_blank" href="https://autohotkey.com/docs/Return"><span class="kw3">Return</span></a><br><span class="co1">;GUICLOSE</span><br><span class="co1">;STOPSYNC</span><br><br> <span class="re2">GUIDESTROY:</span><br>    <a target="_blank" href="https://autohotkey.com/docs/Gui"><span class="kw3">Gui</span></a><span class="sy0">,</span> Destroy<br>    <a target="_blank" href="https://autohotkey.com/docs/Return"><span class="kw3">Return</span></a><br><span class="co1">;GUIDESTROY</span><br><br> <span class="re2">REALQUIT:</span><br>    <a target="_blank" href="https://autohotkey.com/docs/ExitApp"><span class="kw3">ExitApp</span></a><br><span class="co1">;REALQUIT</span><br><br><span class="co1">; ======================================================================================================================</span><br><span class="co1">; ===[ FUNCTIONS SECTION ]==============================================================================================</span><br><span class="co1">; ======================================================================================================================</span><br><br>ReplicationCheck<span class="br0">(</span>sPattern<span class="br0">)</span> <span class="br0">{</span><br>    <span class="kw1">Global</span> SOURCE_DIR<span class="sy0">,</span> DESTIN_DIR<span class="sy0">,</span> EX_REPLICATION_DIRS<span class="sy0">,</span> EX_REPLICATION_FILES<span class="sy0">,</span> SIMULATION<span class="sy0">,</span> LOG_ENABLED<span class="sy0">,</span> COPY_CALLBACK<br>         <span class="sy0">,</span> STOP_SYNC<br><br>    <a target="_blank" href="https://autohotkey.com/docs/Loop"><span class="kw3">Loop</span></a><span class="sy0">,</span> <span class="re0">%sPattern%</span><span class="sy0">,</span> <span class="nu0">1</span><br>    <span class="br0">{</span><br>        <span class="co1">; Return 1 if STOP_SYNC is set.</span><br>        <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> STOP_SYNC <span class="br0">)</span><br>            <a target="_blank" href="https://autohotkey.com/docs/Return"><span class="kw3">Return</span></a> <span class="nu0">1</span><br>       <br>        <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> <a target="_blank" href="https://autohotkey.com/docs/InStr"><span class="kw4">InStr</span></a><span class="br0">(</span><a target="_blank" href="https://autohotkey.com/docs/FileExist"><span class="kw4">FileExist</span></a><span class="br0">(</span><a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a><span class="br0">)</span><span class="sy0">,</span> <span class="st0">"D"</span><span class="br0">)</span> <span class="br0">)</span><br>        <span class="br0">{</span>   <span class="co1">; It's a directory.</span><br>            <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !<a target="_blank" href="https://autohotkey.com/docs/InStr"><span class="kw4">InStr</span></a><span class="br0">(</span>EX_REPLICATION_DIRS<span class="sy0">,</span> <span class="st0">"&lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a> <span class="st0">"&gt;"</span><span class="br0">)</span> <span class="br0">)</span><br>            <span class="sy0">&amp;&amp;</span> <span class="br0">(</span> !<a target="_blank" href="https://autohotkey.com/docs/InStr"><span class="kw4">InStr</span></a><span class="br0">(</span>EX_REPLICATION_DIRS<span class="sy0">,</span> <span class="st0">"&lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileName"><span class="kw2">A_LoopFileName</span></a>     <span class="st0">"&gt;"</span><span class="br0">)</span> <span class="br0">)</span><br>            <span class="br0">{</span>   <span class="co1">; If directory isn't in exlusion list.</span><br>                <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !<a target="_blank" href="https://autohotkey.com/docs/InStr"><span class="kw4">InStr</span></a><span class="br0">(</span><a target="_blank" href="https://autohotkey.com/docs/FileExist"><span class="kw4">FileExist</span></a><span class="br0">(</span>DESTIN_DIR <span class="st0">"\"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a><span class="br0">)</span><span class="sy0">,</span> <span class="st0">"D"</span><span class="br0">)</span> <span class="br0">)</span><br>                <span class="br0">{</span>   <span class="co1">; If source directory doesn't exists on destination, create it.</span><br>                    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !SIMULATION <span class="br0">)</span><br>                    <span class="br0">{</span>   <span class="co1">; If SIMULATION is disabled.</span><br>                        <span class="co1">; Try to delete an "eventually present" file that has the same name of the source directory.</span><br>                        <a target="_blank" href="https://autohotkey.com/docs/FileDelete"><span class="kw3">FileDelete</span></a><span class="sy0">,</span> <span class="re0">%DESTIN_DIR%</span>\%<a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a>%<br>                        <span class="co1">; Create the source directory on destination.</span><br>                        <a target="_blank" href="https://autohotkey.com/docs/FileCreateDir"><span class="kw3">FileCreateDir</span></a><span class="sy0">,</span> <span class="re0">%DESTIN_DIR%</span>\%<a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a>%<br>                    <span class="br0">}</span><br>                    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> LOG_ENABLED <span class="br0">)</span> <span class="co1">; Log management</span><br>                        WriteLog<span class="br0">(</span> <span class="nu0">1</span><span class="sy0">,</span> <span class="br0">(</span>!SIMULATION <span class="sy0">&amp;&amp;</span> <a target="_blank" href="https://autohotkey.com/docs/ErrorLevel"><span class="kw2">ErrorLevel</span></a><span class="br0">)</span><br>                                <span class="sy0">?</span> <span class="st0">"ERROR &gt;&gt; Could not create directory: &lt;"</span> DESTIN_DIR <span class="st0">"\"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a> <span class="st0">"&gt; $<span class="es0">`n</span>"</span><br>                                <span class="sy0">:</span> <span class="st0">"SUCCESS &gt;&gt; Directory created: &lt;"</span> DESTIN_DIR <span class="st0">"\"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a> <span class="st0">"&gt; $<span class="es0">`n</span>"</span> <span class="br0">)</span><br>                <span class="br0">}</span><br>                <span class="co1">; Recursion into current directory.</span><br>                bStopFlag <span class="sy0">:=</span> ReplicationCheck<span class="br0">(</span><a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a> <span class="st0">"\*.*"</span><span class="br0">)</span><br>                <span class="co1">; If bStopFlag is set, return 1 (it means that STOP_SYNC == 1).</span><br>                <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> bStopFlag <span class="br0">)</span><br>                    <a target="_blank" href="https://autohotkey.com/docs/Return"><span class="kw3">Return</span></a> <span class="nu0">1</span><br>            <span class="br0">}</span><br>            <a target="_blank" href="https://autohotkey.com/docs/Else"><span class="kw3">Else</span></a><br>            <span class="br0">{</span>   <span class="co1">; Directory skipped.</span><br>                <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> LOG_ENABLED <span class="br0">)</span> <span class="co1">; Log management.</span><br>                    WriteLog<span class="br0">(</span><span class="nu0">1</span><span class="sy0">,</span> <span class="st0">"SKIPPED &gt;&gt; Directory excluded: &lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a> <span class="st0">"&gt; $<span class="es0">`n</span>"</span><span class="br0">)</span><br>            <span class="br0">}</span><br>        <span class="br0">}</span><br>        <a target="_blank" href="https://autohotkey.com/docs/Else"><span class="kw3">Else</span></a><br>        <span class="br0">{</span>   <span class="co1">; It's a file.</span><br>            bCopyFlag <span class="sy0">:=</span> <span class="nu0">0</span><br>            <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !<a target="_blank" href="https://autohotkey.com/docs/InStr"><span class="kw4">InStr</span></a><span class="br0">(</span>EX_REPLICATION_FILES<span class="sy0">,</span> <span class="st0">"&lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a> <span class="st0">"&gt;"</span><span class="br0">)</span> <span class="br0">)</span><br>            <span class="sy0">&amp;&amp;</span> <span class="br0">(</span> !<a target="_blank" href="https://autohotkey.com/docs/InStr"><span class="kw4">InStr</span></a><span class="br0">(</span>EX_REPLICATION_FILES<span class="sy0">,</span> <span class="st0">"&lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileName"><span class="kw2">A_LoopFileName</span></a>     <span class="st0">"&gt;"</span><span class="br0">)</span> <span class="br0">)</span><br>            <span class="sy0">&amp;&amp;</span> <span class="br0">(</span> !<a target="_blank" href="https://autohotkey.com/docs/InStr"><span class="kw4">InStr</span></a><span class="br0">(</span>EX_REPLICATION_EXT<span class="sy0">,</span>   <span class="st0">"&lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileExt"><span class="kw2">A_LoopFileExt</span></a>      <span class="st0">"&gt;"</span><span class="br0">)</span> <span class="br0">)</span><br>            <span class="br0">{</span>   <span class="co1">; If file isn't in exlusion lists.</span><br>                <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !sFileAttr <span class="sy0">:=</span> <a target="_blank" href="https://autohotkey.com/docs/FileExist"><span class="kw4">FileExist</span></a><span class="br0">(</span>DESTIN_DIR <span class="st0">"\"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a><span class="br0">)</span> || <a target="_blank" href="https://autohotkey.com/docs/InStr"><span class="kw4">InStr</span></a><span class="br0">(</span>sFileAttr<span class="sy0">,</span> <span class="st0">"D"</span><span class="br0">)</span> <span class="br0">)</span><br>                <span class="br0">{</span>   <span class="co1">; If it doesn't exists on destination or it exists and is a directory on destination, set copy flag.</span><br>                    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !SIMULATION <span class="br0">)</span><br>                    <span class="br0">{</span>   <span class="co1">; If SIMULATION is disabled.</span><br>                        <span class="co1">; Try to delete an "eventually present" directory that has the same name of the source file.</span><br>                        <a target="_blank" href="https://autohotkey.com/docs/FileRemoveDir"><span class="kw3">FileRemoveDir</span></a><span class="sy0">,</span> <span class="re0">%DESTIN_DIR%</span>\%<a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a>%<span class="sy0">,</span> <span class="nu0">1</span><br>                    <span class="br0">}</span><br>                    <span class="co1">; Set copy flag.</span><br>                    bCopyFlag <span class="sy0">:=</span> <span class="nu0">1</span><br>                <span class="br0">}</span><br>                <a target="_blank" href="https://autohotkey.com/docs/Else"><span class="kw3">Else</span></a><br>                <span class="br0">{</span>   <span class="co1">; Else it exists and is a file with the same name of the source file.</span><br>                    <span class="co1">; Get modification time of the destination file.</span><br>                    <a target="_blank" href="https://autohotkey.com/docs/FileGetTime"><span class="kw3">FileGetTime</span></a><span class="sy0">,</span> sFileTime<span class="sy0">,</span> <span class="re0">%DESTIN_DIR%</span>\%<a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a>%<br>                    <span class="co1">; Calculate the difference with the modification time of the source file.</span><br>                    <a target="_blank" href="https://autohotkey.com/docs/EnvSub"><span class="kw3">EnvSub</span></a><span class="sy0">,</span> sFileTime<span class="sy0">,</span> %<a target="_blank" href="https://autohotkey.com/docs/A_LoopFileTimeModified"><span class="kw2">A_LoopFileTimeModified</span></a>%<span class="sy0">,</span> seconds<br>                    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> sFileTime <span class="sy0">&lt;</span> <span class="nu0">0</span> <span class="br0">)</span><br>                    <span class="br0">{</span>   <span class="co1">; If source file is more recent than destination file.</span><br>                        <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !SIMULATION <span class="br0">)</span><br>                        <span class="br0">{</span>   <span class="co1">; If SIMULATION is disabled.</span><br>                            <span class="co1">; Remove attributes to destination file, because CopyFileEx fails if readonly or hidden.</span><br>                            <a target="_blank" href="https://autohotkey.com/docs/FileSetAttrib"><span class="kw3">FileSetAttrib</span></a><span class="sy0">,</span> <span class="sy0">-</span>RH<span class="sy0">,</span> <span class="re0">%DESTIN_DIR%</span>\%<a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a>%<br>                        <span class="br0">}</span><br>                        <span class="co1">; Set copy flag.</span><br>                        bCopyFlag <span class="sy0">:=</span> <span class="nu0">1</span><br>                    <span class="br0">}</span><br>                <span class="br0">}</span><br>            <span class="br0">}</span><br>            <a target="_blank" href="https://autohotkey.com/docs/Else"><span class="kw3">Else</span></a><br>            <span class="br0">{</span>   <span class="co1">; File skipped.</span><br>                <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> LOG_ENABLED <span class="br0">)</span> <span class="co1">; Log management.</span><br>                    WriteLog<span class="br0">(</span><span class="nu0">1</span><span class="sy0">,</span> <span class="st0">"SKIPPED &gt;&gt; File excluded: &lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a> <span class="st0">"&gt; $<span class="es0">`n</span>"</span><span class="br0">)</span><br>            <span class="br0">}</span><br>            <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> bCopyFlag <span class="br0">)</span><br>            <span class="br0">{</span>   <span class="co1">; File copy.</span><br>                sDestFileLongPath <span class="sy0">=</span><span class="st0"> <span class="re0">%DESTIN_DIR%</span>\%<a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a>%</span><br>                <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !SIMULATION <span class="br0">)</span><br>                <span class="br0">{</span>   <span class="co1">; If SIMULATION is disabled.</span><br>                    nReturn <span class="sy0">:=</span> <a target="_blank" href="https://autohotkey.com/docs/DllCall"><span class="kw4">DllCall</span></a><span class="br0">(</span> <span class="st0">"CopyFileEx"</span><span class="sy0">,</span> Str<span class="sy0">,</span><span class="st0">"\\?\"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a><span class="sy0">,</span> Str<span class="sy0">,</span><span class="st0">"\\?\"</span> sDestFileLongPath<br>                                                    <span class="sy0">,</span> UInt<span class="sy0">,</span>COPY_CALLBACK<span class="sy0">,</span> UInt<span class="sy0">,</span><span class="nu0">0</span><span class="sy0">,</span> UInt<span class="sy0">,</span><span class="nu0">0</span><span class="sy0">,</span> UInt<span class="sy0">,</span><span class="nu0">0</span> <span class="br0">)</span><br>                    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !nReturn <span class="sy0">&amp;&amp;</span> <a target="_blank" href="https://autohotkey.com/docs/A_LastError"><span class="kw2">A_LastError</span></a> <span class="sy0">==</span> <span class="nu0">1235</span> <span class="br0">)</span><br>                    <span class="br0">{</span>   <span class="co1">; If CopyFileEx failed and GetLastError == ERROR_REQUEST_ABORTED == 1235.</span><br>                        <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> LOG_ENABLED <span class="br0">)</span> <span class="co1">; Log management.</span><br>                            WriteLog<span class="br0">(</span><span class="nu0">1</span><span class="sy0">,</span> <span class="st0">"STOPPED &gt;&gt; Copy stopped: &lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a> <span class="st0">"&gt; not copied $<span class="es0">`n</span>"</span> <span class="br0">)</span><br>                        <span class="co1">; Return 1 (it means that STOP_SYNC == 1).</span><br>                        <a target="_blank" href="https://autohotkey.com/docs/Return"><span class="kw3">Return</span></a> <span class="nu0">1</span><br>                    <span class="br0">}</span><br>                <span class="br0">}</span><br>                <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> LOG_ENABLED <span class="br0">)</span> <span class="co1">; Log management.</span><br>                    WriteLog<span class="br0">(</span> <span class="nu0">1</span><span class="sy0">,</span> <span class="br0">(</span>!SIMULATION <span class="sy0">&amp;&amp;</span> !nReturn<span class="br0">)</span><br>                            <span class="sy0">?</span> <span class="st0">"ERROR &gt;&gt; Error copying &lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a> <span class="st0">"&gt; to &lt;"</span> sDestFileLongPath <span class="st0">"&gt; $<span class="es0">`n</span>"</span><br>                            <span class="sy0">:</span> <span class="st0">"SUCCESS &gt;&gt; Copied &lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a> <span class="st0">"&gt; to &lt;"</span> sDestFileLongPath <span class="st0">"&gt; $<span class="es0">`n</span>"</span> <span class="br0">)</span><br>            <span class="br0">}</span><br>        <span class="br0">}</span><br>    <span class="br0">}</span><br>    <a target="_blank" href="https://autohotkey.com/docs/Return"><span class="kw3">Return</span></a> <span class="nu0">0</span><br><span class="br0">}</span><br><br>ReverseCheck<span class="br0">(</span>sPattern<span class="br0">)</span> <span class="br0">{</span><br>    <span class="kw1">Global</span> SOURCE_DIR<span class="sy0">,</span> DESTIN_DIR<span class="sy0">,</span> EX_REVERSE_DIRS<span class="sy0">,</span> EX_REVERSE_FILES<span class="sy0">,</span> SIMULATION<span class="sy0">,</span> LOG_ENABLED<span class="sy0">,</span> COPY_CALLBACK<span class="sy0">,</span> STOP_SYNC<br><br>    bDontDeleteDirFlag <span class="sy0">:=</span> <span class="nu0">0</span><br>    <a target="_blank" href="https://autohotkey.com/docs/Loop"><span class="kw3">Loop</span></a><span class="sy0">,</span> <span class="re0">%sPattern%</span><span class="sy0">,</span> <span class="nu0">1</span><br>    <span class="br0">{</span><br>        <span class="co1">; Return 1 if STOP_SYNC is set.</span><br>        <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> STOP_SYNC <span class="br0">)</span><br>            <a target="_blank" href="https://autohotkey.com/docs/Return"><span class="kw3">Return</span></a> <span class="nu0">1</span><br>   <br>        <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> <a target="_blank" href="https://autohotkey.com/docs/InStr"><span class="kw4">InStr</span></a><span class="br0">(</span><a target="_blank" href="https://autohotkey.com/docs/FileExist"><span class="kw4">FileExist</span></a><span class="br0">(</span><a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a><span class="br0">)</span><span class="sy0">,</span> <span class="st0">"D"</span><span class="br0">)</span> <span class="br0">)</span><br>        <span class="br0">{</span>   <span class="co1">; It's a directory.</span><br>            <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !<a target="_blank" href="https://autohotkey.com/docs/FileExist"><span class="kw4">FileExist</span></a><span class="br0">(</span>SOURCE_DIR <span class="st0">"\"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a><span class="br0">)</span> <span class="br0">)</span><br>            <span class="br0">{</span>   <span class="co1">; If directory doesn't exist on source side.</span><br>                <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !<a target="_blank" href="https://autohotkey.com/docs/InStr"><span class="kw4">InStr</span></a><span class="br0">(</span>EX_REVERSE_DIRS<span class="sy0">,</span> <span class="st0">"&lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a> <span class="st0">"&gt;"</span><span class="br0">)</span> <span class="br0">)</span><br>                <span class="sy0">&amp;&amp;</span> <span class="br0">(</span> !<a target="_blank" href="https://autohotkey.com/docs/InStr"><span class="kw4">InStr</span></a><span class="br0">(</span>EX_REVERSE_DIRS<span class="sy0">,</span> <span class="st0">"&lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileName"><span class="kw2">A_LoopFileName</span></a>     <span class="st0">"&gt;"</span><span class="br0">)</span> <span class="br0">)</span><br>                <span class="br0">{</span>   <span class="co1">; If directory isn't in exlusion lists.</span><br>                    <span class="co1">; Recurse into the directory.</span><br>                    ReverseCheck<span class="br0">(</span><a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a> <span class="st0">"\*.*"</span><span class="br0">)</span><br>                    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !<a target="_blank" href="https://autohotkey.com/docs/FileExist"><span class="kw4">FileExist</span></a><span class="br0">(</span><a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a> <span class="st0">"\*"</span><span class="br0">)</span> <span class="br0">)</span><br>                    <span class="br0">{</span>   <span class="co1">; Remove directory only if empty.</span><br>                        <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !SIMULATION <span class="br0">)</span><br>                        <span class="br0">{</span>   <span class="co1">; If SIMULATION is disabled.</span><br>                            <a target="_blank" href="https://autohotkey.com/docs/FileRemoveDir"><span class="kw3">FileRemoveDir</span></a><span class="sy0">,</span>  %<a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a>%<br>                        <span class="br0">}</span><br>                        <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> LOG_ENABLED <span class="br0">)</span> <span class="co1">; Log management.</span><br>                            WriteLog<span class="br0">(</span> <span class="nu0">1</span><span class="sy0">,</span> <span class="br0">(</span>!SIMULATION <span class="sy0">&amp;&amp;</span> <a target="_blank" href="https://autohotkey.com/docs/ErrorLevel"><span class="kw2">ErrorLevel</span></a><span class="br0">)</span><br>                                    <span class="sy0">?</span> <span class="st0">"ERROR &gt;&gt; Could not remove &lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a> <span class="st0">"&gt; $<span class="es0">`n</span>"</span><br>                                    <span class="sy0">:</span> <span class="st0">"SUCCESS &gt;&gt; Directory removed: &lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a> <span class="st0">"&gt; $<span class="es0">`n</span>"</span> <span class="br0">)</span><br>                    <span class="br0">}</span><br>                    <a target="_blank" href="https://autohotkey.com/docs/Else"><span class="kw3">Else</span></a><br>                    <span class="br0">{</span>   <span class="co1">; Directory excluded because not empty.</span><br>                        <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> LOG_ENABLED <span class="br0">)</span> <span class="co1">; Log management.</span><br>                            WriteLog<span class="br0">(</span><span class="nu0">1</span><span class="sy0">,</span> <span class="st0">"SKIPPED &gt;&gt; Directory excluded because not empty: &lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a> <span class="st0">"&gt; $<span class="es0">`n</span>"</span><span class="br0">)</span><br>                    <span class="br0">}</span><br>                <span class="br0">}</span><br>                <a target="_blank" href="https://autohotkey.com/docs/Else"><span class="kw3">Else</span></a><br>                <span class="br0">{</span>   <span class="co1">; Directory skipped.</span><br>                    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> LOG_ENABLED <span class="br0">)</span> <span class="co1">; Log management.</span><br>                        WriteLog<span class="br0">(</span><span class="nu0">1</span><span class="sy0">,</span> <span class="st0">"SKIPPED &gt;&gt; Directory excluded: &lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a> <span class="st0">"&gt; $<span class="es0">`n</span>"</span><span class="br0">)</span><br>                <span class="br0">}</span><br>            <span class="br0">}</span><br>            <a target="_blank" href="https://autohotkey.com/docs/Else"><span class="kw3">Else</span></a><br>            <span class="br0">{</span>   <span class="co1">; Else directory exists in source side.</span><br>                bStopFlag <span class="sy0">:=</span> ReverseCheck<span class="br0">(</span><a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a> <span class="st0">"\*.*"</span><span class="br0">)</span><br>                <span class="co1">; If bStopFlag is set, return 1 (it means that STOP_SYNC == 1).</span><br>                <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> bStopFlag <span class="br0">)</span><br>                    <a target="_blank" href="https://autohotkey.com/docs/Return"><span class="kw3">Return</span></a> <span class="nu0">1</span><br>            <span class="br0">}</span><br>        <span class="br0">}</span><br>        <a target="_blank" href="https://autohotkey.com/docs/Else"><span class="kw3">Else</span></a><br>        <span class="br0">{</span>   <span class="co1">; It's a file.</span><br>            <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !<a target="_blank" href="https://autohotkey.com/docs/FileExist"><span class="kw4">FileExist</span></a><span class="br0">(</span>SOURCE_DIR <span class="st0">"\"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a><span class="br0">)</span> <span class="br0">)</span><br>            <span class="br0">{</span>   <span class="co1">; If file doesn't exists on source side.</span><br>                <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !<a target="_blank" href="https://autohotkey.com/docs/InStr"><span class="kw4">InStr</span></a><span class="br0">(</span>EX_REVERSE_FILES<span class="sy0">,</span> <span class="st0">"&lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a> <span class="st0">"&gt;"</span><span class="br0">)</span> <span class="br0">)</span><br>                <span class="sy0">&amp;&amp;</span> <span class="br0">(</span> !<a target="_blank" href="https://autohotkey.com/docs/InStr"><span class="kw4">InStr</span></a><span class="br0">(</span>EX_REVERSE_FILES<span class="sy0">,</span> <span class="st0">"&lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileName"><span class="kw2">A_LoopFileName</span></a>     <span class="st0">"&gt;"</span><span class="br0">)</span> <span class="br0">)</span><br>                <span class="sy0">&amp;&amp;</span> <span class="br0">(</span> !<a target="_blank" href="https://autohotkey.com/docs/InStr"><span class="kw4">InStr</span></a><span class="br0">(</span>EX_REVERSE_EXT<span class="sy0">,</span>   <span class="st0">"&lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileExt"><span class="kw2">A_LoopFileExt</span></a>      <span class="st0">"&gt;"</span><span class="br0">)</span> <span class="br0">)</span><br>                <span class="br0">{</span>   <span class="co1">; If file isn't in exclusion lists.</span><br>                    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !SIMULATION <span class="br0">)</span><br>                    <span class="br0">{</span>   <span class="co1">; If SIMULATION is disabled.</span><br>                        <a target="_blank" href="https://autohotkey.com/docs/FileDelete"><span class="kw3">FileDelete</span></a><span class="sy0">,</span> %<a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a>%<br>                    <span class="br0">}</span><br>                    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> LOG_ENABLED <span class="br0">)</span> <span class="co1">; Log management.</span><br>                        WriteLog<span class="br0">(</span> <span class="nu0">1</span><span class="sy0">,</span> <span class="br0">(</span>!SIMULATION <span class="sy0">&amp;&amp;</span> <a target="_blank" href="https://autohotkey.com/docs/ErrorLevel"><span class="kw2">ErrorLevel</span></a><span class="br0">)</span><br>                                <span class="sy0">?</span> <span class="st0">"ERROR &gt;&gt; Could not delete &lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a> <span class="st0">"&gt; $<span class="es0">`n</span>"</span><br>                                <span class="sy0">:</span> <span class="st0">"SUCCESS &gt;&gt; File deleted: &lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a> <span class="st0">"&gt; $<span class="es0">`n</span>"</span> <span class="br0">)</span><br>                <span class="br0">}</span><br>                <a target="_blank" href="https://autohotkey.com/docs/Else"><span class="kw3">Else</span></a><br>                <span class="br0">{</span>   <span class="co1">; File skipped</span><br>                    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> LOG_ENABLED <span class="br0">)</span> <span class="co1">; Log management.</span><br>                        WriteLog<span class="br0">(</span><span class="nu0">1</span><span class="sy0">,</span> <span class="st0">"SKIPPED &gt;&gt; File excluded: &lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a> <span class="st0">"&gt; $<span class="es0">`n</span>"</span><span class="br0">)</span><br>                <span class="br0">}</span><br>            <span class="br0">}</span><br>            <a target="_blank" href="https://autohotkey.com/docs/Else"><span class="kw3">Else</span></a><br>            <span class="br0">{</span>   <span class="co1">; Else file exists on source side.</span><br>                <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !<a target="_blank" href="https://autohotkey.com/docs/InStr"><span class="kw4">InStr</span></a><span class="br0">(</span>EX_REVERSE_FILES<span class="sy0">,</span> <span class="st0">"&lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a> <span class="st0">"&gt;"</span><span class="br0">)</span> <span class="br0">)</span><br>                <span class="sy0">&amp;&amp;</span> <span class="br0">(</span> !<a target="_blank" href="https://autohotkey.com/docs/InStr"><span class="kw4">InStr</span></a><span class="br0">(</span>EX_REVERSE_FILES<span class="sy0">,</span> <span class="st0">"&lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileName"><span class="kw2">A_LoopFileName</span></a> <span class="st0">"&gt;"</span><span class="br0">)</span> <span class="br0">)</span><br>                <span class="br0">{</span>   <span class="co1">; If file isn't in exclusion lists.</span><br>                    <a target="_blank" href="https://autohotkey.com/docs/FileGetTime"><span class="kw3">FileGetTime</span></a><span class="sy0">,</span> sFileTime<span class="sy0">,</span> <span class="re0">%SOURCE_DIR%</span>\%<a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a>%<br>                    <a target="_blank" href="https://autohotkey.com/docs/EnvSub"><span class="kw3">EnvSub</span></a><span class="sy0">,</span> sFileTime<span class="sy0">,</span> %<a target="_blank" href="https://autohotkey.com/docs/A_LoopFileTimeModified"><span class="kw2">A_LoopFileTimeModified</span></a>%<span class="sy0">,</span> seconds<br>                    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> sFileTime !<span class="sy0">=</span> <span class="nu0">0</span> <span class="br0">)</span><br>                    <span class="br0">{</span>   <span class="co1">; Check if destination file differs from source file, if yes overwrite destination file.</span><br>                        sSourceFileLongPath <span class="sy0">=</span><span class="st0"> <span class="re0">%SOURCE_DIR%</span>\%<a target="_blank" href="https://autohotkey.com/docs/A_LoopFileFullPath"><span class="kw2">A_LoopFileFullPath</span></a>%</span><br>                        <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !SIMULATION <span class="br0">)</span><br>                        <span class="br0">{</span>   <span class="co1">; If SIMULATION is disabled.</span><br>                            <span class="co1">; Remove attributes to destination file, because CopyFileEx fails if readonly or hidden.</span><br>                            <a target="_blank" href="https://autohotkey.com/docs/FileSetAttrib"><span class="kw3">FileSetAttrib</span></a><span class="sy0">,</span> <span class="sy0">-</span>RH<span class="sy0">,</span> %<a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a>%<br>                            nReturn <span class="sy0">:=</span> <a target="_blank" href="https://autohotkey.com/docs/DllCall"><span class="kw4">DllCall</span></a><span class="br0">(</span> <span class="st0">"CopyFileEx"</span><span class="sy0">,</span> Str<span class="sy0">,</span><span class="st0">"\\?\"</span> sSourceFileLongPath<br>                                              <span class="sy0">,</span> Str<span class="sy0">,</span><span class="st0">"\\?\"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a><span class="sy0">,</span> UInt<span class="sy0">,</span>COPY_CALLBACK<span class="sy0">,</span> UInt<span class="sy0">,</span><span class="nu0">0</span><span class="sy0">,</span> UInt<span class="sy0">,</span><span class="nu0">0</span><br>                                              <span class="sy0">,</span> UInt<span class="sy0">,</span><span class="nu0">0</span> <span class="br0">)</span><br>                            <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> !nReturn <span class="sy0">&amp;&amp;</span> <a target="_blank" href="https://autohotkey.com/docs/A_LastError"><span class="kw2">A_LastError</span></a> <span class="sy0">==</span> <span class="nu0">1235</span> <span class="br0">)</span><br>                            <span class="br0">{</span>   <span class="co1">; If CopyFileEx failed and GetLastError == ERROR_REQUEST_ABORTED == 1235.</span><br>                                <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> LOG_ENABLED <span class="br0">)</span> <span class="co1">; Log management.</span><br>                                    WriteLog<span class="br0">(</span><span class="nu0">1</span><span class="sy0">,</span> <span class="st0">"STOPPED &gt;&gt; Copy stopped: &lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a> <span class="st0">"&gt; not copied $<span class="es0">`n</span>"</span> <span class="br0">)</span><br>                                <span class="co1">; Return 1 (it means that STOP_SYNC == 1).</span><br>                                <a target="_blank" href="https://autohotkey.com/docs/Return"><span class="kw3">Return</span></a> <span class="nu0">1</span><br>                            <span class="br0">}</span><br>                        <span class="br0">}</span><br>                        <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> LOG_ENABLED <span class="br0">)</span> <span class="co1">; Log management.</span><br>                            WriteLog<span class="br0">(</span> <span class="nu0">1</span><span class="sy0">,</span> <span class="br0">(</span>!SIMULATION <span class="sy0">&amp;&amp;</span> !nReturn<span class="br0">)</span><br>                            <span class="sy0">?</span> <span class="st0">"ERROR &gt;&gt; Error copying &lt;"</span> sSourceFileLongPath <span class="st0">"&gt; to &lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a> <span class="st0">"&gt; $<span class="es0">`n</span>"</span><br>                            <span class="sy0">:</span> <span class="st0">"SUCCESS &gt;&gt; Copied &lt;"</span> sSourceFileLongPath <span class="st0">"&gt; to &lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a> <span class="st0">"&gt; $<span class="es0">`n</span>"</span> <span class="br0">)</span><br>                    <span class="br0">}</span><br>                <span class="br0">}</span><br>                <a target="_blank" href="https://autohotkey.com/docs/Else"><span class="kw3">Else</span></a><br>                <span class="br0">{</span>   <span class="co1">; File skipped.</span><br>                    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> LOG_ENABLED <span class="br0">)</span> <span class="co1">; Log management.</span><br>                        WriteLog<span class="br0">(</span><span class="nu0">1</span><span class="sy0">,</span> <span class="st0">"SKIPPED &gt;&gt; File excluded: &lt;"</span> <a target="_blank" href="https://autohotkey.com/docs/A_LoopFileLongPath"><span class="kw2">A_LoopFileLongPath</span></a> <span class="st0">"&gt; $<span class="es0">`n</span>"</span><span class="br0">)</span><br>                <span class="br0">}</span><br>            <span class="br0">}</span><br>        <span class="br0">}</span><br>    <span class="br0">}</span><br>    <a target="_blank" href="https://autohotkey.com/docs/Return"><span class="kw3">Return</span></a> <span class="nu0">0</span><br><span class="br0">}</span><br><br>WriteLog<span class="br0">(</span>bAppendTime<span class="sy0">,</span> sLogEntry<span class="sy0">,</span> sAppendLogTo<span class="sy0">:=</span><span class="st0">""</span><span class="br0">)</span> <span class="br0">{</span><br>    <span class="kw1">Static</span> sLogData<br>    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> bAppendTime <span class="br0">)</span><br>        sLogData <span class="sy0">.=</span> <span class="st0">"["</span> <a target="_blank" href="https://autohotkey.com/docs/A_YYYY"><span class="kw2">A_YYYY</span></a> <span class="st0">"."</span> <a target="_blank" href="https://autohotkey.com/docs/A_MM"><span class="kw2">A_MM</span></a> <span class="st0">"."</span> <a target="_blank" href="https://autohotkey.com/docs/A_DD"><span class="kw2">A_DD</span></a> <span class="st0">"]"</span> <a target="_blank" href="https://autohotkey.com/docs/A_Hour"><span class="kw2">A_Hour</span></a> <span class="st0">":"</span> <a target="_blank" href="https://autohotkey.com/docs/A_Min"><span class="kw2">A_Min</span></a> <span class="st0">":"</span> <a target="_blank" href="https://autohotkey.com/docs/A_Sec"><span class="kw2">A_Sec</span></a> <span class="st0">" - "</span> sLogEntry<br>    <a target="_blank" href="https://autohotkey.com/docs/Else"><span class="kw3">Else</span></a><br>        sLogData <span class="sy0">.=</span> sLogEntry<br>    <a target="_blank" href="https://autohotkey.com/docs/If"><span class="kw3">If</span></a> <span class="br0">(</span> sAppendLogTo <span class="br0">)</span><br>        <a target="_blank" href="https://autohotkey.com/docs/FileAppend"><span class="kw3">FileAppend</span></a><span class="sy0">,</span> <span class="re0">%sLogData%</span><span class="sy0">,</span> <span class="re0">%sAppendLogTo%</span><br><span class="br0">}</span><br><br>CopyCallback<span class="br0">(</span>var1lo<span class="sy0">,</span> var1hi<span class="sy0">,</span> var2lo<span class="sy0">,</span> var2hi<span class="sy0">,</span> var3lo<span class="sy0">,</span> var3hi<span class="sy0">,</span> var4lo<span class="sy0">,</span> var4hi<span class="sy0">,</span> var5<span class="sy0">,</span> var6<span class="sy0">,</span> var7<span class="sy0">,</span> var8<span class="sy0">,</span> var9<span class="br0">)</span> <span class="br0">{</span><br>    <span class="co1">; 13 dummy parameters to conform to the CopyProgressRoutine</span><br>    <span class="co1">; http://msdn.microsoft.com/en-us/library/windows/desktop/aa363854%28v=vs.85%29.aspx</span><br>    <span class="kw1">Global</span> STOP_SYNC<br>    <a target="_blank" href="https://autohotkey.com/docs/Return"><span class="kw3">Return</span></a> STOP_SYNC<br><span class="br0">}</span></pre></code></div></div>
+</div>
+</div>
+</div>
+<div class="back2top"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#top" class="top" title="Top">Top</a></div>
+</div>
+<div id="p9843" class="post has-profile bg1">
+<div class="inner">
+<dl class="postprofile resized" id="profile9843" style="z-index: 13; min-height: 173px;">
+<dt class="no-profile-rank has-avatar">
+<div class="avatar-container">
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=194" class="avatar"><img class="avatar" src="./AHK Studio - AutoHotkey Community_files/file(2).php" width="85" height="96" alt="User avatar"></a>
+</div>
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=194" style="color: #00AA00;" class="username-coloured">tomoe_uehara</a>
+</dt>
+<dd class="profile-posts"><strong>Posts:</strong> <a href="https://autohotkey.com/boards/search.php?author_id=194&amp;sr=posts">182</a></dd>
+<dd class="profile-joined"><strong>Joined:</strong> 05 Oct 2013</dd>
+<dd class="profile-contact">
+<strong>Contact:</strong>
+<div class="dropdown-container dropdown-right dropdown-down">
+<a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#" class="dropdown-trigger dropdown-toggle"><span class="imageset icon_contact" title="Contact tomoe_uehara">Contact tomoe_uehara</span></a>
+<div class="dropdown hidden">
+<div class="pointer"><div class="pointer-inner"></div></div>
+<div class="dropdown-contents contact-icons">
+<div>
+<a href="https://discord.gg/0eAZhRs7dgWmObae" title="Website" class="last-cell">
+<span class="contact-icon phpbb_website-icon">Website</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</dd>
+</dl>
+<div class="postbody">
+<div id="post_content9843">
+<h3 style="display: none;"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#p9843">Re: AHK Studio</a></h3>
+<ul class="post-buttons">
+<li>
+<a href="https://autohotkey.com/boards/posting.php?mode=quote&amp;f=62&amp;p=9843" title="Reply with quote" class="button icon-button quote-icon"><span>Quote</span></a>
+</li>
+<li class="responsive-menu hidden dropdown-container"><a href="javascript:void(0);" class="responsive-menu-link dropdown-toggle">&nbsp;</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"></ul></div></li></ul>
+<p class="author"><a href="https://autohotkey.com/boards/viewtopic.php?p=9843#p9843">23 Jan 2014, 12:16</a></p>
+<div class="content"><span style="color: #4b0082">The Cloud storage is your friend, Luke! <img class="smilies" src="./AHK Studio - AutoHotkey Community_files/icon_e_wink.gif" alt=";)" title="Wink"></span></div>
+<div id="sig9843" class="signature"><center><img src="./AHK Studio - AutoHotkey Community_files/superhappy.gif" class="postimage" alt="Image"> <a href="https://discord.gg/0eAZhRs7dgWmObae" class="postlink">Let's join AHK Discord! It's a place that syncs with Freenode IRC in real time. <img src="./AHK Studio - AutoHotkey Community_files/superhappy.gif" class="postimage" alt="Image"><br>You will never get disconnected anymore and also you will have the ability to read previous messages even without having to stay online for 24/7!</a></center></div>
+</div>
+</div>
+</div>
+<div class="back2top"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#top" class="top" title="Top">Top</a></div>
+</div>
+<div id="p9844" class="post has-profile bg2">
+<div class="inner">
+<dl class="postprofile resized" id="profile9844" style="z-index: 12; min-height: 219px;">
+<dt class="no-profile-rank no-avatar">
+<div class="avatar-container">
+</div>
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=320" class="username">maestrith</a>
+</dt>
+<dd class="profile-posts"><strong>Posts:</strong> <a href="https://autohotkey.com/boards/search.php?author_id=320&amp;sr=posts">617</a></dd>
+<dd class="profile-joined"><strong>Joined:</strong> 16 Oct 2013</dd>
+</dl>
+<div class="postbody">
+<div id="post_content9844">
+<h3 style="display: none;"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#p9844">Re: AHK Studio</a></h3>
+<ul class="post-buttons">
+<li>
+<a href="https://autohotkey.com/boards/posting.php?mode=quote&amp;f=62&amp;p=9844" title="Reply with quote" class="button icon-button quote-icon"><span>Quote</span></a>
+</li>
+<li class="responsive-menu hidden dropdown-container"><a href="javascript:void(0);" class="responsive-menu-link dropdown-toggle">&nbsp;</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"></ul></div></li></ul>
+<p class="author"><a href="https://autohotkey.com/boards/viewtopic.php?p=9844#p9844">23 Jan 2014, 12:18</a></p>
+<div class="content"><blockquote><div><cite>tomoe_uehara wrote:</cite><span style="color: #4b0082">The Cloud storage is your friend, Luke! <img class="smilies" src="./AHK Studio - AutoHotkey Community_files/icon_e_wink.gif" alt=";)" title="Wink"></span></div></blockquote><br>LOL so true.</div>
+<div id="sig9844" class="signature"><a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=300" class="postlink">AHK Studio</a> <a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=3966" class="postlink">OSD</a> <a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=303" class="postlink">GUI Creator</a><br><a href="http://www.maestrith.com/donations/" class="postlink">Donations (A bit slow currently)</a><br>All code is done on a Windows 10 PC Running x64 and AutoHotkey x32</div>
+</div>
+</div>
+</div>
+<div class="back2top"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#top" class="top" title="Top">Top</a></div>
+</div>
+<div id="p9849" class="post has-profile bg1">
+<div class="inner">
+<dl class="postprofile resized" id="profile9849" style="z-index: 11; min-height: 161px;">
+<dt class="no-profile-rank has-avatar">
+<div class="avatar-container">
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=55" class="avatar"><img class="avatar" src="./AHK Studio - AutoHotkey Community_files/file.php" width="80" height="80" alt="User avatar"></a>
+</div>
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=55" style="color: #FF0000;" class="username-coloured">joedf</a>
+</dt>
+<dd class="profile-posts"><strong>Posts:</strong> <a href="https://autohotkey.com/boards/search.php?author_id=55&amp;sr=posts">5397</a></dd>
+<dd class="profile-joined"><strong>Joined:</strong> 29 Sep 2013</dd>
+<dd class="profile-custom-field profile-facebook"><strong>Facebook:</strong> J0EDF</dd>
+<dd class="profile-custom-field profile-google_plus"><strong>Google:</strong> +joedf</dd>
+<dd class="profile-custom-field profile-github"><strong>GitHub:</strong> joedf</dd>
+<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Canada, Quebec</dd>
+<dd class="profile-contact">
+<strong>Contact:</strong>
+<div class="dropdown-container dropdown-right dropdown-down">
+<a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#" class="dropdown-trigger dropdown-toggle"><span class="imageset icon_contact" title="Contact joedf">Contact joedf</span></a>
+<div class="dropdown hidden">
+<div class="pointer"><div class="pointer-inner"></div></div>
+<div class="dropdown-contents contact-icons">
+<div>
+<a href="http://joedf.ahkscript.org/" title="Website">
+<span class="contact-icon phpbb_website-icon">Website</span>
+</a>
+<a href="skype:joe-df?userinfo" title="Skype">
+<span class="contact-icon phpbb_skype-icon">Skype</span>
+</a>
+<a href="https://twitter.com/joedf64" title="Twitter" class="last-cell">
+<span class="contact-icon phpbb_twitter-icon">Twitter</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</dd>
+</dl>
+<div class="postbody">
+<div id="post_content9849">
+<h3 style="display: none;"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#p9849">Re: AHK Studio</a></h3>
+<ul class="post-buttons">
+<li>
+<a href="https://autohotkey.com/boards/posting.php?mode=quote&amp;f=62&amp;p=9849" title="Reply with quote" class="button icon-button quote-icon"><span>Quote</span></a>
+</li>
+<li class="responsive-menu hidden dropdown-container"><a href="javascript:void(0);" class="responsive-menu-link dropdown-toggle">&nbsp;</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"></ul></div></li></ul>
+<p class="author"><a href="https://autohotkey.com/boards/viewtopic.php?p=9849#p9849">23 Jan 2014, 12:42</a></p>
+<div class="content">Haha fff...rrrieeeeennnn...ddd <img class="smilies" src="./AHK Studio - AutoHotkey Community_files/icon_e_smile.gif" alt=":)" title="Smile"></div>
+<div id="sig9849" class="signature"><a href="mailto://joedf@ahkscript.org" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/ahkneedhelp.gif" class="postimage" alt="Image"></a> <a href="http://ahkscript.org/foundation" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/ahkfoundation.gif" class="postimage" alt="Image"></a> <a href="https://opensource.org/licenses/MIT" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/mitlicense.gif" class="postimage" alt="Image"></a> <a href="http://greenpeace.org/" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/+greenpeace.gif" class="postimage" alt="Image"></a> <a href="https://ahkscript.github.io/" class="postlink"><img src="./AHK Studio - AutoHotkey Community_files/githubahkscript.gif" class="postimage" alt="Image"></a><br><span style="font-size: 68%; line-height: normal"><strong>Windows 10 x64 Home Premium, Intel i5 Gen 1 @ 2.40 GHz, 8GB DDR3 RAM | <a href="http://joedf.ahkscript.org/about" class="postlink">[About Me]</a> | <a href="https://github.com/ahkscript/ASPDM" class="postlink">[ASPDM - StdLib Distribution]</a><br><a href="http://autohotkey.myminicity.com/com" class="postlink">[Populate the AHK MiniCity!]</a>&nbsp;| <a href="http://qonsole-ahk.sourceforge.net/" class="postlink">[Qonsole - Quake-like console emulator]</a>&nbsp;| <a href="https://joedf.github.io/libcon" class="postlink">[LibCon - Autohotkey Console Library]</a> | <a href="http://ahkscript.org/foundation" class="postlink">[About the AHK Foundation]</a></strong></span></div>
+</div>
+</div>
+</div>
+<div class="back2top"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#top" class="top" title="Top">Top</a></div>
+</div>
+<div id="p9879" class="post has-profile bg2">
+<div class="inner">
+<dl class="postprofile resized" id="profile9879" style="z-index: 10; min-height: 180px;">
+<dt class="no-profile-rank no-avatar">
+<div class="avatar-container">
+</div>
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=54812" class="username">ahk7</a>
+</dt>
+<dd class="profile-posts"><strong>Posts:</strong> <a href="https://autohotkey.com/boards/search.php?author_id=54812&amp;sr=posts">85</a></dd>
+<dd class="profile-joined"><strong>Joined:</strong> 06 Nov 2013</dd>
+</dl>
+<div class="postbody">
+<div id="post_content9879">
+<h3 style="display: none;"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#p9879">Re: AHK Studio</a></h3>
+<ul class="post-buttons">
+<li>
+<a href="https://autohotkey.com/boards/posting.php?mode=quote&amp;f=62&amp;p=9879" title="Reply with quote" class="button icon-button quote-icon"><span>Quote</span></a>
+</li>
+<li class="responsive-menu hidden dropdown-container"><a href="javascript:void(0);" class="responsive-menu-link dropdown-toggle">&nbsp;</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"></ul></div></li></ul>
+<p class="author"><a href="https://autohotkey.com/boards/viewtopic.php?p=9879#p9879">23 Jan 2014, 17:31</a></p>
+<div class="content"><blockquote><div><cite>maestrith wrote:</cite>I had my hard drive crash and I lost all of my scripts. I have spent the last few weeks re-writing a lot of what I had from scratch.</div></blockquote> Why not try Git(Hub)? With windows.github.com it is very easy to update your repository -  <a class="postlink" href="https://www.sourcetreeapp.com/">http://www.sourcetreeapp.com/</a>  is also pretty neat (but does require registration to continue to use it after 30 days, remains free though)</div>
+</div>
+</div>
+</div>
+<div class="back2top"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#top" class="top" title="Top">Top</a></div>
+</div>
+<div id="p9880" class="post has-profile bg1">
+<div class="inner">
+<dl class="postprofile resized" id="profile9880" style="z-index: 9; min-height: 324px;">
+<dt class="no-profile-rank no-avatar">
+<div class="avatar-container">
+</div>
+<a href="https://autohotkey.com/boards/memberlist.php?mode=viewprofile&amp;u=320" class="username">maestrith</a>
+</dt>
+<dd class="profile-posts"><strong>Posts:</strong> <a href="https://autohotkey.com/boards/search.php?author_id=320&amp;sr=posts">617</a></dd>
+<dd class="profile-joined"><strong>Joined:</strong> 16 Oct 2013</dd>
+</dl>
+<div class="postbody">
+<div id="post_content9880">
+<h3 style="display: none;"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#p9880">Re: AHK Studio</a></h3>
+<ul class="post-buttons">
+<li>
+<a href="https://autohotkey.com/boards/posting.php?mode=quote&amp;f=62&amp;p=9880" title="Reply with quote" class="button icon-button quote-icon"><span>Quote</span></a>
+</li>
+<li class="responsive-menu hidden dropdown-container"><a href="javascript:void(0);" class="responsive-menu-link dropdown-toggle">&nbsp;</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"></ul></div></li></ul>
+<p class="author"><a href="https://autohotkey.com/boards/viewtopic.php?p=9880#p9880">23 Jan 2014, 17:33</a></p>
+<div class="content"><blockquote><div><cite>ahk7 wrote:</cite><blockquote><div><cite>maestrith wrote:</cite>I had my hard drive crash and I lost all of my scripts. I have spent the last few weeks re-writing a lot of what I had from scratch.</div></blockquote> Why not try Git(Hub)? With windows.github.com it is very easy to update your repository -  <a class="postlink" href="https://www.sourcetreeapp.com/">http://www.sourcetreeapp.com/</a>  is also pretty neat (but does require registration to continue to use it after 30 days, remains free though)</div></blockquote><br>I will look into it.</div>
+<div id="sig9880" class="signature"><a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=300" class="postlink">AHK Studio</a> <a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=3966" class="postlink">OSD</a> <a href="http://ahkscript.org/boards/viewtopic.php?f=6&amp;t=303" class="postlink">GUI Creator</a><br><a href="http://www.maestrith.com/donations/" class="postlink">Donations (A bit slow currently)</a><br>All code is done on a Windows 10 PC Running x64 and AutoHotkey x32</div>
+</div>
+</div>
+</div>
+<div class="back2top"><a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#top" class="top" title="Top">Top</a></div>
+</div>
+<form id="viewtopic" method="post" action="https://autohotkey.com/boards/viewtopic.php?f=62&amp;t=300">
+<fieldset class="display-options" style="margin-top: 0; ">
+<label>Display posts from previous: <select name="st" id="st"><option value="0" selected="selected">All posts</option><option value="1">1 day</option><option value="7">7 days</option><option value="14">2 weeks</option><option value="30">1 month</option><option value="90">3 months</option><option value="180">6 months</option><option value="365">1 year</option></select></label>
+<label>Sort by <select name="sk" id="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="s">Subject</option></select></label> <label><select name="sd" id="sd"><option value="a" selected="selected">Ascending</option><option value="d">Descending</option></select></label>
+<input type="submit" name="sort" value="Go" class="button2">
+</fieldset>
+</form>
+<hr>
+<div class="action-bar bottom">
+<div class="buttons">
+<a href="https://autohotkey.com/boards/posting.php?mode=reply&amp;f=62&amp;t=300" class="button icon-button reply-icon" title="Post a reply">Post <strong>Reply</strong></a>
+</div>
+<div class="dropdown-container dropdown-button-control topic-tools">
+<span title="Topic tools" class="button icon-button tools-icon dropdown-trigger dropdown-select dropdown-toggle"></span>
+<div class="dropdown hidden">
+<div class="pointer"><div class="pointer-inner"></div></div>
+<ul class="dropdown-contents">
+<li class="small-icon icon-sendemail"><a href="https://autohotkey.com/boards/memberlist.php?mode=email&amp;t=300" title="Email topic">Email topic</a></li> <li class="small-icon icon-print"><a href="https://autohotkey.com/boards/viewtopic.php?f=62&amp;t=300&amp;view=print" title="Print view" accesskey="p">Print view</a></li> </ul>
+</div>
+</div>
+<div class="pagination">
+820 posts
+<ul>
+<li class="dropdown-container dropdown-button-control dropdown-page-jump page-jump">
+<a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#" class="dropdown-trigger dropdown-toggle" title="Click to jump to page…" role="button">Page <strong>1</strong> of <strong>41</strong></a>
+<div class="dropdown hidden">
+<div class="pointer"><div class="pointer-inner"></div></div>
+<ul class="dropdown-contents">
+<li>Jump to page:</li>
+<li class="page-jump-form">
+<input type="number" name="page-number" min="1" max="999999" title="Enter the page number you wish to go to" class="inputbox tiny" data-per-page="20" data-base-url="./viewtopic.php?f=62&amp;amp;t=300" data-start-name="start">
+<input class="button2" value="Go" type="button">
+</li>
+</ul>
+</div>
+</li>
+<li class="active"><span>1</span></li>
+<li><a href="https://autohotkey.com/boards/viewtopic.php?f=62&amp;t=300&amp;start=20" role="button">2</a></li>
+<li><a href="https://autohotkey.com/boards/viewtopic.php?f=62&amp;t=300&amp;start=40" role="button">3</a></li>
+<li><a href="https://autohotkey.com/boards/viewtopic.php?f=62&amp;t=300&amp;start=60" role="button">4</a></li>
+<li><a href="https://autohotkey.com/boards/viewtopic.php?f=62&amp;t=300&amp;start=80" role="button">5</a></li>
+<li class="ellipsis" role="separator"><span>…</span></li>
+<li><a href="https://autohotkey.com/boards/viewtopic.php?f=62&amp;t=300&amp;start=800" role="button">41</a></li>
+<li class="next"><a href="https://autohotkey.com/boards/viewtopic.php?f=62&amp;t=300&amp;start=20" rel="next" role="button">Next</a></li>
+</ul>
+</div>
+<div class="clear"></div>
+</div>
+<p class="jumpbox-return"><a href="https://autohotkey.com/boards/viewforum.php?f=62" class="left-box arrow-left" accesskey="r">Return to “AHK Studio”</a></p>
+<div class="dropdown-container dropdown-container-right dropdown-up dropdown-left dropdown-button-control" id="jumpbox">
+<span title="Jump to" class="dropdown-trigger button dropdown-select dropdown-toggle">
+Jump to </span>
+<div class="dropdown hidden">
+<div class="pointer"><div class="pointer-inner"></div></div>
+<ul class="dropdown-contents">
+<li><a href="https://autohotkey.com/boards/viewforum.php?f=1">AutoHotkey Foundation</a></li>
+<li>&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=2">About This Community</a></li>
+<li>&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=3">Forum Issues</a></li>
+<li><a href="https://autohotkey.com/boards/viewforum.php?f=4">AutoHotkey</a></li>
+<li>&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=5">Ask For Help</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=18">Gaming</a></li>
+<li>&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=6">Scripts and Functions</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=19">Gaming</a></li>
+<li>&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=7">Tutorials</a></li>
+<li>&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=13">Wish List</a></li>
+<li>&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=14">Bug Reports</a></li>
+<li>&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=37">AutoHotkey v2 Development</a></li>
+<li>&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=65">AutoHotkey_H</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=67">Ask For Help</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=66">Development</a></li>
+<li>&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=24">Announcements</a></li>
+<li>&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=60">Editors</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=62">AHK Studio</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=63">Pulovers Macro Creator</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=61">SciTE4AutoHotkey</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=64">AutoGUI</a></li>
+<li><a href="https://autohotkey.com/boards/viewforum.php?f=16">General</a></li>
+<li>&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=22">Other Utilities &amp; Resources</a></li>
+<li>&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=23">Other Programming Languages</a></li>
+<li>&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=17">Offtopic</a></li>
+<li><a href="https://autohotkey.com/boards/viewforum.php?f=38">Other languages</a></li>
+<li>&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=8">Deutsch (German)</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=9">Ich brauche Hilfe</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=20">Spiele</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=10">Skripte und Funktionen</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=11">Tutorials</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=15">Tooltime</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=12">Allgemeines</a></li>
+<li>&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=26">中文 (Chinese)</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=27">请求帮助</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=28">脚本函数</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=29">教程资料</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=30">相关工具</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=31">其他</a></li>
+<li>&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=39">Español (Spanish)</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=40">Pedir Ayuda</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=41">Automatización de Juegos</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=42">Scripts y Funciones</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=43">Tutoriales</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=44">Otras Utilidades y Recursos</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=45">General</a></li>
+<li>&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=46">Русский (Russian)</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=47">Помощь</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=52">Скрипты для Игр</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=48">Скрипты и библиотеки</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=49">Статьи и руководства</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=50">Прочие ресурсы и ПО.</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=51">Свободное общение</a></li>
+<li>&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=54">Français (French)</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=55">J'ai besoin d'aide</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=56">Scripts et Fonctions</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=57">Tutoriels</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=58">Autres Utilitaires et Ressources</a></li>
+<li>&nbsp; &nbsp;&nbsp; &nbsp;<a href="https://autohotkey.com/boards/viewforum.php?f=59">Hors Sujet</a></li>
+</ul>
+</div>
+</div>
+<div class="stat-block online-list">
+<h3>Who is online</h3>
+<p>Users browsing this forum: No registered users and 0 guests</p>
+</div>
+</div>
+<div class="navbar" role="navigation">
+<div class="inner">
+<ul id="nav-footer" class="linklist bulletin" role="menubar">
+<li class="small-icon icon-home breadcrumbs">
+<span class="crumb"><a href="https://autohotkey.com/" data-navbar-reference="home" title="Home">Home</a></span>
+<span class="crumb"><a href="https://autohotkey.com/boards/index.php" data-navbar-reference="index" title="Board index">Board index</a></span>
+</li>
+<li class="responsive-menu rightside dropdown-container hidden"><a href="javascript:void(0);" class="responsive-menu-link dropdown-toggle">&nbsp;</a><div class="dropdown hidden"><div class="pointer"><div class="pointer-inner"></div></div><ul class="dropdown-contents"><li class="clone clone-first hidden">All times are <abbr title="UTC-5">UTC-05:00</abbr></li><li class="small-icon icon-delete-cookies clone clone-first hidden"><a href="https://autohotkey.com/boards/ucp.php?mode=delete_cookies" data-ajax="true" data-refresh="true" role="menuitem">Delete all board cookies</a></li></ul></div></li><li class="rightside">All times are <abbr title="UTC-5">UTC-05:00</abbr></li>
+<li class="small-icon icon-delete-cookies rightside"><a href="https://autohotkey.com/boards/ucp.php?mode=delete_cookies" data-ajax="true" data-refresh="true" role="menuitem">Delete all board cookies</a></li>
+<li class="small-icon icon-team rightside" data-last-responsive="true"><a href="https://autohotkey.com/boards/memberlist.php?mode=team" role="menuitem">The team</a></li>
+<li class="small-icon icon-contact rightside" data-last-responsive="true"><a href="https://autohotkey.com/boards/memberlist.php?mode=contactadmin" role="menuitem">Contact us</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="page-footer" class="page-width" role="contentinfo">
+<div class="copyright">
+Powered by <a href="https://www.phpbb.com/">phpBB</a>® Forum Software © phpBB Limited
+<br>Style by <a href="http://www.artodia.com/">Arty</a>
+</div>
+<div id="darkenwrapper" data-ajax-error-title="AJAX error" data-ajax-error-text="Something went wrong when processing your request." data-ajax-error-text-abort="User aborted request." data-ajax-error-text-timeout="Your request timed out; please try again." data-ajax-error-text-parsererror="Something went wrong with the request and the server returned an invalid reply.">
+<div id="darken">&nbsp;</div>
+</div>
+<div id="loading_indicator"></div>
+<div id="phpbb_alert" class="phpbb_alert" data-l-err="Error" data-l-timeout-processing-req="Request timed out.">
+<a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#" class="alert_close"></a>
+<h3 class="alert_title">&nbsp;</h3><p class="alert_text"></p>
+</div>
+<div id="phpbb_confirm" class="phpbb_alert">
+<a href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300#" class="alert_close"></a>
+<div class="alert_text"></div>
+</div>
+</div>
+<div>
+<a id="bottom" class="anchor" accesskey="z"></a>
+</div>
+<script type="text/javascript" src="./AHK Studio - AutoHotkey Community_files/jquery.min.js.下载"></script>
+<script type="text/javascript" src="./AHK Studio - AutoHotkey Community_files/core.js.下载"></script>
+<script>
+
+(function($) {  // Avoid conflicts with other libraries
+
+'use strict';
+
+$.fn.extend({
+	borderHover: function() {
+		return this.each(function() {
+			$(this).css({
+				'border': 'solid 3px transparent',
+				'transition': 'border-color 0.1s ease-out',
+				'border-radius': '6px',
+				'cursor': 'pointer'
+			}).hover(function() {
+				$(this).css('border-color', '#4ae');
+			}, function() {
+				$(this).css('border-color', 'transparent');
+			});
+		});
+	}
+});
+
+$(function() {
+	var resizeWidth = 768,
+		targetImage = $('.postimage'),
+		galleryName = 'post-gallery',
+		imagesIndex = 0,
+		mobileWidth = 900;
+			targetImage = targetImage.not(function() {
+			return $(this).closest('.signature').length > 0;
+		});
+		if (resizeWidth > 0 && $(window).width() > mobileWidth) {
+		targetImage.css('max-width', resizeWidth + 'px');
+	} else {
+		return;
+	}
+	// enclosing the following in a setTimeout seems to solve issues with
+	// images not being ready and causing $(this).width() to return 0.
+	setTimeout(function() {
+		targetImage.one('load', function() {
+			if ($(this).closest('.postlink').length > 0) return;
+			imagesIndex = (1) ? '' : imagesIndex + 1;
+			if ($(this).parent('a').length > 0) {
+				if ($(this).outerWidth() >= resizeWidth) {
+					$(this).parent('a').attr({
+						'data-lightbox': galleryName + imagesIndex,
+						'data-title': $(this).attr('alt')
+					}).end().borderHover();
+				}
+			}
+			else if ($(this).outerWidth() >= resizeWidth) {
+				$(this).wrap(function() {
+					var url = $(this).attr('src');
+					return $('<a/>').attr({
+						'href': url,
+						'data-lightbox': galleryName + imagesIndex,
+						'data-title': (url.indexOf('download/file.php') !== -1) ? $(this).attr('alt') : url.split('/').pop()
+					});
+				}).borderHover();
+			}
+		}).each(function() {
+			if (this.complete) $(this).load();
+		});
+	}, 0);
+});
+
+})(jQuery);
+
+</script>
+<script type="text/javascript" src="./AHK Studio - AutoHotkey Community_files/forum_fn.js.下载"></script>
+<script type="text/javascript" src="./AHK Studio - AutoHotkey Community_files/ajax.js.下载"></script>
+<script type="text/javascript" src="./AHK Studio - AutoHotkey Community_files/highlightsolved.js.下载"></script>
+<script type="text/javascript" src="./AHK Studio - AutoHotkey Community_files/lightbox.min.js.下载"></script>
+
+
+<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300"><div class="lb-nav"><a class="lb-prev" href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300"></a><a class="lb-next" href="https://autohotkey.com/boards/viewtopic.php?f=6&amp;t=300"></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div></body></html>

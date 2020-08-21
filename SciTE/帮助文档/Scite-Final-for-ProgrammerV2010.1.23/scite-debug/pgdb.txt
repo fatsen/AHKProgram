@@ -1,0 +1,36 @@
+Pgdb - an integrated C/Python debugger for scite-debug
+
+0. scite-debug drives GDB and a modified form of PDB to
+debug extensions built using GCC, that is, using mingw
+on Windows. If you use Visual Studio, you're out of luck.
+But, there is no problem using extensions built with mingw
+with Python, despite the complaints you might get with
+'python setup.py build' ;)
+
+1. Unzip pgdb.zip into the same directory that contains 
+scite-debug, so that this file and build-pgdb.* sits in
+scite-debug, the Python extended gpdb.py debugger sits
+in scite-debug/pdgdb, etc.
+
+2. Build the extensions using build-pgdb.bat or build-pgdb.sh
+from the scite-debug directory. On Windows, first edit this file 
+to use the actual Python path on your system. (########## g++ -g input.cpp -o input.exe )
+
+3. If you are using mingw, upgrade your GDB to a version 6,
+to handle pending breakpoints.  
+
+4. Now open testadd.py in the scite-debug\tests directory using 
+SciTE. Put the following line in your user properties file
+(use Options|Open User Options File):  (****  NO NEED **** )
+
+debug.target=[n]:pdbg;python;testadd.py
+
+The general format is :pdbg;HOST;SCRIPT; we put '[n]' before
+to tell GDB that python does not contain any debug symbols
+(if you have a debug build, you can leave it out and supply the
+full path to the python executable with debug symbols.)
+
+5. Go back to testadd.py and start debugging with Alt+R.
+Alt+C will allow you to single-step through the Python code,
+and if all went well, you will be able to step into add.c
+

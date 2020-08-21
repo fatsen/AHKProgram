@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<gui>
+	<win win="1" pos="x-39 y363 w1246 h839" max="1">
+		<control h="799" w="1439" x="0" y="0" type="Scintilla" file="C:\Users\fatsen\Desktop\interface\Desktop.ahk" hwnd="2099648" ra="4654688" ba="3868446" last="1"></control>
+		<control h="658" w="481" x="1439" y="0" lp="0.74947917" type="Project Explorer" hwnd="4654688" ba="3606824"></control>
+		<control h="269" w="481" x="1439" y="658" lp="0.74947917" tp="0.71012931" type="Code Explorer" hwnd="3606824"></control>
+		<control hwnd="3868446" type="Debug" h="128" w="1439" x="0" y="799" tp="0.86206897" ra="3606824"></control></win>
+</gui>

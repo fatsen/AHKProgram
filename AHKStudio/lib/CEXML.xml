@@ -1,0 +1,648 @@
+﻿<?xml version="1.0"?>
+<cexml>
+	<files>
+		<main file="C:\ahk code\Appended Files\FatZen.ahk" id="1">
+			<file dir="C:\ahk code\Appended Files" ext="ahk" file="C:\ahk code\Appended Files\FatZen.ahk" filename="FatZen.ahk" id="2" lang="ahk" lower="c:\ahk code\appended files\fatzen.ahk" nne="FatZen" time="" encoding=""></file></main>
+		<main file="C:\Users\fatsen\Desktop\AHKTools\AHKStudio\AHKStudio - ����.ahk" id="4">
+			<file dir="C:\Users\fatsen\Desktop\AHKTools\AHKStudio" ext="ahk" file="C:\Users\fatsen\Desktop\AHKTools\AHKStudio\AHKStudio - ����.ahk" filename="AHKStudio - ����.ahk" id="5" lang="ahk" lower="c:\users\fatsen\desktop\ahktools\ahkstudio\ahkstudio - ����.ahk" nne="AHKStudio - ����" time="" encoding=""></file></main>
+		<main file="D:\ahk code\Appended Files\FatZen.ahk" id="7">
+			<file dir="D:\ahk code\Appended Files" ext="ahk" file="D:\ahk code\Appended Files\FatZen.ahk" filename="FatZen.ahk" id="8" lang="ahk" lower="d:\ahk code\appended files\fatzen.ahk" nne="FatZen" time="20171030204217" encoding="UTF-16">
+				<file ext="ahk" file="D:\ahk code\Appended Files\Includes\AutoStart.ahk" include="#Include %A_ScriptDir%\Includes\AutoStart.ahk	;所有自启动程序都放在该脚本中" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Includes" filename="AutoStart.ahk" github="lib\AutoStart.ahk" lower="autostart.ahk" nne="AutoStart" type="File" time="20171118073142" encoding="UTF-8" id="10"></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Includes\DimMonitor.ahk" include="#Include %A_ScriptDir%\Includes\DimMonitor.ahk	
+; #Include %A_ScriptDir%\Includes\MinimizeToTrayMenuMod.ahk		" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Includes" filename="DimMonitor.ahk" github="lib\DimMonitor.ahk" lower="dimmonitor.ahk" nne="DimMonitor" type="File" time="20171030202442" encoding="UTF-8" id="11">
+					<info class="Gui" text="DimGui" type="Instance" upper="DIMGUI"></info>
+					<info text="DimFilter" type="Label" upper="DIMFILTER"></info>
+					<info text="DimOnTop" type="Label" upper="DIMONTOP"></info>
+					<info text="DimTime" type="Label" upper="DIMTIME"></info>
+					<info text="DimDown" type="Label" upper="DIMDOWN"></info>
+					<info text="DimUp" type="Label" upper="DIMUP"></info>
+					<info text="DimHotKey" type="Label" upper="DIMHOTKEY"></info>
+					<info text="AutoHide" type="Label" upper="AUTOHIDE"></info>
+					<info att="Txt, Time, X=&quot;&quot;, Y=&quot;&quot;" pos="2428" text="AutoHideTooltip" type="Function" upper="AUTOHIDETOOLTIP"></info>
+					<info att="" pos="2558" text="NewGui" type="Function" upper="NEWGUI"></info>
+					<info att="h%A_Index%=hwnd" pos="2779" text="If" type="Function" upper="IF"></info>
+					<info att="found=0" pos="2818" text="If" type="Function" upper="IF"></info></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Includes\Hotstrings.ahk" include="#Include %A_ScriptDir%\Includes\Hotstrings.ahk" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Includes" filename="Hotstrings.ahk" github="lib\Hotstrings.ahk" lower="hotstrings.ahk" nne="Hotstrings" type="File" time="20170923060719" encoding="UTF-16" id="12">
+					<info att="PersonName, Email=&quot;&quot;, NumberCode=&quot;&quot;" pos="1466" text="SnSub_NameRepalce2" type="Function" upper="SNSUB_NAMEREPALCE2"></info>
+					<info att="PersonName" pos="1748" text="SnSub_NameRepalce" type="Function" upper="SNSUB_NAMEREPALCE"></info></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Includes\MyClipboard.ahk" include="#Include %A_ScriptDir%\Includes\MyClipboard.ahk" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Includes" filename="MyClipboard.ahk" github="lib\MyClipboard.ahk" lower="myclipboard.ahk" nne="MyClipboard" type="File" time="20171030202509" encoding="UTF-16" id="13">
+					<info text="Contents" type="Label" upper="CONTENTS"></info>
+					<info text="RunContents" type="Label" upper="RUNCONTENTS"></info>
+					<info text="PasteClipboard" type="Label" upper="PASTECLIPBOARD"></info>
+					<info text="ClearClipboard" type="Label" upper="CLEARCLIPBOARD"></info>
+					<info text="ShowClipboard" type="Label" upper="SHOWCLIPBOARD"></info>
+					<info text="EditMyClipboard" type="Label" upper="EDITMYCLIPBOARD"></info>
+					<info text="ReloadMyClipboard" type="Label" upper="RELOADMYCLIPBOARD"></info>
+					<info att="" pos="1" text="ShowMyClipboard" type="Function" upper="SHOWMYCLIPBOARD"></info>
+					<info att="" pos="47" text="SnSub_MyClipboard" type="Function" upper="SNSUB_MYCLIPBOARD"></info></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Includes\MyWinKill.ahk" include="#Include %A_ScriptDir%\Includes\MyWinKill.ahk" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Includes" filename="MyWinKill.ahk" github="lib\MyWinKill.ahk" lower="mywinkill.ahk" nne="MyWinKill" type="File" time="20171119103830" encoding="UTF-16" id="14">
+					<info text="L_AltF4" type="Label" upper="L_ALTF4"></info>
+					<info text="L_CtrlW" type="Label" upper="L_CTRLW"></info>
+					<info text="L_CtrlQ" type="Label" upper="L_CTRLQ"></info>
+					<info text="L_WinMinimize" type="Label" upper="L_WINMINIMIZE"></info>
+					<info text="L_Esc" type="Label" upper="L_ESC"></info>
+					<info text="L_Warn" type="Label" upper="L_WARN"></info>
+					<info text="L_Confirm" type="Label" upper="L_CONFIRM"></info>
+					<info att="L_IsChinese=0, L_Env=2" pos="2" text="MyWinKill" type="Function" upper="MYWINKILL"></info></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Includes\MyWinSet.ahk" include="#Include %A_ScriptDir%\Includes\MyWinSet.ahk" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Includes" filename="MyWinSet.ahk" github="lib\MyWinSet.ahk" lower="mywinset.ahk" nne="MyWinSet" type="File" time="20171127200204" encoding="UTF-16" id="15">
+					<info text="Top_Mouse" type="Label" upper="TOP_MOUSE"></info>
+					<info text="Untop_Mouse" type="Label" upper="UNTOP_MOUSE"></info>
+					<info text="Bottom_Mouse" type="Label" upper="BOTTOM_MOUSE"></info>
+					<info text="unBottom_Mouse" type="Label" upper="UNBOTTOM_MOUSE"></info>
+					<info text="Lucency_Mouse" type="Label" upper="LUCENCY_MOUSE"></info>
+					<info text="unLucency_Mouse" type="Label" upper="UNLUCENCY_MOUSE"></info>
+					<info text="NewCaption_Mouse" type="Label" upper="NEWCAPTION_MOUSE"></info>
+					<info text="GetCaption_Active" type="Label" upper="GETCAPTION_ACTIVE"></info>
+					<info text="EditMyWinSet" type="Label" upper="EDITMYWINSET"></info>
+					<info text="ReloadMyWinSet" type="Label" upper="RELOADMYWINSET"></info>
+					<info att="" pos="1" text="ShowMyWinSet" type="Function" upper="SHOWMYWINSET"></info>
+					<info att="" pos="41" text="SnSub_MyWinSet" type="Function" upper="SNSUB_MYWINSET"></info></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Includes\Operations.ahk" include="
+#Include %A_ScriptDir%\Includes\Operations.ahk" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Includes" filename="Operations.ahk" github="lib\Operations.ahk" lower="operations.ahk" nne="Operations" type="File" time="20171129193737" encoding="UTF-8" id="16">
+					<info text="#a" type="Hotkey" upper="#A"></info>
+					<info text="#b" type="Hotkey" upper="#B"></info>
+					<info text="#c" type="Hotkey" upper="#C"></info>
+					<info text="#e" type="Hotkey" upper="#E"></info>
+					<info text="#f" type="Hotkey" upper="#F"></info>
+					<info text="#h" type="Hotkey" upper="#H"></info>
+					<info text="#i" type="Hotkey" upper="#I"></info>
+					<info text="#j" type="Hotkey" upper="#J"></info>
+					<info text="#m" type="Hotkey" upper="#M"></info>
+					<info text="#q" type="Hotkey" upper="#Q"></info>
+					<info text="#s" type="Hotkey" upper="#S"></info>
+					<info text="#t" type="Hotkey" upper="#T"></info>
+					<info text="#u" type="Hotkey" upper="#U"></info>
+					<info text="#v" type="Hotkey" upper="#V"></info>
+					<info text="#w" type="Hotkey" upper="#W"></info>
+					<info text="#x" type="Hotkey" upper="#X"></info>
+					<info text="#z" type="Hotkey" upper="#Z"></info>
+					<info text="*#F1" type="Hotkey" upper="*#F1"></info>
+					<info text="*#F2" type="Hotkey" upper="*#F2"></info>
+					<info text="#Space" type="Hotkey" upper="#SPACE"></info>
+					<info text="#Tab" type="Hotkey" upper="#TAB"></info>
+					<info text="#PrintScreen" type="Hotkey" upper="#PRINTSCREEN"></info>
+					<info text="!a" type="Hotkey" upper="!A"></info>
+					<info text="!c" type="Hotkey" upper="!C"></info>
+					<info text="!d" type="Hotkey" upper="!D"></info>
+					<info text="!e" type="Hotkey" upper="!E"></info>
+					<info text="!g" type="Hotkey" upper="!G"></info>
+					<info text="!h" type="Hotkey" upper="!H"></info>
+					<info text="!i" type="Hotkey" upper="!I"></info>
+					<info text="!j" type="Hotkey" upper="!J"></info>
+					<info text="!k" type="Hotkey" upper="!K"></info>
+					<info text="!l" type="Hotkey" upper="!L"></info>
+					<info text="!m" type="Hotkey" upper="!M"></info>
+					<info text="!n" type="Hotkey" upper="!N"></info>
+					<info text="!o" type="Hotkey" upper="!O"></info>
+					<info text="!p" type="Hotkey" upper="!P"></info>
+					<info text="!s" type="Hotkey" upper="!S"></info>
+					<info text="!t" type="Hotkey" upper="!T"></info>
+					<info text="!u" type="Hotkey" upper="!U"></info>
+					<info text="!v" type="Hotkey" upper="!V"></info>
+					<info text="!w" type="Hotkey" upper="!W"></info>
+					<info text="!x" type="Hotkey" upper="!X"></info>
+					<info text="!z" type="Hotkey" upper="!Z"></info>
+					<info text="!F1" type="Hotkey" upper="!F1"></info>
+					<info text="!F2" type="Hotkey" upper="!F2"></info>
+					<info text="!F3" type="Hotkey" upper="!F3"></info>
+					<info text="!F5" type="Hotkey" upper="!F5"></info>
+					<info text="!2" type="Hotkey" upper="!2"></info>
+					<info text="!3" type="Hotkey" upper="!3"></info>
+					<info text="!4" type="Hotkey" upper="!4"></info>
+					<info text="!5" type="Hotkey" upper="!5"></info>
+					<info text="!6" type="Hotkey" upper="!6"></info>
+					<info text="!9" type="Hotkey" upper="!9"></info>
+					<info text="!0" type="Hotkey" upper="!0"></info>
+					<info text="!NumPad0" type="Hotkey" upper="!NUMPAD0"></info>
+					<info text="#!0" type="Hotkey" upper="#!0"></info>
+					<info text="!NumPad1" type="Hotkey" upper="!NUMPAD1"></info>
+					<info text="#!1" type="Hotkey" upper="#!1"></info>
+					<info text="!Numpad2" type="Hotkey" upper="!NUMPAD2"></info>
+					<info text="#!2" type="Hotkey" upper="#!2"></info>
+					<info text="!Numpad3" type="Hotkey" upper="!NUMPAD3"></info>
+					<info text="#!3" type="Hotkey" upper="#!3"></info>
+					<info text="!Numpad4" type="Hotkey" upper="!NUMPAD4"></info>
+					<info text="#!4" type="Hotkey" upper="#!4"></info>
+					<info text="!Numpad5" type="Hotkey" upper="!NUMPAD5"></info>
+					<info text="#!5" type="Hotkey" upper="#!5"></info>
+					<info text="!Numpad7" type="Hotkey" upper="!NUMPAD7"></info>
+					<info text="#!7" type="Hotkey" upper="#!7"></info>
+					<info text="!+i" type="Hotkey" upper="!+I"></info>
+					<info text="!+j" type="Hotkey" upper="!+J"></info>
+					<info text="!+k" type="Hotkey" upper="!+K"></info>
+					<info text="!+l" type="Hotkey" upper="!+L"></info>
+					<info text="!+o" type="Hotkey" upper="!+O"></info>
+					<info text="!+p" type="Hotkey" upper="!+P"></info>
+					<info text="!+u" type="Hotkey" upper="!+U"></info>
+					<info text="!+SC027" type="Hotkey" upper="!+SC027"></info>
+					<info text="!Left" type="Hotkey" upper="!LEFT"></info>
+					<info text="!Right" type="Hotkey" upper="!RIGHT"></info>
+					<info text="!Up" type="Hotkey" upper="!UP"></info>
+					<info text="!Down" type="Hotkey" upper="!DOWN"></info>
+					<info text="!Space" type="Hotkey" upper="!SPACE"></info>
+					<info text="!SC027" type="Hotkey" upper="!SC027"></info>
+					<info text="!'" type="Hotkey" upper="!'"></info>
+					<info text="![" type="Hotkey" upper="!["></info>
+					<info text="!]" type="Hotkey" upper="!]"></info>
+					<info text="!Del" type="Hotkey" upper="!DEL"></info>
+					<info text="!," type="Hotkey" upper="!,"></info>
+					<info text="!." type="Hotkey" upper="!."></info>
+					<info text="!/" type="Hotkey" upper="!/"></info>
+					<info text="!PgUp" type="Hotkey" upper="!PGUP"></info>
+					<info text="!PgDn" type="Hotkey" upper="!PGDN"></info>
+					<info text="$^f" type="Hotkey" upper="$^F"></info>
+					<info text="$^h" type="Hotkey" upper="$^H"></info>
+					<info text="$^n" type="Hotkey" upper="$^N"></info>
+					<info text="^!a" type="Hotkey" upper="^!A"></info>
+					<info text="^!c" type="Hotkey" upper="^!C"></info>
+					<info text="^!d" type="Hotkey" upper="^!D"></info>
+					<info text="^!e" type="Hotkey" upper="^!E"></info>
+					<info text="^!g" type="Hotkey" upper="^!G"></info>
+					<info text="^!i" type="Hotkey" upper="^!I"></info>
+					<info text="^!j" type="Hotkey" upper="^!J"></info>
+					<info text="^!l" type="Hotkey" upper="^!L"></info>
+					<info text="^!m" type="Hotkey" upper="^!M"></info>
+					<info text="^!n" type="Hotkey" upper="^!N"></info>
+					<info text="^!o" type="Hotkey" upper="^!O"></info>
+					<info text="^!p" type="Hotkey" upper="^!P"></info>
+					<info text="^!r" type="Hotkey" upper="^!R"></info>
+					<info text="^!s" type="Hotkey" upper="^!S"></info>
+					<info text="^!t" type="Hotkey" upper="^!T"></info>
+					<info text="^!v" type="Hotkey" upper="^!V"></info>
+					<info text="^!w" type="Hotkey" upper="^!W"></info>
+					<info text="^!x" type="Hotkey" upper="^!X"></info>
+					<info text="^!z" type="Hotkey" upper="^!Z"></info>
+					<info text="^+c" type="Hotkey" upper="^+C"></info>
+					<info text="$^+v" type="Hotkey" upper="$^+V"></info>
+					<info text="^+1" type="Hotkey" upper="^+1"></info>
+					<info text="^Space" type="Hotkey" upper="^SPACE"></info>
+					<info text="+Space" type="Hotkey" upper="+SPACE"></info>
+					<info text="+Capslock" type="Hotkey" upper="+CAPSLOCK"></info>
+					<info text="~LButton &amp; RButton" type="Hotkey" upper="~LBUTTON &amp; RBUTTON"></info>
+					<info text="XButton1" type="Hotkey" upper="XBUTTON1"></info>
+					<info text="XButton2" type="Hotkey" upper="XBUTTON2"></info>
+					<info text="~RButton &amp; XButton1" type="Hotkey" upper="~RBUTTON &amp; XBUTTON1"></info>
+					<info text="~RButton &amp; XButton2" type="Hotkey" upper="~RBUTTON &amp; XBUTTON2"></info>
+					<info text="~LButton &amp; a" type="Hotkey" upper="~LBUTTON &amp; A"></info>
+					<info text="~LButton &amp; c" type="Hotkey" upper="~LBUTTON &amp; C"></info>
+					<info text="~LButton &amp; f" type="Hotkey" upper="~LBUTTON &amp; F"></info>
+					<info text="~LButton &amp; i" type="Hotkey" upper="~LBUTTON &amp; I"></info>
+					<info text="~LButton &amp; r" type="Hotkey" upper="~LBUTTON &amp; R"></info>
+					<info text="~LButton &amp; v" type="Hotkey" upper="~LBUTTON &amp; V"></info>
+					<info text="~LButton &amp; w" type="Hotkey" upper="~LBUTTON &amp; W"></info>
+					<info text="~LButton &amp; x" type="Hotkey" upper="~LBUTTON &amp; X"></info>
+					<info text="~LButton &amp; F1" type="Hotkey" upper="~LBUTTON &amp; F1"></info>
+					<info text="~RButton &amp; a" type="Hotkey" upper="~RBUTTON &amp; A"></info>
+					<info text="~RButton &amp; b" type="Hotkey" upper="~RBUTTON &amp; B"></info>
+					<info text="~RButton &amp; c" type="Hotkey" upper="~RBUTTON &amp; C"></info>
+					<info text="~RButton &amp; d" type="Hotkey" upper="~RBUTTON &amp; D"></info>
+					<info text="~RButton &amp; e" type="Hotkey" upper="~RBUTTON &amp; E"></info>
+					<info text="~RButton &amp; f" type="Hotkey" upper="~RBUTTON &amp; F"></info>
+					<info text="~RButton &amp; g" type="Hotkey" upper="~RBUTTON &amp; G"></info>
+					<info text="~RButton &amp; h" type="Hotkey" upper="~RBUTTON &amp; H"></info>
+					<info text="~RButton &amp; i" type="Hotkey" upper="~RBUTTON &amp; I"></info>
+					<info text="~RButton &amp; j" type="Hotkey" upper="~RBUTTON &amp; J"></info>
+					<info text="~RButton &amp; k" type="Hotkey" upper="~RBUTTON &amp; K"></info>
+					<info text="~RButton &amp; l" type="Hotkey" upper="~RBUTTON &amp; L"></info>
+					<info text="~RButton &amp; m" type="Hotkey" upper="~RBUTTON &amp; M"></info>
+					<info text="~RButton &amp; n" type="Hotkey" upper="~RBUTTON &amp; N"></info>
+					<info text="~RButton &amp; o" type="Hotkey" upper="~RBUTTON &amp; O"></info>
+					<info text="~RButton &amp; p" type="Hotkey" upper="~RBUTTON &amp; P"></info>
+					<info text="~RButton &amp; q" type="Hotkey" upper="~RBUTTON &amp; Q"></info>
+					<info text="~RButton &amp; r" type="Hotkey" upper="~RBUTTON &amp; R"></info>
+					<info text="~RButton &amp; s" type="Hotkey" upper="~RBUTTON &amp; S"></info>
+					<info text="~RButton &amp; t" type="Hotkey" upper="~RBUTTON &amp; T"></info>
+					<info text="~RButton &amp; u" type="Hotkey" upper="~RBUTTON &amp; U"></info>
+					<info text="~RButton &amp; v" type="Hotkey" upper="~RBUTTON &amp; V"></info>
+					<info text="~RButton &amp; x" type="Hotkey" upper="~RBUTTON &amp; X"></info>
+					<info text="~RButton &amp; y" type="Hotkey" upper="~RBUTTON &amp; Y"></info>
+					<info text="~RButton &amp; z" type="Hotkey" upper="~RBUTTON &amp; Z"></info>
+					<info text="~RButton &amp; w" type="Hotkey" upper="~RBUTTON &amp; W"></info>
+					<info text="!RButton" type="Hotkey" upper="!RBUTTON"></info>
+					<info text="!MButton" type="Hotkey" upper="!MBUTTON"></info>
+					<info text="$WheelUp" type="Hotkey" upper="$WHEELUP"></info>
+					<info text="$WheelDown" type="Hotkey" upper="$WHEELDOWN"></info>
+					<info text="$^WheelUp" type="Hotkey" upper="$^WHEELUP"></info>
+					<info text="$^WheelDown" type="Hotkey" upper="$^WHEELDOWN"></info>
+					<info text="!WheelUp" type="Hotkey" upper="!WHEELUP"></info>
+					<info text="!WheelDown" type="Hotkey" upper="!WHEELDOWN"></info>
+					<info text="Alta" type="Label" upper="ALTA"></info>
+					<info text="Altg" type="Label" upper="ALTG"></info>
+					<info text="Altm" type="Label" upper="ALTM"></info>
+					<info text="Altt" type="Label" upper="ALTT"></info>
+					<info text="Altv" type="Label" upper="ALTV"></info>
+					<info text="Alt2" type="Label" upper="ALT2"></info>
+					<info text="Alt3" type="Label" upper="ALT3"></info>
+					<info text="Alt4" type="Label" upper="ALT4"></info>
+					<info text="Alt5" type="Label" upper="ALT5"></info>
+					<info text="Alt6" type="Label" upper="ALT6"></info>
+					<info text="Alt9" type="Label" upper="ALT9"></info>
+					<info text="CtrlSpace" type="Label" upper="CTRLSPACE"></info>
+					<info text="LButtonr" type="Label" upper="LBUTTONR"></info></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Includes\OperationsIf.ahk" include="#Include %A_ScriptDir%\Includes\OperationsIf.ahk	
+	;#If与上面的#IfWinActive/Exist/NotExist等优先级相同，代码在前面的先执行，#IfWinActive/Exist/NotExist等" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Includes" filename="OperationsIf.ahk" github="lib\OperationsIf.ahk" lower="operationsif.ahk" nne="OperationsIf" type="File" time="20171108215928" encoding="UTF-16" id="17">
+					<info text="AppsKey" type="Hotkey" upper="APPSKEY"></info>
+					<info text="Capslock" type="Hotkey" upper="CAPSLOCK"></info>
+					<info text="SC07B" type="Hotkey" upper="SC07B"></info>
+					<info text="AppsKey" type="Hotkey" upper="APPSKEY"></info>
+					<info text="SC03A" type="Hotkey" upper="SC03A"></info>
+					<info text="Esc" type="Hotkey" upper="ESC"></info>
+					<info text="$NumpadDiv" type="Hotkey" upper="$NUMPADDIV"></info>
+					<info text="$NumpadMult" type="Hotkey" upper="$NUMPADMULT"></info>
+					<info text="$NumpadAdd" type="Hotkey" upper="$NUMPADADD"></info>
+					<info text="$NumpadSub" type="Hotkey" upper="$NUMPADSUB"></info>
+					<info text="$a" type="Hotkey" upper="$A"></info>
+					<info text="$b" type="Hotkey" upper="$B"></info>
+					<info text="$c" type="Hotkey" upper="$C"></info>
+					<info text="$d" type="Hotkey" upper="$D"></info>
+					<info text="$e" type="Hotkey" upper="$E"></info>
+					<info text="$f" type="Hotkey" upper="$F"></info>
+					<info text="$g" type="Hotkey" upper="$G"></info>
+					<info text="$h" type="Hotkey" upper="$H"></info>
+					<info text="$i" type="Hotkey" upper="$I"></info>
+					<info text="$j" type="Hotkey" upper="$J"></info>
+					<info text="$k" type="Hotkey" upper="$K"></info>
+					<info text="$l" type="Hotkey" upper="$L"></info>
+					<info text="$m" type="Hotkey" upper="$M"></info>
+					<info text="$n" type="Hotkey" upper="$N"></info>
+					<info text="$o" type="Hotkey" upper="$O"></info>
+					<info text="$p" type="Hotkey" upper="$P"></info>
+					<info text="$q" type="Hotkey" upper="$Q"></info>
+					<info text="$r" type="Hotkey" upper="$R"></info>
+					<info text="$s" type="Hotkey" upper="$S"></info>
+					<info text="$t" type="Hotkey" upper="$T"></info>
+					<info text="$u" type="Hotkey" upper="$U"></info>
+					<info text="$v" type="Hotkey" upper="$V"></info>
+					<info text="$w" type="Hotkey" upper="$W"></info>
+					<info text="$x" type="Hotkey" upper="$X"></info>
+					<info text="$y" type="Hotkey" upper="$Y"></info>
+					<info text="$z" type="Hotkey" upper="$Z"></info>
+					<info text="$9" type="Hotkey" upper="$9"></info>
+					<info text="$0" type="Hotkey" upper="$0"></info>
+					<info text="$-" type="Hotkey" upper="$-"></info>
+					<info text="$[" type="Hotkey" upper="$["></info>
+					<info text="$]" type="Hotkey" upper="$]"></info>
+					<info text="$;" type="Hotkey" upper="$;"></info>
+					<info text="$'" type="Hotkey" upper="$'"></info>
+					<info text="$," type="Hotkey" upper="$,"></info>
+					<info text="$." type="Hotkey" upper="$."></info>
+					<info text="$/" type="Hotkey" upper="$/"></info>
+					<info text="$Tab" type="Hotkey" upper="$TAB"></info>
+					<info text="$Up" type="Hotkey" upper="$UP"></info>
+					<info text="$Down" type="Hotkey" upper="$DOWN"></info>
+					<info text="$a" type="Hotkey" upper="$A"></info>
+					<info text="$b" type="Hotkey" upper="$B"></info>
+					<info text="$c" type="Hotkey" upper="$C"></info>
+					<info text="$d" type="Hotkey" upper="$D"></info>
+					<info text="$e" type="Hotkey" upper="$E"></info>
+					<info text="$f" type="Hotkey" upper="$F"></info>
+					<info text="$g" type="Hotkey" upper="$G"></info>
+					<info text="$h" type="Hotkey" upper="$H"></info>
+					<info text="$i" type="Hotkey" upper="$I"></info>
+					<info text="$j" type="Hotkey" upper="$J"></info>
+					<info text="$k" type="Hotkey" upper="$K"></info>
+					<info text="$l" type="Hotkey" upper="$L"></info>
+					<info text="$m" type="Hotkey" upper="$M"></info>
+					<info text="$n" type="Hotkey" upper="$N"></info>
+					<info text="$o" type="Hotkey" upper="$O"></info>
+					<info text="$p" type="Hotkey" upper="$P"></info>
+					<info text="$q" type="Hotkey" upper="$Q"></info>
+					<info text="$r" type="Hotkey" upper="$R"></info>
+					<info text="$s" type="Hotkey" upper="$S"></info>
+					<info text="$t" type="Hotkey" upper="$T"></info>
+					<info text="$u" type="Hotkey" upper="$U"></info>
+					<info text="$v" type="Hotkey" upper="$V"></info>
+					<info text="$w" type="Hotkey" upper="$W"></info>
+					<info text="$x" type="Hotkey" upper="$X"></info>
+					<info text="$y" type="Hotkey" upper="$Y"></info>
+					<info text="$z" type="Hotkey" upper="$Z"></info>
+					<info text="$-" type="Hotkey" upper="$-"></info>
+					<info text="$[" type="Hotkey" upper="$["></info>
+					<info text="$]" type="Hotkey" upper="$]"></info>
+					<info text="$;" type="Hotkey" upper="$;"></info>
+					<info text="$'" type="Hotkey" upper="$'"></info>
+					<info text="$," type="Hotkey" upper="$,"></info>
+					<info text="$." type="Hotkey" upper="$."></info>
+					<info text="$/" type="Hotkey" upper="$/"></info>
+					<info text="$Tab" type="Hotkey" upper="$TAB"></info>
+					<info text="$a" type="Hotkey" upper="$A"></info>
+					<info text="$b" type="Hotkey" upper="$B"></info>
+					<info text="$c" type="Hotkey" upper="$C"></info>
+					<info text="$d" type="Hotkey" upper="$D"></info>
+					<info text="$e" type="Hotkey" upper="$E"></info>
+					<info text="$f" type="Hotkey" upper="$F"></info>
+					<info text="$g" type="Hotkey" upper="$G"></info>
+					<info text="$h" type="Hotkey" upper="$H"></info>
+					<info text="$i" type="Hotkey" upper="$I"></info>
+					<info text="$j" type="Hotkey" upper="$J"></info>
+					<info text="$k" type="Hotkey" upper="$K"></info>
+					<info text="$l" type="Hotkey" upper="$L"></info>
+					<info text="$m" type="Hotkey" upper="$M"></info>
+					<info text="$n" type="Hotkey" upper="$N"></info>
+					<info text="$o" type="Hotkey" upper="$O"></info>
+					<info text="$p" type="Hotkey" upper="$P"></info>
+					<info text="$q" type="Hotkey" upper="$Q"></info>
+					<info text="$r" type="Hotkey" upper="$R"></info>
+					<info text="$s" type="Hotkey" upper="$S"></info>
+					<info text="$t" type="Hotkey" upper="$T"></info>
+					<info text="$u" type="Hotkey" upper="$U"></info>
+					<info text="$v" type="Hotkey" upper="$V"></info>
+					<info text="$w" type="Hotkey" upper="$W"></info>
+					<info text="$x" type="Hotkey" upper="$X"></info>
+					<info text="$y" type="Hotkey" upper="$Y"></info>
+					<info text="$z" type="Hotkey" upper="$Z"></info></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Includes\OperationsIfWinActive.ahk" include="
+#Include %A_ScriptDir%\Includes\OperationsIfWinActive.ahk" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Includes" filename="OperationsIfWinActive.ahk" github="lib\OperationsIfWinActive.ahk" lower="operationsifwinactive.ahk" nne="OperationsIfWinActive" type="File" time="20171126191428" encoding="UTF-16" id="18">
+					<info text="SC027" type="Hotkey" upper="SC027"></info>
+					<info text="'" type="Hotkey" upper="'"></info>
+					<info text="^d" type="Hotkey" upper="^D"></info>
+					<info text="^q" type="Hotkey" upper="^Q"></info>
+					<info text="^+q" type="Hotkey" upper="^+Q"></info>
+					<info text="!9" type="Hotkey" upper="!9"></info>
+					<info text="$WheelUP" type="Hotkey" upper="$WHEELUP"></info>
+					<info text="!0" type="Hotkey" upper="!0"></info>
+					<info text="$WheelDown" type="Hotkey" upper="$WHEELDOWN"></info>
+					<info text="^d" type="Hotkey" upper="^D"></info>
+					<info text="^q" type="Hotkey" upper="^Q"></info>
+					<info text="^+q" type="Hotkey" upper="^+Q"></info>
+					<info text="$!2" type="Hotkey" upper="$!2"></info>
+					<info text="$!a" type="Hotkey" upper="$!A"></info>
+					<info text="$^f" type="Hotkey" upper="$^F"></info>
+					<info text="^w" type="Hotkey" upper="^W"></info>
+					<info text="^Space" type="Hotkey" upper="^SPACE"></info>
+					<info text="!e" type="Hotkey" upper="!E"></info>
+					<info text="$^f" type="Hotkey" upper="$^F"></info>
+					<info text="^1" type="Hotkey" upper="^1"></info>
+					<info text="^2" type="Hotkey" upper="^2"></info>
+					<info text="^3" type="Hotkey" upper="^3"></info>
+					<info text="^4" type="Hotkey" upper="^4"></info>
+					<info text="^5" type="Hotkey" upper="^5"></info>
+					<info text="^6" type="Hotkey" upper="^6"></info>
+					<info text="^7" type="Hotkey" upper="^7"></info>
+					<info text="^8" type="Hotkey" upper="^8"></info>
+					<info text="^9" type="Hotkey" upper="^9"></info>
+					<info text="!v" type="Hotkey" upper="!V"></info>
+					<info text="^Space" type="Hotkey" upper="^SPACE"></info>
+					<info text="#Space" type="Hotkey" upper="#SPACE"></info>
+					<info text="!space" type="Hotkey" upper="!SPACE"></info>
+					<info text="$enter" type="Hotkey" upper="$ENTER"></info>
+					<info text="NumpadEnter" type="Hotkey" upper="NUMPADENTER"></info>
+					<info text="^Space" type="Hotkey" upper="^SPACE"></info>
+					<info text="$!7" type="Hotkey" upper="$!7"></info>
+					<info text="F1" type="Hotkey" upper="F1"></info>
+					<info text="F2" type="Hotkey" upper="F2"></info>
+					<info text="^f" type="Hotkey" upper="^F"></info>
+					<info text="$!2" type="Hotkey" upper="$!2"></info>
+					<info text="$!3" type="Hotkey" upper="$!3"></info>
+					<info text="~LButton &amp; a" type="Hotkey" upper="~LBUTTON &amp; A"></info>
+					<info text="~LButton &amp; b" type="Hotkey" upper="~LBUTTON &amp; B"></info>
+					<info text="~LButton &amp; c" type="Hotkey" upper="~LBUTTON &amp; C"></info>
+					<info text="~LButton &amp; d" type="Hotkey" upper="~LBUTTON &amp; D"></info>
+					<info text="~LButton &amp; e" type="Hotkey" upper="~LBUTTON &amp; E"></info>
+					<info text="~LButton &amp; f" type="Hotkey" upper="~LBUTTON &amp; F"></info>
+					<info text="~LButton &amp; g" type="Hotkey" upper="~LBUTTON &amp; G"></info>
+					<info text="~LButton &amp; h" type="Hotkey" upper="~LBUTTON &amp; H"></info>
+					<info text="~LButton &amp; i" type="Hotkey" upper="~LBUTTON &amp; I"></info>
+					<info text="~LButton &amp; j" type="Hotkey" upper="~LBUTTON &amp; J"></info>
+					<info text="~LButton &amp; k" type="Hotkey" upper="~LBUTTON &amp; K"></info>
+					<info text="~LButton &amp; l" type="Hotkey" upper="~LBUTTON &amp; L"></info>
+					<info text="~LButton &amp; m" type="Hotkey" upper="~LBUTTON &amp; M"></info>
+					<info text="~LButton &amp; n" type="Hotkey" upper="~LBUTTON &amp; N"></info>
+					<info text="~LButton &amp; o" type="Hotkey" upper="~LBUTTON &amp; O"></info>
+					<info text="~LButton &amp; p" type="Hotkey" upper="~LBUTTON &amp; P"></info>
+					<info text="~LButton &amp; q" type="Hotkey" upper="~LBUTTON &amp; Q"></info>
+					<info text="~LButton &amp; r" type="Hotkey" upper="~LBUTTON &amp; R"></info>
+					<info text="~LButton &amp; s" type="Hotkey" upper="~LBUTTON &amp; S"></info>
+					<info text="~LButton &amp; t" type="Hotkey" upper="~LBUTTON &amp; T"></info>
+					<info text="~LButton &amp; u" type="Hotkey" upper="~LBUTTON &amp; U"></info>
+					<info text="~LButton &amp; v" type="Hotkey" upper="~LBUTTON &amp; V"></info>
+					<info text="~LButton &amp; w" type="Hotkey" upper="~LBUTTON &amp; W"></info>
+					<info text="~LButton &amp; x" type="Hotkey" upper="~LBUTTON &amp; X"></info>
+					<info text="~LButton &amp; y" type="Hotkey" upper="~LBUTTON &amp; Y"></info>
+					<info text="~LButton &amp; z" type="Hotkey" upper="~LBUTTON &amp; Z"></info>
+					<info text="$a" type="Hotkey" upper="$A"></info>
+					<info text="$l" type="Hotkey" upper="$L"></info>
+					<info text="$q" type="Hotkey" upper="$Q"></info>
+					<info text="$s" type="Hotkey" upper="$S"></info>
+					<info text="$v" type="Hotkey" upper="$V"></info>
+					<info text="$Up" type="Hotkey" upper="$UP"></info>
+					<info text="$Down" type="Hotkey" upper="$DOWN"></info>
+					<info text="$Tab" type="Hotkey" upper="$TAB"></info>
+					<info text="$-" type="Hotkey" upper="$-"></info>
+					<info text="$!l" type="Hotkey" upper="$!L"></info>
+					<info text="^d" type="Hotkey" upper="^D"></info>
+					<info text="^w" type="Hotkey" upper="^W"></info>
+					<info text="^Space" type="Hotkey" upper="^SPACE"></info>
+					<info text="$Space" type="Hotkey" upper="$SPACE"></info>
+					<info text="$Enter" type="Hotkey" upper="$ENTER"></info>
+					<info text="$Capslock" type="Hotkey" upper="$CAPSLOCK"></info>
+					<info text="$Esc" type="Hotkey" upper="$ESC"></info>
+					<info text="$Tab" type="Hotkey" upper="$TAB"></info>
+					<info text="F2" type="Hotkey" upper="F2"></info>
+					<info text="!Space" type="Hotkey" upper="!SPACE"></info>
+					<info text="+Space" type="Hotkey" upper="+SPACE"></info>
+					<info text="!g" type="Hotkey" upper="!G"></info>
+					<info text="!m" type="Hotkey" upper="!M"></info>
+					<info text="!t" type="Hotkey" upper="!T"></info>
+					<info text="\" type="Hotkey" upper="\"></info>
+					<info text="," type="Hotkey" upper=","></info>
+					<info text="/" type="Hotkey" upper="/"></info>
+					<info text="1" type="Hotkey" upper="+1"></info>
+					<info text="4" type="Hotkey" upper="+4"></info>
+					<info text="6" type="Hotkey" upper="+6"></info>
+					<info text="9" type="Hotkey" upper="+9"></info>
+					<info text="+-" type="Hotkey" upper="+-"></info>
+					<info text="+;" type="Hotkey" upper="+;"></info>
+					<info text="+'" type="Hotkey" upper="+'"></info>
+					<info text="+," type="Hotkey" upper="+,"></info>
+					<info text="+." type="Hotkey" upper="+."></info>
+					<info text="+/" type="Hotkey" upper="+/"></info>
+					<info text="$!Left" type="Hotkey" upper="$!LEFT"></info>
+					<info text="$!Right" type="Hotkey" upper="$!RIGHT"></info>
+					<info text="$!Up" type="Hotkey" upper="$!UP"></info>
+					<info text="$!Down" type="Hotkey" upper="$!DOWN"></info>
+					<info text="^q" type="Hotkey" upper="^Q"></info>
+					<info text="$Enter" type="Hotkey" upper="$ENTER"></info>
+					<info text="$NumpadEnter" type="Hotkey" upper="$NUMPADENTER"></info>
+					<info text="MButton" type="Hotkey" upper="MBUTTON"></info>
+					<info text="$^f" type="Hotkey" upper="$^F"></info></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Includes\OperationsIfWinExist.ahk" include="#Include %A_ScriptDir%\Includes\OperationsIfWinExist.ahk" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Includes" filename="OperationsIfWinExist.ahk" github="lib\OperationsIfWinExist.ahk" lower="operationsifwinexist.ahk" nne="OperationsIfWinExist" type="File" time="20170923061721" encoding="CP932" id="19"></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Includes\OperationsTry.ahk" include="
+#Include %A_ScriptDir%\Includes\OperationsTry.ahk	;试验某些自定义触发时放在该脚本中" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Includes" filename="OperationsTry.ahk" github="lib\OperationsTry.ahk" lower="operationstry.ahk" nne="OperationsTry" type="File" time="20171030203849" encoding="UTF-16" id="20">
+					<info text="#o" type="Hotkey" upper="#O"></info></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Includes\TraySettings.ahk" include="
+#Include %A_ScriptDir%\Includes\TraySettings.ahk" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Includes" filename="TraySettings.ahk" github="lib\TraySettings.ahk" lower="traysettings.ahk" nne="TraySettings" type="File" time="20171108175353" encoding="UTF-16" id="21">
+					<info text="Tray_Help" type="Label" upper="TRAY_HELP"></info>
+					<info text="Tray_Instruction" type="Label" upper="TRAY_INSTRUCTION"></info>
+					<info text="Tray_InformationSpy" type="Label" upper="TRAY_INFORMATIONSPY"></info>
+					<info text="Tray_AHK2Exe" type="Label" upper="TRAY_AHK2EXE"></info>
+					<info text="Sub1_Regedit" type="Label" upper="SUB1_REGEDIT"></info>
+					<info text="Sub1_Calc" type="Label" upper="SUB1_CALC"></info>
+					<info text="Sub1_Desktop" type="Label" upper="SUB1_DESKTOP"></info>
+					<info text="Sub1_Paint" type="Label" upper="SUB1_PAINT"></info>
+					<info text="Sub1_Notepad" type="Label" upper="SUB1_NOTEPAD"></info>
+					<info text="Sub1_Write" type="Label" upper="SUB1_WRITE"></info>
+					<info text="Sub1_Fonts" type="Label" upper="SUB1_FONTS"></info>
+					<info text="Sub1_EmptyRecycle" type="Label" upper="SUB1_EMPTYRECYCLE"></info>
+					<info text="Sub1_IE" type="Label" upper="SUB1_IE"></info>
+					<info text="Sub1_Control" type="Label" upper="SUB1_CONTROL"></info>
+					<info text="Sub1_Help" type="Label" upper="SUB1_HELP"></info>
+					<info text="Sub1_charMap" type="Label" upper="SUB1_CHARMAP"></info>
+					<info text="Sub1_cLeanmgr" type="Label" upper="SUB1_CLEANMGR"></info>
+					<info text="Sub2_Dir" type="Label" upper="SUB2_DIR"></info>
+					<info text="Sub2_Renamer" type="Label" upper="SUB2_RENAMER"></info>
+					<info text="Sub2_Edraw" type="Label" upper="SUB2_EDRAW"></info>
+					<info text="Sub2_KSWriter" type="Label" upper="SUB2_KSWRITER"></info>
+					<info text="Sub2_KSSpread" type="Label" upper="SUB2_KSSPREAD"></info>
+					<info text="Sub2_KSPresent" type="Label" upper="SUB2_KSPRESENT"></info>
+					<info text="Sub2_DSync" type="Label" upper="SUB2_DSYNC"></info>
+					<info text="Sub2_Clean" type="Label" upper="SUB2_CLEAN"></info>
+					<info text="Sub3_Dir" type="Label" upper="SUB3_DIR"></info>
+					<info text="Sub3_Operations" type="Label" upper="SUB3_OPERATIONS"></info>
+					<info text="Sub3_Variants" type="Label" upper="SUB3_VARIANTS"></info>
+					<info text="Sub3_AutoStart" type="Label" upper="SUB3_AUTOSTART"></info>
+					<info text="Sub3_Special" type="Label" upper="SUB3_SPECIAL"></info>
+					<info text="Sub3_Tray" type="Label" upper="SUB3_TRAY"></info>
+					<info text="Sub3_MyWinKill" type="Label" upper="SUB3_MYWINKILL"></info>
+					<info text="Sub3_Try" type="Label" upper="SUB3_TRY"></info>
+					<info text="Sub3_Try2" type="Label" upper="SUB3_TRY2"></info>
+					<info text="Sub4_MinimizeToTrayMenu" type="Label" upper="SUB4_MINIMIZETOTRAYMENU"></info>
+					<info text="Sub4_Lingoes" type="Label" upper="SUB4_LINGOES"></info>
+					<info text="Sub6_cnki" type="Label" upper="SUB6_CNKI"></info>
+					<info text="Sub6_沪江小D" type="Label" upper="SUB6_沪江小D"></info>
+					<info text="Sub6_YahooDict" type="Label" upper="SUB6_YAHOODICT"></info>
+					<info text="Sub6_exciteDict" type="Label" upper="SUB6_EXCITEDICT"></info>
+					<info text="Sub6_Weibo" type="Label" upper="SUB6_WEIBO"></info>
+					<info text="Sub6_EnglishOrigin" type="Label" upper="SUB6_ENGLISHORIGIN"></info>
+					<info text="Sub6_NHKEasy" type="Label" upper="SUB6_NHKEASY"></info>
+					<info text="Sub6_hjclass" type="Label" upper="SUB6_HJCLASS"></info>
+					<info text="Sub6_ZhongGuoJingQiXianSheng" type="Label" upper="SUB6_ZHONGGUOJINGQIXIANSHENG"></info>
+					<info text="Sub6_Qzone" type="Label" upper="SUB6_QZONE"></info>
+					<info text="Tray_Suspend" type="Label" upper="TRAY_SUSPEND"></info>
+					<info text="Tray_Pause" type="Label" upper="TRAY_PAUSE"></info>
+					<info text="Tray_Edit" type="Label" upper="TRAY_EDIT"></info>
+					<info text="Tray_Reload" type="Label" upper="TRAY_RELOAD"></info>
+					<info text="Tray_Kill" type="Label" upper="TRAY_KILL"></info>
+					<info text="Tray_Exit" type="Label" upper="TRAY_EXIT"></info>
+					<info text="ProcessClose" type="Label" upper="PROCESSCLOSE"></info>
+					<info att="" pos="1" text="SnSub_ShowTrayMenu" type="Function" upper="SNSUB_SHOWTRAYMENU"></info>
+					<info att="P_ScriptName=&quot;Icon&quot;" pos="43" text="SnSub_Tray" type="Function" upper="SNSUB_TRAY"></info></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Includes\Variants.ahk" include="#Include %A_ScriptDir%\Includes\Variants.ahk" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Includes" filename="Variants.ahk" github="lib\Variants.ahk" lower="variants.ahk" nne="Variants" type="File" time="20171127201247" encoding="UTF-16" id="22"></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Lib\SnSub_AppendSelectedToFile.ahk" include="#Include %A_ScriptDir%\Lib\SnSub_AppendSelectedToFile.ahk" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Lib" filename="SnSub_AppendSelectedToFile.ahk" github="lib\SnSub_AppendSelectedToFile.ahk" lower="snsub_appendselectedtofile.ahk" nne="SnSub_AppendSelectedToFile" type="File" time="20170523195911" encoding="CP932" id="23">
+					<info att="V_File=&quot;&quot;" pos="1" text="SnSub_AppendSelectedToFile" type="Function" upper="SNSUB_APPENDSELECTEDTOFILE"></info></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Lib\SnSub_CreateDir.ahk" include="
+#Include %A_ScriptDir%\Lib\SnSub_CreateDir.ahk" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Lib" filename="SnSub_CreateDir.ahk" github="lib\SnSub_CreateDir.ahk" lower="snsub_createdir.ahk" nne="SnSub_CreateDir" type="File" time="20170110090932" encoding="CP932" id="24">
+					<info att="" pos="1" text="SnSub_CreateDir" type="Function" upper="SNSUB_CREATEDIR"></info></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Lib\SnSub_CreateFileOrDir.ahk" include="#Include %A_ScriptDir%\Lib\SnSub_CreateFileOrDir.ahk" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Lib" filename="SnSub_CreateFileOrDir.ahk" github="lib\SnSub_CreateFileOrDir.ahk" lower="snsub_createfileordir.ahk" nne="SnSub_CreateFileOrDir" type="File" time="20170802181535" encoding="UTF-16" id="25">
+					<info att="V_NewFileName := &quot;新建文件&quot;, V_NewDirName := &quot;新建文件夹&quot;" pos="1" text="SnSub_CreateFileOrDir" type="Function" upper="SNSUB_CREATEFILEORDIR"></info></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Lib\SnSub_CreateTextFiles.ahk" include="#Include %A_ScriptDir%\Lib\SnSub_CreateTextFiles.ahk" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Lib" filename="SnSub_CreateTextFiles.ahk" github="lib\SnSub_CreateTextFiles.ahk" lower="snsub_createtextfiles.ahk" nne="SnSub_CreateTextFiles" type="File" time="20170802181541" encoding="UTF-8" id="26">
+					<info att="V_NewFileName = &quot;新建文本文档&quot;, V_NewFileCount=1" pos="1" text="SnSub_CreateTextFiles" type="Function" upper="SNSUB_CREATETEXTFILES"></info></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Lib\SnSub_LabelReplace.ahk" include="#Include %A_ScriptDir%\Lib\SnSub_LabelReplace.ahk" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Lib" filename="SnSub_LabelReplace.ahk" github="lib\SnSub_LabelReplace.ahk" lower="snsub_labelreplace.ahk" nne="SnSub_LabelReplace" type="File" time="20170908165352" encoding="CP932" id="27">
+					<info att="" pos="1" text="SnSub_LabelReplace" type="Function" upper="SNSUB_LABELREPLACE"></info></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Lib\SnSub_OpenDir.ahk" include="
+#Include %A_ScriptDir%\Lib\SnSub_OpenDir.ahk" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Lib" filename="SnSub_OpenDir.ahk" github="lib\SnSub_OpenDir.ahk" lower="snsub_opendir.ahk" nne="SnSub_OpenDir" type="File" time="20170523195919" encoding="CP932" id="28">
+					<info att="V_DefaultedPaste=&quot;&quot;" pos="1" text="SnSub_OpenDir" type="Function" upper="SNSUB_OPENDIR"></info></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Lib\SnSub_OpenDouble.ahk" include="#Include %A_ScriptDir%\Lib\SnSub_OpenDouble.ahk" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Lib" filename="SnSub_OpenDouble.ahk" github="lib\SnSub_OpenDouble.ahk" lower="snsub_opendouble.ahk" nne="SnSub_OpenDouble" type="File" time="20170802181551" encoding="CP932" id="29">
+					<info att="V_Prog1=&quot;&quot;, V_Prog2=&quot;&quot;, V_File=1, V_Time=0.2, V_StringRight=1, V_InvalidClip=&quot;&quot;, V_IsSingle=0, V_IsOnlyFile=0" pos="1" text="SnSub_OpenDouble" type="Function" upper="SNSUB_OPENDOUBLE"></info></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Lib\SnSub_OpenWith.ahk" include="#Include %A_ScriptDir%\Lib\SnSub_OpenWith.ahk" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Lib" filename="SnSub_OpenWith.ahk" github="lib\SnSub_OpenWith.ahk" lower="snsub_openwith.ahk" nne="SnSub_OpenWith" type="File" time="20170523195933" encoding="CP932" id="30">
+					<info text="ReturnClip" type="Label" upper="RETURNCLIP"></info>
+					<info att="V_Prog=&quot;&quot;,V_File=&quot;&quot;,V_InvalidClip=&quot;&quot;,V_IsSingle=0,V_IsOnlyFileOrDirOrUrl=1" pos="1" text="SnSub_OpenWith" type="Function" upper="SNSUB_OPENWITH"></info>
+					<info att="V_IsOnlyFileOrDirOrUrl=1" pos="1358" text="If" type="Function" upper="IF"></info>
+					<info att="V_IsSingle=1" pos="2327" text="If" type="Function" upper="IF"></info>
+					<info att="V_Spec=&quot;&quot;,V_Dest=&quot;&quot;" pos="2958" text="SnSub_RunProg0" type="Function" upper="SNSUB_RUNPROG0"></info>
+					<info att="V_Spec=&quot;&quot;,V_Dest=&quot;&quot;" pos="3090" text="SnSub_RunProg1" type="Function" upper="SNSUB_RUNPROG1"></info>
+					<info att="V_RunInvalidClip" pos="3212" text="SnSub_RunInvalidClip" type="Function" upper="SNSUB_RUNINVALIDCLIP"></info>
+					<info att="" pos="3749" text="SnSub_RunDefaulted" type="Function" upper="SNSUB_RUNDEFAULTED"></info></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Lib\SnSub_PasteStr.ahk" include="
+#Include %A_ScriptDir%\Lib\SnSub_PasteStr.ahk" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Lib" filename="SnSub_PasteStr.ahk" github="lib\SnSub_PasteStr.ahk" lower="snsub_pastestr.ahk" nne="SnSub_PasteStr" type="File" time="20170523195951" encoding="CP932" id="31">
+					<info att="V_str=&quot;&quot;" pos="1" text="SnSub_PasteStr" type="Function" upper="SNSUB_PASTESTR"></info>
+					<info att="V_IsTrue,V_str" pos="190" text="SnSub_IsPasteStr" type="Function" upper="SNSUB_ISPASTESTR"></info>
+					<info att="V_str" pos="385" text="SnSub_PasteStrTab" type="Function" upper="SNSUB_PASTESTRTAB"></info>
+					<info att="V_str" pos="456" text="SnSub_PasteStrEnter" type="Function" upper="SNSUB_PASTESTRENTER"></info>
+					<info att="V_str" pos="531" text="SnSub_CtrlAPasteStr" type="Function" upper="SNSUB_CTRLAPASTESTR"></info>
+					<info att="V_str" pos="610" text="SnSub_CtrlAPasteStrEnter" type="Function" upper="SNSUB_CTRLAPASTESTRENTER"></info>
+					<info att="V_str" pos="695" text="SnSub_CtrlAPasteStrEnterBS" type="Function" upper="SNSUB_CTRLAPASTESTRENTERBS"></info></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Lib\SnSub_ReplaceWorkingAndScriptDir.ahk" include="#Include %A_ScriptDir%\Lib\SnSub_ReplaceWorkingAndScriptDir.ahk" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Lib" filename="SnSub_ReplaceWorkingAndScriptDir.ahk" github="lib\SnSub_ReplaceWorkingAndScriptDir.ahk" lower="snsub_replaceworkingandscriptdir.ahk" nne="SnSub_ReplaceWorkingAndScriptDir" type="File" time="20170802181604" encoding="UTF-8" id="32">
+					<info att="byref V_ToBeReplaced" pos="1" text="SnSub_ReplaceWorkingAndScriptDir" type="Function" upper="SNSUB_REPLACEWORKINGANDSCRIPTDIR"></info></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Lib\SnSub_Switch.ahk" include="#Include %A_ScriptDir%\Lib\SnSub_Switch.ahk" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Lib" filename="SnSub_Switch.ahk" github="lib\SnSub_Switch.ahk" lower="snsub_switch.ahk" nne="SnSub_Switch" type="File" time="20170802181613" encoding="CP932" id="33">
+					<info att="ByRef V_Switch=0, V_true=&quot;&quot;, V_false=&quot;&quot;, V_time=1.5" pos="1" text="SnSub_Switch" type="Function" upper="SNSUB_SWITCH"></info></file>
+				<file ext="ahk" file="D:\ahk code\Appended Files\Lib\SnSub_SystemShutDown.ahk" include="#Include %A_ScriptDir%\Lib\SnSub_SystemShutDown.ahk" inside="D:\ahk code\Appended Files\FatZen.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Lib" filename="SnSub_SystemShutDown.ahk" github="lib\SnSub_SystemShutDown.ahk" lower="snsub_systemshutdown.ahk" nne="SnSub_SystemShutDown" type="File" time="20170802181624" encoding="UTF-16" id="34">
+					<info att="" pos="1" text="SnSub_SystemShutDown" type="Function" upper="SNSUB_SYSTEMSHUTDOWN"></info></file></file>
+			<header type="Instance"></header>
+			<header type="Label"></header>
+			<header type="Function"></header>
+			<header type="Hotkey"></header></main>
+		<main file="C:\Users\fatsen\Desktop\interface\Desktop.ahk" id="38">
+			<file dir="C:\Users\fatsen\Desktop\interface" ext="ahk" file="C:\Users\fatsen\Desktop\interface\Desktop.ahk" filename="Desktop.ahk" id="39" lang="ahk" lower="c:\users\fatsen\desktop\interface\desktop.ahk" nne="Desktop" time="20171202194005" encoding="UTF-16">
+				<file ext="ahk" file="D:\ahk code\Appended Files\Includes\Variants.ahk" include="#Include D:\ahk code\Appended Files\Includes\Variants.ahk" inside="C:\Users\fatsen\Desktop\interface\Desktop.ahk" lang="ahk" dir="D:\ahk code\Appended Files\Includes" filename="Variants.ahk" github="lib\Variants.ahk" lower="variants.ahk" nne="Variants" type="File" time="20171202134017" encoding="UTF-16" id="22"></file>
+				<info text="F2" type="Hotkey" upper="F2"></info>
+				<info text="F5" type="Hotkey" upper="F5"></info>
+				<info text="^Esc" type="Hotkey" upper="^ESC"></info>
+				<info text="Variant_Replace" type="Label" upper="VARIANT_REPLACE"></info>
+				<info text="AutoRun" type="Label" upper="AUTORUN"></info>
+				<info text="L_OmitValueSetting" type="Label" upper="L_OMITVALUESETTING"></info>
+				<info text="L_NoOmit" type="Label" upper="L_NOOMIT"></info>
+				<info text="L_AltOmit" type="Label" upper="L_ALTOMIT"></info>
+				<info text="L_CtrlOmit" type="Label" upper="L_CTRLOMIT"></info>
+				<info text="L_WinOmit" type="Label" upper="L_WINOMIT"></info>
+				<info text="L_Omit" type="Label" upper="L_OMIT"></info>
+				<info text="L_OmitGuiHide" type="Label" upper="L_OMITGUIHIDE"></info>
+				<info text="L_GuiHide" type="Label" upper="L_GUIHIDE"></info>
+				<info text="L_Reload" type="Label" upper="L_RELOAD"></info>
+				<info text="L_Exit" type="Label" upper="L_EXIT"></info>
+				<info text="GuiEnd" type="Label" upper="GUIEND"></info></file>
+			<header type="Hotkey"></header>
+			<header type="Label"></header></main>
+		<main file="D:\ahk code\Appended Files\Lib\SnSub_OpenDouble.ahk" id="58">
+			<file dir="D:\ahk code\Appended Files\Lib" ext="ahk" file="D:\ahk code\Appended Files\Lib\SnSub_OpenDouble.ahk" filename="SnSub_OpenDouble.ahk" id="59" lang="ahk" lower="d:\ahk code\appended files\lib\snsub_opendouble.ahk" nne="SnSub_OpenDouble" time="20170802171552" encoding="CP936">
+				<info att="V_Prog1=&quot;&quot;, V_Prog2=&quot;&quot;, V_File=1, V_Time=0.2, V_StringRight=1, V_InvalidClip=&quot;&quot;, V_IsSingle=0, V_IsOnlyFile=0" pos="1" text="SnSub_OpenDouble" type="Function" upper="SNSUB_OPENDOUBLE"></info></file>
+			<header type="Function"></header></main>
+		<main file="D:\ahk code\Appended Files\Lib\SnSub_LabelReplace.ahk" id="61">
+			<file dir="D:\ahk code\Appended Files\Lib" ext="ahk" file="D:\ahk code\Appended Files\Lib\SnSub_LabelReplace.ahk" filename="SnSub_LabelReplace.ahk" id="62" lang="ahk" lower="d:\ahk code\appended files\lib\snsub_labelreplace.ahk" nne="SnSub_LabelReplace" time="20170908155352" encoding="CP936">
+				<info att="" pos="1" text="SnSub_LabelReplace" type="Function" upper="SNSUB_LABELREPLACE"></info></file>
+			<header type="Function"></header></main>
+	</files>
+	<Libraries file="Libraries" id="35">
+		<main file="C:\Users\fatsen\Documents\Autohotkey\Lib\DebugWindow.AHK" id="36">
+			<file dir="C:\Users\fatsen\Documents\Autohotkey\Lib" ext="AHK" file="C:\Users\fatsen\Documents\Autohotkey\Lib\DebugWindow.AHK" filename="DebugWindow.AHK" id="37" lang="ahk" lower="c:\users\fatsen\documents\autohotkey\lib\debugwindow.ahk" nne="DebugWindow" time="20171129192537" encoding="UTF-8">
+				<info att="Text,Clear:=0,LineBreak:=0,Sleep:=0,AutoHide:=0,MsgBox:=0" pos="1" text="DebugWindow" type="Function" upper="DEBUGWINDOW"></info></file>
+			<header type="Function"></header></main>
+		<main file="C:\Users\linmingsen\Documents\Autohotkey\Lib\DebugWindow.AHK" id="40">
+			<file dir="C:\Users\linmingsen\Documents\Autohotkey\Lib" ext="AHK" file="C:\Users\linmingsen\Documents\Autohotkey\Lib\DebugWindow.AHK" filename="DebugWindow.AHK" id="41" lang="ahk" lower="c:\users\linmingsen\documents\autohotkey\lib\debugwindow.ahk" nne="DebugWindow" time="20190512075946" encoding="UTF-8">
+				<info att="Text,Clear:=0,LineBreak:=0,Sleep:=0,AutoHide:=0,MsgBox:=0" pos="1" text="DebugWindow" type="Function" upper="DEBUGWINDOW"></info></file>
+			<header type="Function"></header></main>
+		<main file="D:\AHK code\AHK Program\Lib\ReplaceBuiltInVariables.ahk" id="43">
+			<file dir="D:\AHK code\AHK Program\Lib" ext="ahk" file="D:\AHK code\AHK Program\Lib\ReplaceBuiltInVariables.ahk" filename="ReplaceBuiltInVariables.ahk" id="44" lang="ahk" lower="d:\ahk code\ahk program\lib\replacebuiltinvariables.ahk" nne="ReplaceBuiltInVariables" time="20180917082148" encoding="UTF-8">
+				<info att="byref V_ToBeReplaced" pos="1" text="ReplaceBuiltInVariables" type="Function" upper="REPLACEBUILTINVARIABLES"></info></file>
+			<header type="Function"></header></main>
+		<main file="D:\AHK code\AHK Program\Lib\SettingsDim.ahk" id="46">
+			<file dir="D:\AHK code\AHK Program\Lib" ext="ahk" file="D:\AHK code\AHK Program\Lib\SettingsDim.ahk" filename="SettingsDim.ahk" id="47" lang="ahk" lower="d:\ahk code\ahk program\lib\settingsdim.ahk" nne="SettingsDim" time="20190108174906" encoding="UTF-16">
+				<info text="L_SetEditor" type="Label" upper="L_SETEDITOR"></info>
+				<info text="Script_Suspend" type="Label" upper="SCRIPT_SUSPEND"></info>
+				<info text="Script_Dir" type="Label" upper="SCRIPT_DIR"></info>
+				<info text="Script_Edit" type="Label" upper="SCRIPT_EDIT"></info>
+				<info text="Script_Exit" type="Label" upper="SCRIPT_EXIT"></info>
+				<info text="L_ToggleHotkey" type="Label" upper="L_TOGGLEHOTKEY"></info>
+				<info text="L_ExitApp" type="Label" upper="L_EXITAPP"></info>
+				<info att="ByRef Is_HotkeyOn=1,ByRef V_icon=&quot;&quot;,ByRef V_editor=&quot;&quot;" pos="1" text="SettingsDim" type="Function" upper="SETTINGSDIM"></info></file>
+			<header type="Label"></header>
+			<header type="Function"></header></main>
+		<main file="D:\AHK code\AHK Program\Lib\SettingsSpecial.ahk" id="49">
+			<file dir="D:\AHK code\AHK Program\Lib" ext="ahk" file="D:\AHK code\AHK Program\Lib\SettingsSpecial.ahk" filename="SettingsSpecial.ahk" id="50" lang="ahk" lower="d:\ahk code\ahk program\lib\settingsspecial.ahk" nne="SettingsSpecial" time="20180916160028" encoding="UTF-16">
+				<info text="L_SetEditor" type="Label" upper="L_SETEDITOR"></info>
+				<info text="Script_Suspend" type="Label" upper="SCRIPT_SUSPEND"></info>
+				<info text="Script_Dir" type="Label" upper="SCRIPT_DIR"></info>
+				<info text="Script_Edit" type="Label" upper="SCRIPT_EDIT"></info>
+				<info text="Script_Exit" type="Label" upper="SCRIPT_EXIT"></info>
+				<info text="L_ToggleHotkey" type="Label" upper="L_TOGGLEHOTKEY"></info>
+				<info text="L_ExitApp" type="Label" upper="L_EXITAPP"></info>
+				<info att="ByRef Is_HotkeyOn=1,ByRef V_icon=&quot;&quot;,ByRef V_editor=&quot;&quot;" pos="2" text="SettingsSpecial" type="Function" upper="SETTINGSSPECIAL"></info></file>
+			<header type="Label"></header>
+			<header type="Function"></header></main>
+		<main file="D:\AHK code\AHK Program\Lib\SwitchJpToEn.ahk" id="52">
+			<file dir="D:\AHK code\AHK Program\Lib" ext="ahk" file="D:\AHK code\AHK Program\Lib\SwitchJpToEn.ahk" filename="SwitchJpToEn.ahk" id="53" lang="ahk" lower="d:\ahk code\ahk program\lib\switchjptoen.ahk" nne="SwitchJpToEn" time="20180920082813" encoding="UTF-16">
+				<info att="byref V_ToBeReplaced" pos="2" text="SwitchJpToEn" type="Function" upper="SWITCHJPTOEN"></info></file>
+			<header type="Function"></header></main>
+		<main file="D:\AHK code\AHK Program\Lib\Try.ahk" id="55">
+			<file dir="D:\AHK code\AHK Program\Lib" ext="ahk" file="D:\AHK code\AHK Program\Lib\Try.ahk" filename="Try.ahk" id="56" lang="ahk" lower="d:\ahk code\ahk program\lib\try.ahk" nne="Try" time="20180228073837" encoding="UTF-16"></file></main></Libraries>
+</cexml>
