@@ -72,7 +72,7 @@ FindHistory := GetHistory("FindHistory", 0)
 
 Menu Tray, Icon, %IconLib%, 23
 
-Gui 1: New, +hWndhMainWnd +Resize -DPIScale, 在文件中查找
+Gui 1: New, +hWndhMainWnd +Resize -DPIScale -MaximizeBox, 在文件中查找
 Gui Font, s9, Segoe UI
 
 Gui Add, Edit, hWndhEdit x0 y0 w0 h0 ; For initial focus and IPC

@@ -557,7 +557,7 @@ IndentHighlightedText:
 		WinActivate, ahk_id %WinUniqueID%
 
 		;paste clipboard
-		Send, ^a^v{HOME}
+		Send, ^v{HOME}
 		;restore the original clipboard and free memory
 		Clipboard := ClipSaved
 		ClipSaved =

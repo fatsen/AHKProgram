@@ -34,9 +34,12 @@ sci2
 */
 界面:
   DllPath:=查找SciLexer_dll路径()					;可自行从当前目录, SCITE 目录, AutoHotkey.exe 目录 3 个地方查找 SciLexer.dll
+  ;设置图标必须放第一行，否则失效
+  Menu Tray, Icon, %A_ScriptDir%\正则.ico
   Gui, +Hwnd主界面	+Resize +MinSize				;Gui 的 Hwnd , SCITE 编辑框需要使用. 同时支持界面大小调整,限制最小尺寸
   Gui, Color, , White							;设置控件背景色,主要为了使 Edit 控件背景色为白色,和 SCI框 匹配
   Gui, Add, GroupBox, x5 y10 w325 h105 vGB正则表达式, 正则表达式
+  ;scintilla 界面的大小完全由标签 GuiSize 控制了，这里的参数没有意义。
   sci1 := new scintilla(主界面,13,30,309,50,DllPath)			;正则框
           , sci1.SetMarginWidthn(1,0)					;隐藏 margin 1
           , sci1.SetCodepage(65001)					;设置代码页
@@ -55,6 +58,7 @@ sci2
   gosub,创建正则提示菜单
 
   Gui, Add, GroupBox, x5 y120 w325 h345 vGB文本, 文本
+  ;scintilla 界面的大小完全由标签 GuiSize 控制了，这里的参数没有意义。
   sci2 := new scintilla(主界面,13,140,309,317,DllPath)			;文本框
           , sci2.SetMarginWidthn(1,0)
           , sci2.SetCodepage(65001)					;使用 65001 ,需在 SCI 库文件中替换 5 个 "CP0" 为 "UTF-8". 意义在于, UTF-8 支持的字符比 ANSI 多
@@ -91,6 +95,7 @@ GuiEscape:
 return
 
 GuiSize:
+  缩放系数:=A_ScreenDPI/96
   GuiControl, Move, 提示, % "x" . a_Guiwidth - 50
   GuiControl, Move, 关闭, % "x" . 5 "y" . a_Guiheight - 30
   GuiControl, Move, 存储正则, % "x" . 50 "y" . a_Guiheight - 30
@@ -98,8 +103,8 @@ GuiSize:
   GuiControl, Move, 高级按钮, % "x" . a_Guiwidth - 55 "y" . a_Guiheight - 30
   GuiControl, Move, GB文本, % "w" . a_Guiwidth - 10 "h" . a_Guiheight - 155
   GuiControl, Move, GB正则表达式, % "w" . a_Guiwidth - 10
-  WinMove, % "ahk_id " sci1.hwnd,, 13, 30, % a_Guiwidth - 26, 50
-  WinMove, % "ahk_id " sci2.hwnd,, 13, 140, % a_Guiwidth - 26, % a_Guiheight - 183
+  WinMove, % "ahk_id " sci1.hwnd,, 13*缩放系数, 30*缩放系数, % (a_Guiwidth - 26)*缩放系数, 50*缩放系数
+  WinMove, % "ahk_id " sci2.hwnd,, 13*缩放系数, 140*缩放系数, % (a_Guiwidth - 26)*缩放系数, % (a_Guiheight - 183)*缩放系数
 return
 
 Button提示:
