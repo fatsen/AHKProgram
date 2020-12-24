@@ -18,8 +18,9 @@ UserAutorun := oSciTE.UserDir "\Autorun.ahk"
 bUpdatesEnabled := oSciTE.ResolveProp("automatic.updates") + 0
 bTillaGotoEnabled := oSciTE.ResolveProp("tillagoto.enable") + 0
 
-if bUpdatesEnabled
-	Run, "%A_AhkPath%" SciTEUpdate.ahk /silent
+;由于原版网站已经挂了，估计也不会再更新了，所以屏蔽升级检测，避免带来额外问题
+;~ if bUpdatesEnabled
+	;~ Run, "%A_AhkPath%" SciTEUpdate.ahk /silent
 
 if bTillaGotoEnabled
 	Run, "%A_AhkPath%" TillaGoto.ahk

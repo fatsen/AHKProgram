@@ -1,7 +1,7 @@
 ;
 ; SciTE4AutoHotkey Updater
 ;
-return	;forbidden updating
+
 #SingleInstance Off
 #NoEnv
 #NoTrayIcon

@@ -291,7 +291,7 @@ Return
 
 BuildGui:
   GuiIsVisible := False
-  Gui, 1: +Resize +LastFound
+  Gui, 1: +LastFound
   Gui1UniqueID := WinExist() 
   Gui, 1:Font, s6, MS Sans Serif
   Gui, 1:Margin, 0, 0
@@ -540,7 +540,7 @@ WM_LBUTTONDOWN(wParam, lParam, msg, hwnd){       ;Copy-On-Click for controls
     Else If A_GuiControl contains PID
         Content = ahk_pid %Content%
     Else If A_GuiControl contains Process
-        Content = ahk_pname %Content%
+        Content = ahk_exe %Content%
     Else If A_GuiControl contains Pos,Size
       {
         StringReplace, Content, Content, x

@@ -1,8 +1,0 @@
-﻿<?xml version="1.0"?>
-<gui>
-	<win win="1" pos="x318 y87 w1246 h839" max="1">
-		<control h="894" w="1478" x="0" y="0" type="Scintilla" file="D:\ahk code\Appended Files\Lib\SnSub_LabelReplace.ahk" hwnd="395170" ra="328922" ba="263842" last="1"></control>
-		<control h="551" w="442" x="1478" y="0" lp="0.76979167" type="Project Explorer" hwnd="328922" ba="853856"></control>
-		<control h="405" w="442" x="1478" y="551" lp="0.76979167" tp="0.57610063" type="Code Explorer" hwnd="853856"></control>
-		<control hwnd="263842" type="Debug" h="62" w="1478" x="0" y="894" tp="0.93501048" ra="853856"></control></win>
-</gui>

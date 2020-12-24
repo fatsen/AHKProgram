@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<gui>
-	<win win="1" pos="x578 y116 w1246 h839" max="1">
-		<control h="807" w="1506" x="0" y="0" type="Scintilla" file="C:\ahk code\Appended Files\Includes\MyWinKill.ahk" hwnd="395212" ra="329770" ba="329618" last="1"></control>
-		<control h="572" w="414" x="1506" y="0" lp="0.78437500" type="Project Explorer" hwnd="329770" ba="2360874"></control>
-		<control h="353" w="414" x="1506" y="572" lp="0.78437500" tp="0.61796537" type="Code Explorer" hwnd="2360874"></control>
-		<control hwnd="329618" type="Debug" h="118" w="1506" x="0" y="807" tp="0.87229437" ra="2360874"></control></win>
-</gui>

@@ -1,1 +1,0 @@
-def=def hello():\n    print "hello world!";

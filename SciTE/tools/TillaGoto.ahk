@@ -2,6 +2,10 @@
 	TillaGoto - Go to functions and labels in your script
 	Last updated: December 30, 2010
 	
+	修改作者：兔子
+	更新日志：
+		2016.04.20 彻底支持代码中存在中文的情况；可完美分析并定位出代码中的中文标签、函数。
+	
 	Usage, changelog and help can be found in the thread:
 	http://www.autohotkey.com/forum/viewtopic.php?t=41575
 */
@@ -643,8 +647,10 @@ AnalyseScript:
 		GetScriptDirectives(sScript)
 	
 	;Ban comments if necessary
-	If bFilterComments
-		FilterComments(sScript)
+	;下面这两句的作用是将某些注释（例如文本最最前面的注释）给替换为空格，也正是由于这个函数的作用，导致坐标计算始终出问题，所以被屏蔽掉了
+	;副作用是被注释掉的函数或标签也会被识别出来
+	;~ If bFilterComments
+		;~ FilterComments(sScript)
 	
 	;Get labels and functions
 	GetScriptLabels(sScript)
@@ -1014,7 +1020,7 @@ CacheFile(sType, iStart, iStop, iCacheIndex) {
 
 ;This sub analyses the script and add the labels in it to the array
 GetScriptLabels(ByRef s, bExternal = False) {
-	Local i, t, u, v
+	Local i, i_utf8, strout, t, u, v
 	
 	u := GetScriptEscapeChar(s)
 	v := GetScriptCommentFlag(s)
@@ -1025,6 +1031,7 @@ GetScriptLabels(ByRef s, bExternal = False) {
 		
 		;Get next label. All valid (non-hotkey) labels are detected.
 		;(invalid characters are commas, spaces, and escape char)
+		;“\w”包含“a-zA-Z0-9_”，同时“(*UCP)”表示支持中文
 		i := RegExMatch(s, "m)(*ANYCRLF)(*UCP)^[[:blank:]]*(?!\Q" v "\E)"
 						 . "\K[\w\Q@#$[]?~``!%^&*+-()={}|\:;""'<>./\E]+:"
 						 . "(?=([[:blank:]]*[\r\n]|[[:blank:]]+\Q" v "\E))", t, i)
@@ -1048,7 +1055,8 @@ GetScriptLabels(ByRef s, bExternal = False) {
 				sLabels%sLabels0%_Line := LineFromPosEx(s, i)
 			} Else {
 				sLabels%sLabels0%_File := 0
-				sLabels%sLabels0%_Line := LineFromPos(i)
+				i_utf8:=StrPutVar(SubStr(s, 1, i), strout, "utf-8")-1
+				sLabels%sLabels0%_Line := LineFromPos(i_utf8)
 			}
 			
 			sLabels%sLabels0% := t    ;Add to array
@@ -1088,7 +1096,7 @@ GetCachedScriptLabels(iCacheIndex) {
 
 ;This sub analyses the script and add the hotkeys in it to the array (uses the same array as labels)
 GetScriptHotkeys(ByRef s, bExternal = False) {
-	Local i, n, t, u, v
+	Local i, i_utf8, strout, n, t, u, v
 	
 	i := 1
 	Loop {
@@ -1126,7 +1134,8 @@ GetScriptHotkeys(ByRef s, bExternal = False) {
 			sLabels%sLabels0%_Line := LineFromPosEx(s, i)
 		} Else {
 			sLabels%sLabels0%_File := 0
-			sLabels%sLabels0%_Line := LineFromPos(i)
+			i_utf8:=StrPutVar(SubStr(s, 1, i), strout, "utf-8")-1
+			sLabels%sLabels0%_Line := LineFromPos(i_utf8)
 		}
 		
 		sLabels%sLabels0% := t    ;Add to array
@@ -1177,7 +1186,7 @@ IsValidHotkey(ByRef s) {
 
 ;This sub analyses the script and add the functions in it to the array
 GetScriptFunctions(ByRef s, bExternal = False) {
-	Local i, t, u
+	Local i, i_utf8, strout, t, u
 	
 	u := GetScriptCommentFlag(s)
 	
@@ -1186,6 +1195,7 @@ GetScriptFunctions(ByRef s, bExternal = False) {
 	Loop {
 		
 		;Get the next function
+		;“\w”包含“a-zA-Z0-9_”，同时“(*UCP)”表示支持中文
 		i := RegExMatch(s, "m)(*ANYCRLF)(*UCP)^[[:blank:]]*\K[\w#@\$\?\[\]]+"
 						 . "(?=\(.*?\)(\s+\Q" u "\E.*?[\r\n]+)*?\s+\{)", t, i)
 		
@@ -1204,7 +1214,8 @@ GetScriptFunctions(ByRef s, bExternal = False) {
 				sFuncs%sFuncs0%_Line := LineFromPosEx(s, i)
 			} Else {
 				sFuncs%sFuncs0%_File := 0
-				sFuncs%sFuncs0%_Line := LineFromPos(i)
+				i_utf8:=StrPutVar(SubStr(s, 1, i), strout, "utf-8")-1
+				sFuncs%sFuncs0%_Line := LineFromPos(i_utf8)
 			}
 			
 			sFuncs%sFuncs0% := t
@@ -2355,4 +2366,11 @@ GetFileCRC32(path = False) {
 		FileRead, Buffer, %path%
 		Return DllCall(&CRC32, "Ptr", &Buffer, "UInt", Bytes, "Int", -1, "Ptr", &CRC32LookupTable, "CDecl UInt")
 	}
+}
+
+;用于计算字符在指定代码页下的长度
+StrPutVar(string, ByRef var, encoding)
+{
+	VarSetCapacity(var, StrPut(string, encoding) * ((encoding="utf-16"||encoding="cp1200") ? 2 : 1))	;确定容量. StrPut 返回字符数,但 VarSetCapacity 需要字节数
+	return StrPut(string, &var, encoding)								;复制或转换字符串
 }

@@ -1,8 +1,0 @@
-路径中切勿包含中文，否则部分功能会失效，例如calltip（自动完成）。
-
-推荐的路径是这样的，下载ahk安装版，直接默认安装，这样它将被安装在“C:\Program Files\AutoHotkey”
-将本编辑器的目录“SciTE”放于“C:\Program Files\AutoHotkey”，也就是说“SciTE.exe”存在于“C:\Program Files\AutoHotkey\SciTE”
-默认附带了4本中文帮助文件，不要删除，不要改位置，也不要改名，升级ahk时不影响它们的存在。
-这样就获得了全部功能！
-
-如果你实在不想把ahk安装在默认路径下，那么按照上面的逻辑把帮助和编辑器放于同样的目录下也行。
