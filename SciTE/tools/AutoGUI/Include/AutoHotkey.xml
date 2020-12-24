@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<AutoComplete version="1.0">
+﻿<AutoComplete version="1.0">
     <key name="#ClipboardTimeout">
         <params>Milliseconds</params>
     </key>
@@ -101,7 +100,6 @@
     </key>
     <key name=".Clone" />
     <key name=".Close" />
-    <key name=".Count" />
     <key name=".Delete">
         <params>(Key)</params>
         <params>(FirstKey, LastKey)</params>
@@ -457,9 +455,6 @@
     <key name="Capacity" />
     <key name="CapsLock" />
     <key name="Caption" />
-    <key name="Case">
-        <params>Value1 [, Value2, ...]:</params>
-    </key>
     <key name="Catch">
         <params>[OutputVar]</params>
     </key>
@@ -472,7 +467,6 @@
     <key name="Checkbox" />
     <key name="Checked" />
     <key name="CheckedGray" />
-    <key name="Choice" />
     <key name="Choose" />
     <key name="ChooseString" />
     <key name="Chr">
@@ -587,8 +581,6 @@
     <key name="CtrlBreak" />
     <key name="CtrlDown" />
     <key name="CtrlUp" />
-    <key name="CurrentLine" />
-    <key name="CurrentCol" />
     <key name="Custom" />
     <key name="Date" />
     <key name="DateTime" />
@@ -777,7 +769,6 @@
     </key>
     <key name="FileSystem" />
     <key name="Finally" />
-    <key name="FindString" />
     <key name="First" />
     <key name="Flash" />
     <key name="Float" />
@@ -808,8 +799,8 @@
         <params>(Key)</params>
     </key>
     <key name="GetKeyState">
-        <params>("KeyName" [, "Mode"])</params>
         <params>OutputVar, KeyName [, Mode]</params>
+        <params>("KeyName" [, "Mode"])</params>
     </key>
     <key name="GetKeyVK">
         <params>(Key)</params>
@@ -956,9 +947,6 @@
     <key name="IniDelete">
         <params>Filename, Section [, Key]</params>
     </key>
-    <key name="InputHook">
-        <params>([Options, EndKeys, MatchList])</params>
-    </key>
     <key name="IniRead">
         <params>OutputVar, Filename, Section, Key [, Default]</params>
         <params>OutputVarSection, Filename, Section</params>
@@ -1027,8 +1015,6 @@
     <key name="LCtrl" />
     <key name="Left" />
     <key name="Limit" />
-    <key name="Line" />
-    <key name="LineCount" />
     <key name="Lines" />
     <key name="Link" />
     <key name="List" />
@@ -1212,15 +1198,9 @@
     <key name="ObjClone">
         <params>(Object)</params>
     </key>
-    <key name="ObjCount">
-        <params>(Object)</params>
-    </key>
     <key name="Object" />
     <key name="ObjGetAddress">
         <params>(Object, Key)</params>
-    </key>
-    <key name="ObjGetBase">
-        <params>(Object)</params>
     </key>
     <key name="ObjGetCapacity">
         <params>(Object, Key)</params>
@@ -1242,9 +1222,6 @@
     <key name="ObjNewEnum">
         <params>(Object)</params>
     </key>
-    <key name="ObjRawGet">
-        <params>(Object, Key)</params>
-    </key>
     <key name="ObjRawSet">
         <params>(Object, Key, Value)</params>
     </key>
@@ -1254,9 +1231,6 @@
     <key name="ObjRemove">
         <params>(Object, Key)</params>
         <params>(Object, First, Last)</params>
-    </key>
-    <key name="ObjSetBase">
-        <params>(Object, BaseObject)</params>
     </key>
     <key name="ObjSetCapacity">
         <params>(Object, MaxItems)</params>
@@ -1268,12 +1242,9 @@
     <key name="OnClipboardChange">
         <params>(Func [, AddRemove])</params>
     </key>
-    <key name="OnError">
-        <params>(Func [, AddRemove])</params>
-    </key>
     <key name="OnExit">
-        <params>(Func [, AddRemove])</params>
         <params>[, Label]</params>
+        <params>(Func [, AddRemove])</params>
     </key>
     <key name="OnMessage">
         <params>(MsgNumber [, Function, MaxThreads])</params>
@@ -1410,7 +1381,6 @@
     <key name="ScrollLock" />
     <key name="Seconds" />
     <key name="Section" />
-    <key name="Selected" />
     <key name="Send">
         <params>Keys</params>
     </key>
@@ -1597,8 +1567,8 @@
         <params>(InputVar)</params>
     </key>
     <key name="StrPut">
-        <params>(String, Address [, Length] [, Encoding = None ])</params>
         <params>(String [, Encoding = None ])</params>
+        <params>(String, Address [, Length] [, Encoding = None ])</params>
         <desc>Copies a string to or from a memory address, optionally converting to or from a given code page.</desc>
     </key>
     <key name="StrReplace">
@@ -1614,9 +1584,6 @@
     </key>
     <key name="Suspend">
         <params>[, On|Off|Toggle|Permit]</params>
-    </key>
-    <key name="Switch">
-        <params>[Value]</params>
     </key>
     <key name="SysGet">
         <params>OutputVar, Sub-command [, Param3]</params>

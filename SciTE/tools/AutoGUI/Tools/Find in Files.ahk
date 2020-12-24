@@ -72,7 +72,11 @@ FindHistory := GetHistory("FindHistory", 0)
 
 Menu Tray, Icon, %IconLib%, 23
 
+<<<<<<< HEAD:SciTE/tools/AutoGUI/Tools/Find in Files.ahk
 Gui 1: New, +hWndhMainWnd +Resize -DPIScale, Find in Files
+=======
+Gui 1: New, +hWndhMainWnd +Resize -DPIScale -MaximizeBox, 在文件中查找
+>>>>>>> 1209e1c688c0145341b48ab5d9ae937ccdb3b278:AutoAHK-中文网IDE/Tools/Find in Files.ahk
 Gui Font, s9, Segoe UI
 
 Gui Add, Edit, hWndhEdit x0 y0 w0 h0 ; For initial focus and IPC
