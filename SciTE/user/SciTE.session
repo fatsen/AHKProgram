@@ -1,45 +1,23 @@
 # SciTE session file
 
-<<<<<<< HEAD
-position.left=225
-position.top=345
-=======
 position.left=451
 position.top=227
->>>>>>> 1209e1c688c0145341b48ab5d9ae937ccdb3b278
 position.width=1105
 position.height=639
 position.maximize=0
 
-<<<<<<< HEAD
-mru.1.path=E:\ahk code\Appended Files\ToolScripts\Try\Try.ahk
-mru.2.path=D:\AHK code\Appended files\ToolScripts\MinimizeToTrayMenu.ahk
-mru.3.path=D:\AHK code\Appended files\Includes\ProgramStudy\ProgramStudy.ahk
-mru.4.path=D:\AHK code\AHK Program\Lib\SettingsGUI.ahk
-mru.5.path=D:\AHK code\Appended files\Includes\QuickLaunch\QuickLaunch.ahk
-mru.6.path=D:\AHK code\AHK Program\Lib\Settingsdim.ahk
-mru.7.path=C:\Users\linmingsen\Desktop\Dim2Monitor.ahk
-mru.8.path=C:\Users\linmingsen\Desktop\DimMonitor.ahk
-mru.9.path=H:\AhkCode\PortableSoftware\antrenamer2\AntRenamer批量处理\batch.arb
-mru.10.path=H:\AhkCode\PortableSoftware\antrenamer2\AntRenamer批量处理\AntRenamer批量处理.ahk
-=======
-mru.1.path=D:\AHK code\Appended files\Includes\ProgramStudy\ProgramStudy.ahk
-mru.2.path=D:\AHK code\AHK Program\Lib\SettingsGUI.ahk
-mru.3.path=D:\AHK code\Appended files\Includes\QuickLaunch\QuickLaunch.ahk
-mru.4.path=D:\AHK code\AHK Program\Lib\Settingsdim.ahk
-mru.5.path=C:\Users\linmingsen\Desktop\Dim2Monitor.ahk
-mru.6.path=C:\Users\linmingsen\Desktop\DimMonitor.ahk
-mru.7.path=H:\AhkCode\PortableSoftware\antrenamer2\AntRenamer批量处理\batch.arb
-mru.8.path=H:\AhkCode\PortableSoftware\antrenamer2\AntRenamer批量处理\AntRenamer批量处理.ahk
+mru.1.path=D:\AHK code\AHK Program\Lib\SettingsGUI.ahk
+mru.2.path=D:\AHK code\Appended files\Includes\QuickLaunch\QuickLaunch.ahk
+mru.3.path=D:\AHK code\AHK Program\Lib\Settingsdim.ahk
+mru.4.path=C:\Users\linmingsen\Desktop\Dim2Monitor.ahk
+mru.5.path=C:\Users\linmingsen\Desktop\DimMonitor.ahk
+mru.6.path=H:\AhkCode\PortableSoftware\antrenamer2\AntRenamer批量处理\batch.arb
+mru.7.path=H:\AhkCode\PortableSoftware\antrenamer2\AntRenamer批量处理\AntRenamer批量处理.ahk
+mru.8.path=H:\AhkCode\AHKProgram\SciTE\TestSuite.ahk
 mru.9.path=H:\AhkCode\AHKProgram\SciTE\SciTE交互示例.ahk
-mru.10.path=H:\AhkCode\AHKProgram\SciTE\TestSuite.ahk
+mru.10.path=C:\Users\linmingsen\Desktop\1.ahk
 
-buffer.1.path=H:\AhkCode\AHKProgram\SciTE\SciTE交互示例.ahk
-buffer.1.position=1
+buffer.1.path=C:\Users\linmingsen\Desktop\1.ahk
+buffer.1.position=31
 buffer.1.scroll=0
-
-buffer.2.path=H:\AhkCode\AHKProgram\SciTE\TestSuite.ahk
-buffer.2.position=96
-buffer.2.scroll=0
-buffer.2.current=1
->>>>>>> 1209e1c688c0145341b48ab5d9ae937ccdb3b278
+buffer.1.current=1

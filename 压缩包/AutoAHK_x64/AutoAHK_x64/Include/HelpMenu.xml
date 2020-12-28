@@ -1,0 +1,88 @@
+﻿<HelpMenu>
+    <MenuItem name="初学向导" url="/docs/Tutorial.htm" />
+    <MenuItem name="变量和表达式" url="/docs/Variables.htm" />
+    <MenuItem name="命令和内置函数" url="/docs/commands/index.htm" />
+    <MenuItem name="脚本" url="/docs/Scripts.htm" />
+    <MenuItem name="函数" url="/docs/Functions.htm" />
+    <MenuItem name="常见问题" url="/docs/FAQ.htm" />
+
+    <Menu name="界面">
+        <MenuItem name="界面命令" url="/docs/commands/Gui.htm" />
+        <MenuItem name="界面控件类型" url="/docs/commands/GuiControls.htm" />
+        <MenuItem name="界面风格" url="/docs/misc/Styles.htm" />
+        <MenuItem name="列表视图控件" url="/docs/commands/ListView.htm" />
+        <MenuItem name="菜单" url="/docs/commands/Menu.htm" />
+        <MenuItem name="GuiControl" url="/docs/commands/GuiControl.htm" />
+        <MenuItem name="GuiControlGet" url="/docs/commands/GuiControlGet.htm" />
+        <MenuItem name="ControlGet" url="/docs/commands/ControlGet.htm" />
+        <MenuItem name="WinGet" url="/docs/commands/WinGet.htm" />
+        <MenuItem name="WinExist" url="/docs/commands/WinExist.htm" />
+        <MenuItem name="MsgBox" url="/docs/commands/MsgBox.htm" />
+        <MenuItem name="FileSelectFile" url="/docs/commands/FileSelectFile.htm" />
+    </Menu>
+
+    <Menu name="鼠标键盘">
+        <MenuItem name="热键" url="/docs/Hotkeys.htm" />
+        <MenuItem name="Hotkey 命令" url="/docs/commands/Hotkey.htm" />
+        <MenuItem name="按键列表" url="/docs/KeyList.htm" />
+        <MenuItem name="重映射按键" url="/docs/misc/Remap.htm" />
+        <MenuItem name="热字符串" url="/docs/Hotstrings.htm" />
+        <MenuItem name="Send" url="/docs/commands/Send.htm" />
+        <MenuItem name="GetKeyState" url="/docs/commands/GetKeyState.htm" />
+        <MenuItem name="MouseGetPos" url="/docs/commands/MouseGetPos.htm" />
+    </Menu>
+
+    <Menu name="文件">
+        <MenuItem name="FileExist" url="/docs/commands/FileExist.htm" />
+        <MenuItem name="FileRead" url="/docs/commands/FileRead.htm" />
+        <MenuItem name="FileAppend" url="/docs/commands/FileAppend.htm" />
+        <MenuItem name="Loop (文件和文件夹)" url="/docs/commands/LoopFile.htm" />
+        <MenuItem name="Loop (读文件内容)" url="/docs/commands/LoopReadFile.htm" />
+        <MenuItem name="SplitPath" url="/docs/commands/SplitPath.htm" />
+        <MenuItem name="IniRead" url="/docs/commands/IniRead.htm" />
+        <MenuItem name="FileOpen" url="/docs/commands/FileOpen.htm" />
+        <MenuItem name="File Object" url="/docs/objects/File.htm" />
+    </Menu>
+
+    <Menu name="字符串">
+        <MenuItem name="InStr" url="/docs/commands/InStr.htm" />
+        <MenuItem name="SubStr" url="/docs/commands/SubStr.htm" />
+        <MenuItem name="StrLen" url="/docs/commands/StringLen.htm" />
+        <MenuItem name="StrSplit" url="/docs/commands/StringSplit.htm" />
+        <MenuItem name="Trim" url="/docs/commands/trim.htm" />
+        <MenuItem name="StrReplace" url="/docs/commands/StringReplace.htm" />
+        <MenuItem name="RegExMatch" url="/docs/commands/RegExMatch.htm" />
+        <MenuItem name="RegExReplace" url="/docs/commands/RegExReplace.htm" />
+        <MenuItem name="RegEx Reference" url="/docs/misc/RegEx-QuickRef.htm" />
+    </Menu>
+
+    <Menu name="其它">
+        <MenuItem name="Run" url="/docs/commands/Run.htm" />
+        <MenuItem name="Clipboard" url="/docs/misc/Clipboard.htm" />
+        <MenuItem name="SetTimer" url="/docs/commands/SetTimer.htm" />
+        <MenuItem name="Process" url="/docs/commands/Process.htm" />
+        <MenuItem name="Round" url="/docs/commands/Math.htm#Round" />
+        <MenuItem name="Sort" url="/docs/commands/Sort.htm" />
+        <MenuItem name="Random" url="/docs/commands/Random.htm" />
+        <MenuItem name="UrlDownloadToFile" url="/docs/commands/URLDownloadToFile.htm" />
+        <MenuItem name="RegRead" url="/docs/commands/RegRead.htm" />
+        <MenuItem name="PixelGetColor" url="/docs/commands/PixelGetColor.htm" />
+        <MenuItem name="ListVars" url="/docs/commands/ListVars.htm" />
+        <MenuItem name="OutputDebug" url="/docs/commands/OutputDebug.htm" />
+    </Menu>
+
+    <Menu name="类">
+        <MenuItem name="对象" url="/docs/Objects.htm" />
+        <MenuItem name="对象方法" url="/docs/objects/Object.htm" />
+        <MenuItem name="函数对象" url="/docs/objects/Functor.htm" />
+        <MenuItem name="COM 对象" url="/docs/commands/ComObjCreate.htm" />
+    </Menu>
+
+    <Menu name="Windows API">
+        <MenuItem name="Sendmessage" url="/docs/commands/PostMessage.htm" />
+        <MenuItem name="OnMessage" url="/docs/commands/OnMessage.htm" />
+        <MenuItem name="用DllCall" url="/docs/commands/DllCall.htm" />
+        <MenuItem name="Windows API 列表" url="https://msdn.microsoft.com/en-us/library/windows/desktop/ff818516(v=vs.85).aspx" />
+        <MenuItem name="函数分类" url="https://msdn.microsoft.com/en-us/library/aa383686(v=vs.85).aspx" />
+    </Menu>
+</HelpMenu>
